@@ -49,7 +49,7 @@ import hyperprobe
 ### 1) Create the VSA codebook with a user-defined set of concepts
 ``` python
 codebook = hyperprobe.create_codebook(
-    concepts = ['Denmark', 'Mexico', 'krone', 'peso'], 
+    concepts = ['Denmark', 'Mexico', 'krone', 'peso', 'introvert', 'extravert', 'big','small'], 
     vsa_dimension = 4096)
 ```
 ### 2) Get the embeddings from an autoregressive language model, and apply k-means
