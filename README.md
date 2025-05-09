@@ -39,7 +39,7 @@ pip install -e .
 This should automatically install dependencies from [``pyproject.toml``](pyproject.toml). If that fails, you can manually install them using ```pip install -r requirements.txt```.
 
 ## Execute via high-level APIs 
-The pipeline can be run via standalone APIs, as detailed further in [``src/script.py``](src/script.py).
+The framework can be run via standalone APIs, as detailed further in [``src/script.py``](src/script.py).
 
 ``` python
 import hyperprobe
