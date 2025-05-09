@@ -1,5 +1,5 @@
 ![Logo](images/header.png)
-This is the Python implementation of the probing framework proposed in the paper *"Hyperdimensional Probe: Decoding LLM Representations via Vector Symbolic Architectures"*.
+This repository is the official implementation of *"Hyperdimensional Probe: Decoding LLM Representations via Vector Symbolic Architectures"*.
 
 ## Overview
 Despite their capabilities, Large Language Models (LLMs) remain opaque, with limited understanding of their internal representations.
@@ -20,7 +20,6 @@ Our work advances information decoding in LLM vector space, unlocking the potent
 - [``outputs/extracted_concepts.json``](outputs/extracted_concepts.json) Findings from a sample.
 
 ## Data
-
 ### Corpus of factual and linguistic analogies
 The folder [``data``](data) includes our syntethic corpora: the [``training``](data/splitted_data.json) and [``experimental``](data/verbose_examples.json) data.
 - [``features.json``](data/features.json) includes all the contextually-relevant concepts using to populate our VSA codebook.
@@ -30,11 +29,17 @@ The folder [``data``](data) includes our syntethic corpora: the [``training``](d
 - [Google Analogy Test Set](https://aclweb.org/aclwiki/Google_analogy_test_set_(State_of_the_art))
 - [The Bigger Analogy Test Set (BATS)](https://vecto.space/projects/BATS)
 
+## Requirements
+Download the repository, and install the python package locally via the package manager: 
+
+```bash 
+pip install -e .
+```
+
+This should automatically install dependencies from [``pyproject.toml``](pyproject.toml). If that fails, you can manually install them using ```pip install -r requirements.txt```.
+
 ## Execute via high-level APIs 
 The pipeline can be run via standalone APIs, as detailed further in [``src/script.py``](src/script.py).
-
-### Installation
-Download the repository, and install the python package locally via the package manager: ```pip install -e .```
 
 ``` python
 import hyperprobe
@@ -74,9 +79,9 @@ loader = hyperprobe.llm2VSA_dataloader(dataset, batch_size = 32, val_size = 0.1,
 # Train the model
 best_model_path, test_metrics = hyperprobe.train_hyperprobe(loader, configs=configs)
 ``` 
+<img src="images/concept.png" width="40%" height="40%">
 
 ### 5) Probe the VSA encodings via unbinding operation
-
 ``` python
 # Load the trained encoder
 trained_encoder = hyperprobe.VSAEncoder.load_from_checkpoint(best_model_path)
@@ -103,9 +108,19 @@ extracted_concepts = hyperprobe.probe_doc(doc, codebook, llm, trained_encoder)
 
 NOTE: The folder [``../probing/utils/logitLens``](src/hyperprobe/probing/utils/logitLens) contains the DLA-based experiments (LogitLens).
 
-### (D) Exploratory analysis and descriptive statistics
+### (D) Evaluation: Exploratory analysis and descriptive statistics
 1. Extract experimental insights by analysing the findings from the inference stage: [``src/hyperprobe/statistics/metrics.py``](src/hyperprobe/statistics/metrics.py)
 2. Aggregate and compare results from different experiments (i.e., LLMs): [``src/hyperprobe/statistics/comparison.py``](src/hyperprobe/statistics/comparison.py)
+
+## Results
+<img src="images/architecture.png" width="50%" height="50%">
+
+### Training perfomance
+<img src="images/training.png" width="50%" height="50%">
+
+### Probing performance
+<img src="images/experimental_figures.png" width="60%" height="60%">
+<img src="images/experimental_table.png" width="40%" height="40%">
 
 ## Computational resources
 We recommend to have a GPU to run this pipeline (see [CUDA](https://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html)).
