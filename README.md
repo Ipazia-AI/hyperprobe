@@ -40,7 +40,7 @@ This should automatically install dependencies from [``pyproject.toml``](pyproje
 
 ## Execute via high-level APIs 
 The framework can be run via standalone APIs, as detailed further in [``src/script.py``](src/script.py). 
-It is designed to work with autoregressive language models hosted on the Hugging Face platform: [huggingface.co/models](https://huggingface.co/models?pipeline_tag=text-generation&library=transformers&sort=downloads)
+It is designed to work with any autoregressive language models hosted on the Hugging Face platform: [huggingface.co/models](https://huggingface.co/models?pipeline_tag=text-generation&library=transformers&sort=downloads)
 
 ``` python
 import hyperprobe
