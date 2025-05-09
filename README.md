@@ -114,9 +114,10 @@ NOTE: The folder [``../probing/utils/logitLens``](src/hyperprobe/probing/utils/l
 
 ## Architecture of the neural VSA encoder
 
+![architecture](images/architecture.png)
 
 ## Results
-### Training perfomance
+### Training performance
 ![training](images/training.png)
 
 ### Probing performance
