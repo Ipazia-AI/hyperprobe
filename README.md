@@ -26,8 +26,8 @@ The folder [``data``](data) includes our syntethic corpora: the [``training``](d
 - [``pairs.json``](data/pairs.json) stores all the key-value pairs.
 
 **Build the corpora from scratch**: [``src/hyperprobe/data_creation/create_texts.py``](src/hyperprobe/data_creation/create_texts.py)
-- [Google Analogy Test Set](https://aclweb.org/aclwiki/Google_analogy_test_set_(State_of_the_art))
-- [The Bigger Analogy Test Set (BATS)](https://vecto.space/projects/BATS)
+1. [Google Analogy Test Set](https://aclweb.org/aclwiki/Google_analogy_test_set_(State_of_the_art))
+2. [The Bigger Analogy Test Set (BATS)](https://vecto.space/projects/BATS)
 
 ## Requirements
 Download the repository, and install the python package locally via the package manager: 
