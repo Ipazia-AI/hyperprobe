@@ -71,7 +71,7 @@ vsa_encodings = hyperprobe.create_vsa_encodings(
 ```
 
 ### 4) Train the neural VSA encoder
-``` python
+```python
 # Load the documents into a data loader
 dataset = hyperprobe.inputDataset(train_set)
 loader = hyperprobe.llm2VSA_dataloader(dataset, batch_size = 32, val_size = 0.1, test_size = 0.1)
