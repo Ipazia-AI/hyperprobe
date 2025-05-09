@@ -1,0 +1,9908 @@
+{
+    "Abuja": [
+        "country_capital"
+    ],
+    "Accra": [
+        "capital_world"
+    ],
+    "Afghanistan": [
+        "country_capital"
+    ],
+    "Albania": [
+        "capital_world",
+        "nationality_adjective"
+    ],
+    "Albanian": [
+        "country_language"
+    ],
+    "Algeria": [
+        "capital_world",
+        "currency"
+    ],
+    "Algiers": [
+        "capital_world"
+    ],
+    "American": [
+        "name_nationality"
+    ],
+    "Amharic": [
+        "country_language"
+    ],
+    "Amman": [
+        "country_capital"
+    ],
+    "Andorra": [
+        "country_language"
+    ],
+    "Angola": [
+        "capital_world",
+        "currency"
+    ],
+    "Ankara": [
+        "country_capital"
+    ],
+    "Antananarivo": [
+        "capital_world"
+    ],
+    "Apia": [
+        "capital_world"
+    ],
+    "Arabic": [
+        "country_language"
+    ],
+    "Argentina": [
+        "country_language"
+    ],
+    "Argentinean": [
+        "nationality_adjective"
+    ],
+    "Armenia": [
+        "capital_world",
+        "currency"
+    ],
+    "Ashgabat": [
+        "capital_world"
+    ],
+    "Asmara": [
+        "capital_world"
+    ],
+    "Astana": [
+        "capital_world"
+    ],
+    "Athens": [
+        "country_capital"
+    ],
+    "Australia": [
+        "country_language",
+        "country_capital"
+    ],
+    "Australian": [
+        "nationality_adjective"
+    ],
+    "Austria": [
+        "country_language",
+        "country_capital"
+    ],
+    "Austrian": [
+        "name_nationality"
+    ],
+    "Azerbaijan": [
+        "capital_world"
+    ],
+    "Baghdad": [
+        "country_capital"
+    ],
+    "Bahamas": [
+        "country_language"
+    ],
+    "Bahrain": [
+        "capital_world"
+    ],
+    "Baku": [
+        "capital_world"
+    ],
+    "Bamako": [
+        "capital_world"
+    ],
+    "Bangkok": [
+        "country_capital"
+    ],
+    "Bangladesh": [
+        "country_language",
+        "country_capital"
+    ],
+    "Banjul": [
+        "capital_world"
+    ],
+    "Barbados": [
+        "country_language"
+    ],
+    "Beijing": [
+        "country_capital"
+    ],
+    "Beirut": [
+        "country_capital"
+    ],
+    "Belarus": [
+        "capital_world",
+        "nationality_adjective"
+    ],
+    "Belgium": [
+        "country_capital"
+    ],
+    "Belgrade": [
+        "country_capital"
+    ],
+    "Belize": [
+        "country_language"
+    ],
+    "Belmopan": [
+        "capital_world"
+    ],
+    "Belorussian": [
+        "nationality_adjective"
+    ],
+    "Bengali": [
+        "country_language"
+    ],
+    "Berber": [
+        "country_language"
+    ],
+    "Berlin": [
+        "country_capital"
+    ],
+    "Bern": [
+        "country_capital"
+    ],
+    "Bhutan": [
+        "capital_world"
+    ],
+    "Bishkek": [
+        "capital_world"
+    ],
+    "Bolivia": [
+        "country_language"
+    ],
+    "Botswana": [
+        "capital_world"
+    ],
+    "Bratislava": [
+        "capital_world"
+    ],
+    "Brazil": [
+        "country_language"
+    ],
+    "Brazilian": [
+        "nationality_adjective"
+    ],
+    "Brussels": [
+        "country_capital"
+    ],
+    "Bucharest": [
+        "country_capital"
+    ],
+    "Budapest": [
+        "country_capital"
+    ],
+    "Bujumbura": [
+        "capital_world"
+    ],
+    "Bulgaria": [
+        "country_capital"
+    ],
+    "Bulgarian": [
+        "nationality_adjective"
+    ],
+    "Burundi": [
+        "capital_world"
+    ],
+    "Cairo": [
+        "country_capital"
+    ],
+    "Cambodia": [
+        "country_language"
+    ],
+    "Cambodian": [
+        "nationality_adjective"
+    ],
+    "Canada": [
+        "country_language",
+        "country_capital"
+    ],
+    "Canberra": [
+        "country_capital"
+    ],
+    "Caracas": [
+        "capital_world"
+    ],
+    "Catalan": [
+        "country_language"
+    ],
+    "Chile": [
+        "country_language",
+        "country_capital"
+    ],
+    "Chilean": [
+        "nationality_adjective"
+    ],
+    "China": [
+        "country_capital"
+    ],
+    "Chinese": [
+        "country_language",
+        "name_nationality"
+    ],
+    "Chisinau": [
+        "capital_world"
+    ],
+    "Colombia": [
+        "country_language"
+    ],
+    "Colombian": [
+        "nationality_adjective"
+    ],
+    "Conakry": [
+        "country_capital"
+    ],
+    "Copenhagen": [
+        "country_capital"
+    ],
+    "Creole": [
+        "country_language"
+    ],
+    "Croatia": [
+        "country_capital"
+    ],
+    "Croatian": [
+        "nationality_adjective"
+    ],
+    "Cuba": [
+        "country_language",
+        "country_capital"
+    ],
+    "Cyprus": [
+        "country_language"
+    ],
+    "Dakar": [
+        "capital_world"
+    ],
+    "Damascus": [
+        "country_capital"
+    ],
+    "Danish": [
+        "country_language"
+    ],
+    "Denmark": [
+        "country_language",
+        "country_capital"
+    ],
+    "Dhaka": [
+        "country_capital"
+    ],
+    "Doha": [
+        "capital_world"
+    ],
+    "Dominica": [
+        "capital_world"
+    ],
+    "Dublin": [
+        "country_capital"
+    ],
+    "Dushanbe": [
+        "capital_world"
+    ],
+    "Dutch": [
+        "country_language",
+        "name_nationality"
+    ],
+    "Ecuador": [
+        "country_language"
+    ],
+    "Egypt": [
+        "country_language",
+        "country_capital"
+    ],
+    "Egyptian": [
+        "nationality_adjective"
+    ],
+    "England": [
+        "country_capital"
+    ],
+    "English": [
+        "country_language",
+        "name_nationality"
+    ],
+    "Eritrea": [
+        "capital_world"
+    ],
+    "Estonia": [
+        "capital_world"
+    ],
+    "Ethiopia": [
+        "country_language"
+    ],
+    "Europe": [
+        "currency"
+    ],
+    "Fiji": [
+        "country_language"
+    ],
+    "Finland": [
+        "country_capital"
+    ],
+    "France": [
+        "country_capital"
+    ],
+    "French": [
+        "country_language",
+        "name_nationality"
+    ],
+    "Funafuti": [
+        "capital_world"
+    ],
+    "Gabon": [
+        "capital_world"
+    ],
+    "Gaborone": [
+        "capital_world"
+    ],
+    "Gambia": [
+        "capital_world"
+    ],
+    "Georgetown": [
+        "capital_world"
+    ],
+    "Georgia": [
+        "country_capital"
+    ],
+    "German": [
+        "country_language",
+        "name_nationality"
+    ],
+    "Germany": [
+        "country_capital"
+    ],
+    "Ghana": [
+        "capital_world"
+    ],
+    "Greece": [
+        "country_capital"
+    ],
+    "Greek": [
+        "country_language",
+        "name_nationality"
+    ],
+    "Greenland": [
+        "capital_world"
+    ],
+    "Guadeloupe": [
+        "country_language"
+    ],
+    "Guam": [
+        "country_language"
+    ],
+    "Guatemala": [
+        "country_language"
+    ],
+    "Guinea": [
+        "country_capital"
+    ],
+    "Guyana": [
+        "country_language"
+    ],
+    "Haiti": [
+        "country_language"
+    ],
+    "Hanoi": [
+        "country_capital"
+    ],
+    "Harare": [
+        "capital_world"
+    ],
+    "Havana": [
+        "country_capital"
+    ],
+    "Hebrew": [
+        "country_language"
+    ],
+    "Helsinki": [
+        "country_capital"
+    ],
+    "Honduras": [
+        "capital_world"
+    ],
+    "Hungary": [
+        "country_capital"
+    ],
+    "Iceland": [
+        "nationality_adjective"
+    ],
+    "Icelandic": [
+        "nationality_adjective"
+    ],
+    "India": [
+        "currency",
+        "nationality_adjective"
+    ],
+    "Indian": [
+        "nationality_adjective"
+    ],
+    "Indonesia": [
+        "country_capital"
+    ],
+    "Iran": [
+        "country_language",
+        "country_capital"
+    ],
+    "Iraq": [
+        "country_language",
+        "country_capital"
+    ],
+    "Ireland": [
+        "country_language",
+        "country_capital"
+    ],
+    "Irish": [
+        "nationality_adjective"
+    ],
+    "Islamabad": [
+        "country_capital"
+    ],
+    "Israel": [
+        "country_language"
+    ],
+    "Israeli": [
+        "nationality_adjective"
+    ],
+    "Italian": [
+        "name_nationality"
+    ],
+    "Italy": [
+        "country_capital"
+    ],
+    "Jakarta": [
+        "country_capital"
+    ],
+    "Jamaica": [
+        "country_language",
+        "country_capital"
+    ],
+    "Japan": [
+        "country_capital"
+    ],
+    "Japanese": [
+        "nationality_adjective"
+    ],
+    "Jewish": [
+        "name_nationality"
+    ],
+    "Jordan": [
+        "country_language",
+        "country_capital"
+    ],
+    "Kabul": [
+        "country_capital"
+    ],
+    "Kampala": [
+        "capital_world"
+    ],
+    "Kathmandu": [
+        "capital_world"
+    ],
+    "Kazak": [
+        "country_language"
+    ],
+    "Kazakhstan": [
+        "country_language"
+    ],
+    "Kenya": [
+        "country_capital"
+    ],
+    "Khartoum": [
+        "capital_world"
+    ],
+    "Khmer": [
+        "country_language"
+    ],
+    "Kiev": [
+        "country_capital"
+    ],
+    "Kigali": [
+        "capital_world"
+    ],
+    "Kingston": [
+        "country_capital"
+    ],
+    "Korea": [
+        "currency",
+        "nationality_adjective"
+    ],
+    "Korean": [
+        "nationality_adjective"
+    ],
+    "Kosovo": [
+        "country_language"
+    ],
+    "Kuwait": [
+        "country_language"
+    ],
+    "Kyrgyzstan": [
+        "capital_world"
+    ],
+    "Laos": [
+        "capital_world"
+    ],
+    "Latvia": [
+        "capital_world",
+        "currency"
+    ],
+    "Lebanon": [
+        "country_capital"
+    ],
+    "Liberia": [
+        "capital_world"
+    ],
+    "Libreville": [
+        "capital_world"
+    ],
+    "Libya": [
+        "capital_world"
+    ],
+    "Liechtenstein": [
+        "capital_world"
+    ],
+    "Lilongwe": [
+        "capital_world"
+    ],
+    "Lima": [
+        "country_capital"
+    ],
+    "Lisbon": [
+        "country_capital"
+    ],
+    "Lithuania": [
+        "capital_world",
+        "currency"
+    ],
+    "Ljubljana": [
+        "capital_world"
+    ],
+    "London": [
+        "country_capital"
+    ],
+    "Luanda": [
+        "capital_world"
+    ],
+    "Lusaka": [
+        "capital_world"
+    ],
+    "Macedonia": [
+        "capital_world",
+        "currency",
+        "nationality_adjective"
+    ],
+    "Macedonian": [
+        "nationality_adjective"
+    ],
+    "Madagascar": [
+        "capital_world"
+    ],
+    "Madrid": [
+        "country_capital"
+    ],
+    "Malawi": [
+        "capital_world"
+    ],
+    "Malaysia": [
+        "currency"
+    ],
+    "Mali": [
+        "capital_world"
+    ],
+    "Malta": [
+        "capital_world",
+        "nationality_adjective"
+    ],
+    "Maltese": [
+        "nationality_adjective"
+    ],
+    "Managua": [
+        "capital_world"
+    ],
+    "Manama": [
+        "capital_world"
+    ],
+    "Manila": [
+        "country_capital"
+    ],
+    "Maputo": [
+        "capital_world"
+    ],
+    "Mauritania": [
+        "capital_world"
+    ],
+    "Mexican": [
+        "nationality_adjective"
+    ],
+    "Mexico": [
+        "country_language"
+    ],
+    "Minsk": [
+        "capital_world"
+    ],
+    "Mogadishu": [
+        "capital_world"
+    ],
+    "Moldova": [
+        "country_language"
+    ],
+    "Moldovan": [
+        "country_language"
+    ],
+    "Monrovia": [
+        "capital_world"
+    ],
+    "Montenegro": [
+        "capital_world"
+    ],
+    "Montevideo": [
+        "capital_world"
+    ],
+    "Morocco": [
+        "country_language"
+    ],
+    "Moscow": [
+        "country_capital"
+    ],
+    "Mozambique": [
+        "country_language"
+    ],
+    "Muscat": [
+        "capital_world"
+    ],
+    "Nairobi": [
+        "country_capital"
+    ],
+    "Namibia": [
+        "capital_world"
+    ],
+    "Nassau": [
+        "capital_world"
+    ],
+    "Nepal": [
+        "capital_world"
+    ],
+    "Netherlands": [
+        "country_language"
+    ],
+    "Niamey": [
+        "capital_world"
+    ],
+    "Nicaragua": [
+        "country_language"
+    ],
+    "Nicosia": [
+        "capital_world"
+    ],
+    "Niger": [
+        "capital_world"
+    ],
+    "Nigeria": [
+        "country_capital"
+    ],
+    "Norway": [
+        "country_language",
+        "country_capital"
+    ],
+    "Norwegian": [
+        "country_language"
+    ],
+    "Nouakchott": [
+        "capital_world"
+    ],
+    "Nuuk": [
+        "capital_world"
+    ],
+    "Oman": [
+        "capital_world"
+    ],
+    "Oslo": [
+        "country_capital"
+    ],
+    "Ottawa": [
+        "country_capital"
+    ],
+    "Pakistan": [
+        "country_capital"
+    ],
+    "Palestine": [
+        "country_language"
+    ],
+    "Paramaribo": [
+        "capital_world"
+    ],
+    "Paris": [
+        "country_capital"
+    ],
+    "Persian": [
+        "country_language"
+    ],
+    "Peru": [
+        "country_language",
+        "country_capital"
+    ],
+    "Peruvian": [
+        "nationality_adjective"
+    ],
+    "Philippines": [
+        "country_language",
+        "country_capital"
+    ],
+    "Podgorica": [
+        "capital_world"
+    ],
+    "Poland": [
+        "country_capital"
+    ],
+    "Polish": [
+        "name_nationality"
+    ],
+    "Portugal": [
+        "country_capital"
+    ],
+    "Portuguese": [
+        "country_language"
+    ],
+    "Qatar": [
+        "capital_world"
+    ],
+    "Quito": [
+        "capital_world"
+    ],
+    "Rabat": [
+        "capital_world"
+    ],
+    "Riga": [
+        "capital_world"
+    ],
+    "Roman": [
+        "name_nationality"
+    ],
+    "Romania": [
+        "country_capital"
+    ],
+    "Rome": [
+        "country_capital"
+    ],
+    "Roseau": [
+        "capital_world"
+    ],
+    "Russia": [
+        "country_capital"
+    ],
+    "Russian": [
+        "name_nationality"
+    ],
+    "Rwanda": [
+        "capital_world"
+    ],
+    "Samoa": [
+        "capital_world"
+    ],
+    "Santiago": [
+        "country_capital"
+    ],
+    "Scottish": [
+        "name_nationality"
+    ],
+    "Senegal": [
+        "capital_world"
+    ],
+    "Serbia": [
+        "country_capital"
+    ],
+    "Skopje": [
+        "capital_world"
+    ],
+    "Slovakia": [
+        "capital_world",
+        "nationality_adjective"
+    ],
+    "Slovakian": [
+        "nationality_adjective"
+    ],
+    "Slovenia": [
+        "capital_world"
+    ],
+    "Sofia": [
+        "country_capital"
+    ],
+    "Somalia": [
+        "capital_world"
+    ],
+    "Soviet": [
+        "name_nationality"
+    ],
+    "Spain": [
+        "country_capital"
+    ],
+    "Spanish": [
+        "country_language"
+    ],
+    "Stockholm": [
+        "country_capital"
+    ],
+    "Sudan": [
+        "capital_world"
+    ],
+    "Suriname": [
+        "capital_world"
+    ],
+    "Suva": [
+        "capital_world"
+    ],
+    "Sweden": [
+        "country_capital"
+    ],
+    "Swedish": [
+        "nationality_adjective"
+    ],
+    "Swiss": [
+        "nationality_adjective"
+    ],
+    "Switzerland": [
+        "country_language",
+        "country_capital"
+    ],
+    "Syria": [
+        "country_language",
+        "country_capital"
+    ],
+    "Tagalog": [
+        "country_language"
+    ],
+    "Taipei": [
+        "country_capital"
+    ],
+    "Taiwan": [
+        "country_language",
+        "country_capital"
+    ],
+    "Tajikistan": [
+        "capital_world"
+    ],
+    "Tallinn": [
+        "capital_world"
+    ],
+    "Tashkent": [
+        "capital_world"
+    ],
+    "Tbilisi": [
+        "country_capital"
+    ],
+    "Tegucigalpa": [
+        "capital_world"
+    ],
+    "Tehran": [
+        "country_capital"
+    ],
+    "Thai": [
+        "nationality_adjective"
+    ],
+    "Thailand": [
+        "country_capital"
+    ],
+    "Thimphu": [
+        "capital_world"
+    ],
+    "Tirana": [
+        "capital_world"
+    ],
+    "Tokyo": [
+        "country_capital"
+    ],
+    "Tripoli": [
+        "capital_world"
+    ],
+    "Tunis": [
+        "capital_world"
+    ],
+    "Tunisia": [
+        "capital_world"
+    ],
+    "Turkey": [
+        "country_capital"
+    ],
+    "Turkmenistan": [
+        "capital_world"
+    ],
+    "Tuvalu": [
+        "capital_world"
+    ],
+    "USA": [
+        "currency"
+    ],
+    "Uganda": [
+        "capital_world"
+    ],
+    "Ukraine": [
+        "country_capital"
+    ],
+    "Ukrainian": [
+        "nationality_adjective"
+    ],
+    "Uruguay": [
+        "capital_world"
+    ],
+    "Usa": [
+        "country_language"
+    ],
+    "Uzbekistan": [
+        "capital_world"
+    ],
+    "Vaduz": [
+        "capital_world"
+    ],
+    "Valletta": [
+        "capital_world"
+    ],
+    "Venezuela": [
+        "country_language"
+    ],
+    "Vienna": [
+        "country_capital"
+    ],
+    "Vientiane": [
+        "capital_world"
+    ],
+    "Vietnam": [
+        "country_capital"
+    ],
+    "Vilnius": [
+        "capital_world"
+    ],
+    "Warsaw": [
+        "country_capital"
+    ],
+    "Windhoek": [
+        "capital_world"
+    ],
+    "Yerevan": [
+        "capital_world"
+    ],
+    "Zagreb": [
+        "country_capital"
+    ],
+    "Zambia": [
+        "capital_world"
+    ],
+    "Zimbabwe": [
+        "capital_world"
+    ],
+    "aberdeen": [
+        "UK_city_county"
+    ],
+    "aberdeenshire": [
+        "UK_city_county"
+    ],
+    "abilities": [
+        "noun_plural_irreg"
+    ],
+    "ability": [
+        "noun_plural_irreg"
+    ],
+    "able": [
+        "antonyms_gradable",
+        "adj_superlative",
+        "un+adj_reg"
+    ],
+    "ablest": [
+        "adj_superlative"
+    ],
+    "abnormal": [
+        "antonyms_gradable"
+    ],
+    "above": [
+        "antonyms_binary"
+    ],
+    "abundant": [
+        "antonyms_gradable"
+    ],
+    "academies": [
+        "noun_plural_irreg"
+    ],
+    "academy": [
+        "noun_plural_irreg"
+    ],
+    "accept": [
+        "verb_inf_Ved",
+        "verb_inf_3pSg",
+        "verb+able_reg"
+    ],
+    "acceptable": [
+        "verb+able_reg",
+        "un+adj_reg"
+    ],
+    "accepted": [
+        "verb_inf_Ved"
+    ],
+    "accepts": [
+        "verb_inf_3pSg"
+    ],
+    "accomplish": [
+        "verb+ment_irreg"
+    ],
+    "accomplishment": [
+        "verb+ment_irreg"
+    ],
+    "according": [
+        "adj+ly_reg"
+    ],
+    "accordingly": [
+        "adj+ly_reg"
+    ],
+    "accusation": [
+        "verb+tion_irreg"
+    ],
+    "accuse": [
+        "verb+tion_irreg"
+    ],
+    "achieve": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg",
+        "verb+able_reg",
+        "verb+ment_irreg",
+        "verb+er_irreg"
+    ],
+    "achieveable": [
+        "verb+able_reg"
+    ],
+    "achieved": [
+        "verb_inf_Ved"
+    ],
+    "achievement": [
+        "verb+ment_irreg"
+    ],
+    "achiever": [
+        "verb+er_irreg"
+    ],
+    "achieves": [
+        "verb_inf_3pSg"
+    ],
+    "achieving": [
+        "verb_inf_Ving"
+    ],
+    "acknowledge": [
+        "verb+ment_irreg"
+    ],
+    "acknowledgement": [
+        "verb+ment_irreg"
+    ],
+    "acquire": [
+        "re+verb_reg"
+    ],
+    "activities": [
+        "noun_plural_irreg"
+    ],
+    "activity": [
+        "noun_plural_irreg"
+    ],
+    "actor": [
+        "male_female",
+        "name_occupation"
+    ],
+    "actress": [
+        "male_female",
+        "name_occupation"
+    ],
+    "actual": [
+        "adj+ly_reg"
+    ],
+    "actually": [
+        "adj+ly_reg"
+    ],
+    "adapt": [
+        "verb+able_reg"
+    ],
+    "adaptable": [
+        "verb+able_reg"
+    ],
+    "add": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg"
+    ],
+    "added": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "adding": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "additional": [
+        "adj+ly_reg"
+    ],
+    "additionally": [
+        "adj+ly_reg"
+    ],
+    "adds": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "adjust": [
+        "verb+able_reg",
+        "verb+ment_irreg",
+        "re+verb_reg"
+    ],
+    "adjustable": [
+        "verb+able_reg"
+    ],
+    "adjustment": [
+        "verb+ment_irreg"
+    ],
+    "admirable": [
+        "verb+able_reg"
+    ],
+    "admiration": [
+        "verb+tion_irreg"
+    ],
+    "admire": [
+        "verb+tion_irreg",
+        "verb+able_reg"
+    ],
+    "adorable": [
+        "verb+able_reg"
+    ],
+    "adore": [
+        "verb+able_reg"
+    ],
+    "advertise": [
+        "verb+ment_irreg",
+        "verb+er_irreg"
+    ],
+    "advertisement": [
+        "verb+ment_irreg"
+    ],
+    "advertiser": [
+        "verb+er_irreg"
+    ],
+    "advertises": [
+        "verb_Ving_3pSg"
+    ],
+    "advertising": [
+        "verb_Ving_3pSg"
+    ],
+    "advisable": [
+        "verb+able_reg"
+    ],
+    "advise": [
+        "verb+able_reg"
+    ],
+    "affected": [
+        "un+adj_reg"
+    ],
+    "afford": [
+        "verb+able_reg"
+    ],
+    "affordable": [
+        "verb+able_reg"
+    ],
+    "after": [
+        "antonyms_binary"
+    ],
+    "agencies": [
+        "noun_plural_irreg"
+    ],
+    "agency": [
+        "noun_plural_irreg"
+    ],
+    "agree": [
+        "verb_inf_Ved",
+        "verb_inf_3pSg",
+        "verb+ment_irreg"
+    ],
+    "agreed": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "agreeing": [
+        "verb_Ving_Ved"
+    ],
+    "agreement": [
+        "verb+ment_irreg"
+    ],
+    "agrees": [
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "ahead": [
+        "antonyms_binary"
+    ],
+    "album": [
+        "noun_plural_reg"
+    ],
+    "albums": [
+        "noun_plural_reg"
+    ],
+    "align": [
+        "verb+ment_irreg"
+    ],
+    "alignment": [
+        "verb+ment_irreg"
+    ],
+    "alive": [
+        "antonyms_binary"
+    ],
+    "allegation": [
+        "verb+tion_irreg"
+    ],
+    "allege": [
+        "verb+tion_irreg"
+    ],
+    "allosaurus": [
+        "hypernyms_animals"
+    ],
+    "allow": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg"
+    ],
+    "allowed": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "allowing": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "allows": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "alpaca": [
+        "animal_sound"
+    ],
+    "amazing": [
+        "adj+ness_reg"
+    ],
+    "amazingly": [
+        "adjective_to_adverb"
+    ],
+    "amazingness": [
+        "adj+ness_reg"
+    ],
+    "ambitious": [
+        "over+adj_reg"
+    ],
+    "amend": [
+        "verb+ment_irreg"
+    ],
+    "amendment": [
+        "verb+ment_irreg"
+    ],
+    "amuse": [
+        "verb+ment_irreg"
+    ],
+    "amusement": [
+        "verb+ment_irreg"
+    ],
+    "anaconda": [
+        "hypernyms_animals"
+    ],
+    "analyses": [
+        "noun_plural_irreg"
+    ],
+    "analysis": [
+        "noun_plural_irreg"
+    ],
+    "andersen": [
+        "name_occupation"
+    ],
+    "anger": [
+        "hyponyms_misc"
+    ],
+    "angrier": [
+        "adj_comparative"
+    ],
+    "angriest": [
+        "adj_superlative"
+    ],
+    "angry": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "announce": [
+        "verb_inf_Ved",
+        "verb+ment_irreg",
+        "verb+er_irreg"
+    ],
+    "announced": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "announcement": [
+        "verb+ment_irreg"
+    ],
+    "announcer": [
+        "verb+er_irreg"
+    ],
+    "announces": [
+        "verb_3pSg_Ved"
+    ],
+    "announcing": [
+        "verb_Ving_Ved"
+    ],
+    "ant": [
+        "hypernyms_animals",
+        "animal_shelter"
+    ],
+    "anterior": [
+        "antonyms_binary"
+    ],
+    "anthill": [
+        "animal_shelter"
+    ],
+    "antrim": [
+        "UK_city_county"
+    ],
+    "ape": [
+        "animal_shelter"
+    ],
+    "apparent": [
+        "adj+ly_reg"
+    ],
+    "apparently": [
+        "adj+ly_reg"
+    ],
+    "appear": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg",
+        "re+verb_reg"
+    ],
+    "appeared": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "appearing": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "appears": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "appliance": [
+        "hypernyms_misc"
+    ],
+    "application": [
+        "noun_plural_reg"
+    ],
+    "applications": [
+        "noun_plural_reg"
+    ],
+    "applied": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "applies": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "apply": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg",
+        "re+verb_reg"
+    ],
+    "applying": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "appoint": [
+        "verb+ment_irreg",
+        "re+verb_reg"
+    ],
+    "appointed": [
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "appointing": [
+        "verb_Ving_Ved"
+    ],
+    "appointment": [
+        "verb+ment_irreg"
+    ],
+    "appoints": [
+        "verb_3pSg_Ved"
+    ],
+    "arching": [
+        "over+adj_reg"
+    ],
+    "area": [
+        "noun_plural_reg"
+    ],
+    "areas": [
+        "noun_plural_reg"
+    ],
+    "aristotle": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "arm": [
+        "noun+less_reg"
+    ],
+    "armchair": [
+        "hypernyms_misc"
+    ],
+    "armies": [
+        "noun_plural_irreg"
+    ],
+    "armless": [
+        "noun+less_reg"
+    ],
+    "army": [
+        "noun_plural_irreg"
+    ],
+    "arrange": [
+        "verb+ment_irreg",
+        "re+verb_reg"
+    ],
+    "arrangement": [
+        "verb+ment_irreg"
+    ],
+    "art": [
+        "noun+less_reg"
+    ],
+    "artless": [
+        "noun+less_reg"
+    ],
+    "ascend": [
+        "antonyms_binary"
+    ],
+    "ask": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg"
+    ],
+    "asked": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "asking": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "asks": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "aspiration": [
+        "verb+tion_irreg"
+    ],
+    "aspire": [
+        "verb+tion_irreg"
+    ],
+    "assess": [
+        "verb+ment_irreg",
+        "re+verb_reg"
+    ],
+    "assessment": [
+        "verb+ment_irreg"
+    ],
+    "assign": [
+        "verb+ment_irreg",
+        "re+verb_reg"
+    ],
+    "assignment": [
+        "verb+ment_irreg"
+    ],
+    "assure": [
+        "re+verb_reg"
+    ],
+    "attend": [
+        "verb_inf_Ving",
+        "verb_inf_Ved"
+    ],
+    "attended": [
+        "verb_inf_Ved",
+        "verb_Ving_Ved"
+    ],
+    "attending": [
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "attractive": [
+        "adj+ness_reg"
+    ],
+    "attractiveness": [
+        "adj+ness_reg"
+    ],
+    "aunt": [
+        "male_female"
+    ],
+    "authorities": [
+        "noun_plural_irreg"
+    ],
+    "authority": [
+        "noun_plural_irreg"
+    ],
+    "authorization": [
+        "verb+tion_irreg"
+    ],
+    "authorize": [
+        "verb+tion_irreg"
+    ],
+    "authorized": [
+        "un+adj_reg"
+    ],
+    "available": [
+        "un+adj_reg"
+    ],
+    "avoid": [
+        "verb_inf_Ving",
+        "verb_inf_3pSg",
+        "verb+able_reg"
+    ],
+    "avoidable": [
+        "verb+able_reg",
+        "un+adj_reg"
+    ],
+    "avoiding": [
+        "verb_inf_Ving"
+    ],
+    "avoids": [
+        "verb_inf_3pSg"
+    ],
+    "aware": [
+        "antonyms_gradable",
+        "adj+ness_reg",
+        "un+adj_reg"
+    ],
+    "awareness": [
+        "adj+ness_reg"
+    ],
+    "away": [
+        "antonyms_binary"
+    ],
+    "baa": [
+        "animal_sound"
+    ],
+    "baboon": [
+        "animal_shelter"
+    ],
+    "back": [
+        "antonyms_binary"
+    ],
+    "backpack": [
+        "hyponyms_misc"
+    ],
+    "backward": [
+        "antonyms_binary"
+    ],
+    "bad": [
+        "comparative",
+        "superlative"
+    ],
+    "bag": [
+        "hyponyms_misc"
+    ],
+    "baht": [
+        "currency"
+    ],
+    "bake": [
+        "verb+er_irreg"
+    ],
+    "baker": [
+        "verb+er_irreg"
+    ],
+    "balzac": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "banana": [
+        "plural"
+    ],
+    "bananas": [
+        "plural"
+    ],
+    "band": [
+        "hypernyms_misc"
+    ],
+    "bark": [
+        "animal_sound"
+    ],
+    "barn": [
+        "animal_shelter"
+    ],
+    "bases": [
+        "noun_plural_irreg"
+    ],
+    "basis": [
+        "noun_plural_irreg"
+    ],
+    "bat": [
+        "animal_shelter"
+    ],
+    "bath": [
+        "UK_city_county"
+    ],
+    "batman": [
+        "male_female"
+    ],
+    "batwoman": [
+        "male_female"
+    ],
+    "bear": [
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "beautiful": [
+        "antonyms_gradable",
+        "adj+ly_reg"
+    ],
+    "beautifully": [
+        "adj+ly_reg"
+    ],
+    "beaver": [
+        "hypernyms_animals",
+        "animal_shelter"
+    ],
+    "became": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "become": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg"
+    ],
+    "becomes": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "becoming": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "bed": [
+        "hyponyms_misc"
+    ],
+    "bee": [
+        "hypernyms_animals",
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "beethoven": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "beetle": [
+        "hypernyms_animals",
+        "animal_sound"
+    ],
+    "before": [
+        "antonyms_binary"
+    ],
+    "begin": [
+        "verb+er_irreg"
+    ],
+    "beginner": [
+        "verb+er_irreg"
+    ],
+    "beginning": [
+        "antonyms_binary"
+    ],
+    "behind": [
+        "antonyms_binary"
+    ],
+    "belfast": [
+        "UK_city_county"
+    ],
+    "believable": [
+        "un+adj_reg"
+    ],
+    "believe": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg",
+        "verb+able_reg",
+        "verb+er_irreg"
+    ],
+    "believeable": [
+        "verb+able_reg"
+    ],
+    "believed": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved"
+    ],
+    "believer": [
+        "verb+er_irreg"
+    ],
+    "believes": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "believing": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving"
+    ],
+    "bellow": [
+        "animal_sound"
+    ],
+    "below": [
+        "antonyms_binary"
+    ],
+    "berkshire": [
+        "UK_city_county"
+    ],
+    "best": [
+        "superlative"
+    ],
+    "better": [
+        "comparative"
+    ],
+    "biased": [
+        "un+adj_reg"
+    ],
+    "big": [
+        "antonyms_gradable"
+    ],
+    "bigger": [
+        "comparative"
+    ],
+    "biggest": [
+        "superlative"
+    ],
+    "bird": [
+        "plural"
+    ],
+    "birds": [
+        "plural"
+    ],
+    "birmingham": [
+        "UK_city_county"
+    ],
+    "bitch": [
+        "male_female"
+    ],
+    "black": [
+        "antonyms_gradable"
+    ],
+    "bleat": [
+        "animal_sound"
+    ],
+    "blender": [
+        "hyponyms_misc",
+        "hypernyms_misc"
+    ],
+    "boar": [
+        "male_female"
+    ],
+    "boat": [
+        "hyponyms_misc"
+    ],
+    "bone": [
+        "noun+less_reg"
+    ],
+    "boneless": [
+        "noun+less_reg"
+    ],
+    "book": [
+        "hyponyms_misc",
+        "hypernyms_misc"
+    ],
+    "booked": [
+        "over+adj_reg"
+    ],
+    "bookshelf": [
+        "hyponyms_misc"
+    ],
+    "borrow": [
+        "verb+er_irreg"
+    ],
+    "borrower": [
+        "verb+er_irreg"
+    ],
+    "bottle": [
+        "plural"
+    ],
+    "bottles": [
+        "plural"
+    ],
+    "bottom": [
+        "antonyms_binary"
+    ],
+    "bovid": [
+        "hypernyms_animals"
+    ],
+    "boy": [
+        "male_female"
+    ],
+    "bracelet": [
+        "hyponyms_misc",
+        "hypernyms_misc"
+    ],
+    "bradford": [
+        "UK_city_county"
+    ],
+    "bray": [
+        "animal_sound"
+    ],
+    "breath": [
+        "noun+less_reg"
+    ],
+    "breathless": [
+        "noun+less_reg"
+    ],
+    "bride": [
+        "male_female"
+    ],
+    "bright": [
+        "antonyms_gradable"
+    ],
+    "brighter": [
+        "comparative"
+    ],
+    "brightest": [
+        "superlative"
+    ],
+    "brighton": [
+        "UK_city_county"
+    ],
+    "broiler": [
+        "hyponyms_misc"
+    ],
+    "broken": [
+        "adj+ness_reg"
+    ],
+    "brokenness": [
+        "adj+ness_reg"
+    ],
+    "brooch": [
+        "hypernyms_misc"
+    ],
+    "brother": [
+        "male_female"
+    ],
+    "brothers": [
+        "family"
+    ],
+    "brush": [
+        "hyponyms_misc",
+        "hypernyms_misc"
+    ],
+    "buck": [
+        "male_female"
+    ],
+    "buffalo": [
+        "hypernyms_animals"
+    ],
+    "building": [
+        "plural"
+    ],
+    "buildings": [
+        "plural"
+    ],
+    "bull": [
+        "male_female"
+    ],
+    "bunk": [
+        "hyponyms_misc"
+    ],
+    "burger": [
+        "hyponyms_misc"
+    ],
+    "burrow": [
+        "animal_shelter"
+    ],
+    "business": [
+        "noun_plural_irreg"
+    ],
+    "businesses": [
+        "noun_plural_irreg"
+    ],
+    "businessman": [
+        "male_female"
+    ],
+    "businesswoman": [
+        "male_female"
+    ],
+    "butterfly": [
+        "hypernyms_animals"
+    ],
+    "buzz": [
+        "animal_sound"
+    ],
+    "caesar": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "cake": [
+        "hyponyms_misc",
+        "hypernyms_misc"
+    ],
+    "calculate": [
+        "re+verb_reg"
+    ],
+    "calm": [
+        "adjective_to_adverb"
+    ],
+    "calmly": [
+        "adjective_to_adverb"
+    ],
+    "cambridge": [
+        "UK_city_county"
+    ],
+    "cambridgeshire": [
+        "UK_city_county"
+    ],
+    "camcorder": [
+        "hyponyms_misc"
+    ],
+    "camera": [
+        "hyponyms_misc"
+    ],
+    "candy": [
+        "hyponyms_misc"
+    ],
+    "canine": [
+        "hypernyms_animals"
+    ],
+    "canterbury": [
+        "UK_city_county"
+    ],
+    "car": [
+        "hyponyms_misc",
+        "noun_plural_reg"
+    ],
+    "carbon": [
+        "noun+less_reg"
+    ],
+    "carbonless": [
+        "noun+less_reg"
+    ],
+    "card": [
+        "hypernyms_misc"
+    ],
+    "cardiff": [
+        "UK_city_county"
+    ],
+    "careful": [
+        "adj+ness_reg"
+    ],
+    "carefulness": [
+        "adj+ness_reg"
+    ],
+    "carlisle": [
+        "UK_city_county"
+    ],
+    "cars": [
+        "noun_plural_reg"
+    ],
+    "cat": [
+        "hypernyms_animals",
+        "animal_sound"
+    ],
+    "categories": [
+        "noun_plural_irreg"
+    ],
+    "category": [
+        "noun_plural_irreg"
+    ],
+    "cats": [
+        "plural"
+    ],
+    "cattle": [
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "cave": [
+        "animal_shelter"
+    ],
+    "caw": [
+        "animal_sound"
+    ],
+    "centuries": [
+        "noun_plural_irreg"
+    ],
+    "century": [
+        "noun_plural_irreg"
+    ],
+    "certain": [
+        "un+adj_reg"
+    ],
+    "chair": [
+        "hyponyms_misc",
+        "hypernyms_misc"
+    ],
+    "chairman": [
+        "male_female"
+    ],
+    "chairwoman": [
+        "male_female"
+    ],
+    "changed": [
+        "un+adj_reg"
+    ],
+    "chapel": [
+        "hyponyms_misc"
+    ],
+    "characterization": [
+        "verb+tion_irreg"
+    ],
+    "characterize": [
+        "verb+tion_irreg"
+    ],
+    "charged": [
+        "over+adj_reg"
+    ],
+    "chatter": [
+        "animal_sound"
+    ],
+    "cheap": [
+        "antonyms_gradable",
+        "adj_comparative",
+        "adj_superlative",
+        "adj+ness_reg"
+    ],
+    "cheaper": [
+        "adj_comparative"
+    ],
+    "cheapest": [
+        "adj_superlative"
+    ],
+    "cheapness": [
+        "adj+ness_reg"
+    ],
+    "cheerful": [
+        "adjective_to_adverb"
+    ],
+    "cheerfully": [
+        "adjective_to_adverb"
+    ],
+    "cheshire": [
+        "UK_city_county"
+    ],
+    "chester": [
+        "UK_city_county"
+    ],
+    "chichester": [
+        "UK_city_county"
+    ],
+    "chicken": [
+        "hypernyms_animals",
+        "animal_sound"
+    ],
+    "child": [
+        "noun_plural_irreg",
+        "noun+less_reg"
+    ],
+    "childless": [
+        "noun+less_reg"
+    ],
+    "children": [
+        "noun_plural_irreg"
+    ],
+    "chimpanzee": [
+        "hypernyms_animals",
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "chinchilla": [
+        "hypernyms_animals",
+        "animal_shelter"
+    ],
+    "chirp": [
+        "animal_sound"
+    ],
+    "chirrup": [
+        "animal_sound"
+    ],
+    "choker": [
+        "hyponyms_misc"
+    ],
+    "choreograph": [
+        "verb+er_irreg"
+    ],
+    "choreographer": [
+        "verb+er_irreg"
+    ],
+    "church": [
+        "hyponyms_misc"
+    ],
+    "cicada": [
+        "animal_sound"
+    ],
+    "cities": [
+        "noun_plural_irreg"
+    ],
+    "citrus": [
+        "hyponyms_misc",
+        "hypernyms_misc"
+    ],
+    "city": [
+        "noun_plural_irreg"
+    ],
+    "civilization": [
+        "verb+tion_irreg"
+    ],
+    "civilize": [
+        "verb+tion_irreg"
+    ],
+    "clean": [
+        "antonyms_gradable"
+    ],
+    "clear": [
+        "antonyms_gradable"
+    ],
+    "clever": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "cleverer": [
+        "adj_comparative"
+    ],
+    "cleverest": [
+        "adj_superlative"
+    ],
+    "climb": [
+        "antonyms_binary"
+    ],
+    "clinical": [
+        "adj+ly_reg"
+    ],
+    "clinically": [
+        "adj+ly_reg"
+    ],
+    "close": [
+        "antonyms_gradable"
+    ],
+    "clothes": [
+        "hypernyms_misc"
+    ],
+    "cloud": [
+        "hyponyms_misc"
+    ],
+    "clouds": [
+        "plural"
+    ],
+    "cluck": [
+        "animal_sound"
+    ],
+    "coarse": [
+        "adj_comparative"
+    ],
+    "coarser": [
+        "adj_comparative"
+    ],
+    "cobra": [
+        "hypernyms_animals"
+    ],
+    "cockroach": [
+        "hypernyms_animals",
+        "animal_shelter"
+    ],
+    "code": [
+        "present_participle"
+    ],
+    "coding": [
+        "present_participle"
+    ],
+    "cognize": [
+        "re+verb_reg"
+    ],
+    "cold": [
+        "antonyms_gradable"
+    ],
+    "colder": [
+        "comparative"
+    ],
+    "coldest": [
+        "superlative"
+    ],
+    "collar": [
+        "hyponyms_misc",
+        "noun+less_reg"
+    ],
+    "collarless": [
+        "noun+less_reg"
+    ],
+    "college": [
+        "noun_plural_reg"
+    ],
+    "colleges": [
+        "noun_plural_reg"
+    ],
+    "colonization": [
+        "verb+tion_irreg"
+    ],
+    "colonize": [
+        "verb+tion_irreg"
+    ],
+    "color": [
+        "hyponyms_misc"
+    ],
+    "colorful": [
+        "antonyms_gradable"
+    ],
+    "colorless": [
+        "antonyms_gradable"
+    ],
+    "colors": [
+        "plural"
+    ],
+    "columbus": [
+        "name_occupation"
+    ],
+    "comfortable": [
+        "un+adj_reg"
+    ],
+    "commend": [
+        "re+verb_reg"
+    ],
+    "commit": [
+        "verb+ment_irreg"
+    ],
+    "commitment": [
+        "verb+ment_irreg"
+    ],
+    "common": [
+        "antonyms_gradable"
+    ],
+    "communities": [
+        "noun_plural_irreg"
+    ],
+    "community": [
+        "noun_plural_irreg"
+    ],
+    "compensated": [
+        "over+adj_reg"
+    ],
+    "competent": [
+        "antonyms_gradable"
+    ],
+    "competitive": [
+        "adj+ness_reg"
+    ],
+    "competitiveness": [
+        "adj+ness_reg"
+    ],
+    "compilation": [
+        "verb+tion_irreg"
+    ],
+    "compile": [
+        "verb+tion_irreg"
+    ],
+    "complete": [
+        "adjective_to_adverb"
+    ],
+    "completely": [
+        "adjective_to_adverb"
+    ],
+    "compose": [
+        "verb+er_irreg"
+    ],
+    "composer": [
+        "name_occupation",
+        "verb+er_irreg"
+    ],
+    "computation": [
+        "verb+tion_irreg"
+    ],
+    "compute": [
+        "verb+tion_irreg"
+    ],
+    "computer": [
+        "hyponyms_misc",
+        "hypernyms_misc"
+    ],
+    "computers": [
+        "plural"
+    ],
+    "concerned": [
+        "antonyms_gradable"
+    ],
+    "condensation": [
+        "verb+tion_irreg"
+    ],
+    "condense": [
+        "verb+tion_irreg"
+    ],
+    "conditional": [
+        "un+adj_reg"
+    ],
+    "confident": [
+        "over+adj_reg"
+    ],
+    "configuration": [
+        "verb+tion_irreg"
+    ],
+    "configure": [
+        "verb+tion_irreg",
+        "re+verb_reg"
+    ],
+    "confirm": [
+        "re+verb_reg"
+    ],
+    "confucius": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "connect": [
+        "re+verb_reg"
+    ],
+    "connected": [
+        "adj+ness_reg"
+    ],
+    "connectedness": [
+        "adj+ness_reg"
+    ],
+    "conscious": [
+        "adj+ness_reg",
+        "un+adj_reg"
+    ],
+    "consciousness": [
+        "adj+ness_reg"
+    ],
+    "consider": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg",
+        "verb+able_reg",
+        "re+verb_reg"
+    ],
+    "considerable": [
+        "verb+able_reg"
+    ],
+    "considered": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "considering": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "considers": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "consist": [
+        "verb_inf_3pSg"
+    ],
+    "consisted": [
+        "verb_3pSg_Ved"
+    ],
+    "consistent": [
+        "opposite"
+    ],
+    "consisting": [
+        "verb_Ving_3pSg"
+    ],
+    "consists": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "consulation": [
+        "verb+tion_irreg"
+    ],
+    "consult": [
+        "verb+tion_irreg"
+    ],
+    "consume": [
+        "verb+er_irreg"
+    ],
+    "consumer": [
+        "verb+er_irreg"
+    ],
+    "contain": [
+        "verb_inf_Ving",
+        "verb_inf_3pSg",
+        "verb+able_reg"
+    ],
+    "containable": [
+        "verb+able_reg"
+    ],
+    "contained": [
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "container": [
+        "hyponyms_misc",
+        "hypernyms_misc"
+    ],
+    "containing": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "contains": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "contend": [
+        "verb+er_irreg"
+    ],
+    "contender": [
+        "verb+er_irreg"
+    ],
+    "continuation": [
+        "verb+tion_irreg"
+    ],
+    "continue": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg",
+        "verb+tion_irreg"
+    ],
+    "continued": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "continues": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "continuing": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "controlled": [
+        "un+adj_reg"
+    ],
+    "convenient": [
+        "opposite"
+    ],
+    "convincing": [
+        "opposite"
+    ],
+    "coo": [
+        "animal_sound"
+    ],
+    "cooked": [
+        "antonyms_gradable",
+        "over+adj_reg"
+    ],
+    "cookware": [
+        "hyponyms_misc"
+    ],
+    "cool": [
+        "antonyms_gradable"
+    ],
+    "cooler": [
+        "comparative"
+    ],
+    "coolest": [
+        "superlative"
+    ],
+    "copernicus": [
+        "name_nationality"
+    ],
+    "costlier": [
+        "adj_comparative"
+    ],
+    "costliest": [
+        "adj_superlative"
+    ],
+    "costly": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "council": [
+        "noun_plural_reg"
+    ],
+    "councils": [
+        "noun_plural_reg"
+    ],
+    "counties": [
+        "noun_plural_irreg"
+    ],
+    "countries": [
+        "noun_plural_irreg"
+    ],
+    "country": [
+        "noun_plural_irreg"
+    ],
+    "county": [
+        "noun_plural_irreg"
+    ],
+    "coventry": [
+        "UK_city_county"
+    ],
+    "cow": [
+        "hypernyms_animals",
+        "male_female"
+    ],
+    "cows": [
+        "plural"
+    ],
+    "coyote": [
+        "hypernyms_animals",
+        "animal_sound"
+    ],
+    "crawley": [
+        "UK_city_county"
+    ],
+    "crazy": [
+        "antonyms_gradable"
+    ],
+    "cream": [
+        "hypernyms_misc"
+    ],
+    "create": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg",
+        "re+verb_reg"
+    ],
+    "created": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "creates": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "creating": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "creative": [
+        "adj+ness_reg",
+        "adj+ly_reg"
+    ],
+    "creatively": [
+        "adj+ly_reg"
+    ],
+    "creativeness": [
+        "adj+ness_reg"
+    ],
+    "cricket": [
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "critical": [
+        "adj+ly_reg"
+    ],
+    "critically": [
+        "adj+ly_reg"
+    ],
+    "crocodile": [
+        "animal_shelter"
+    ],
+    "croissant": [
+        "hypernyms_misc"
+    ],
+    "crow": [
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "crowded": [
+        "over+adj_reg"
+    ],
+    "cruel": [
+        "adj_superlative"
+    ],
+    "cruelest": [
+        "adj_superlative"
+    ],
+    "cultural": [
+        "adj+ly_reg"
+    ],
+    "culturally": [
+        "adj+ly_reg"
+    ],
+    "cumbria": [
+        "UK_city_county"
+    ],
+    "cup": [
+        "hyponyms_misc",
+        "hypernyms_misc"
+    ],
+    "cushion": [
+        "hyponyms_misc"
+    ],
+    "customer": [
+        "noun_plural_reg"
+    ],
+    "customers": [
+        "noun_plural_reg"
+    ],
+    "customization": [
+        "verb+tion_irreg"
+    ],
+    "customize": [
+        "verb+tion_irreg"
+    ],
+    "cute": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "cuter": [
+        "adj_comparative"
+    ],
+    "cutest": [
+        "adj_superlative"
+    ],
+    "cutlery": [
+        "hyponyms_misc"
+    ],
+    "dad": [
+        "male_female"
+    ],
+    "daddy": [
+        "male_female"
+    ],
+    "dam": [
+        "animal_shelter"
+    ],
+    "dance": [
+        "present_participle"
+    ],
+    "danced": [
+        "past_tense"
+    ],
+    "dancing": [
+        "present_participle",
+        "past_tense"
+    ],
+    "dangerous": [
+        "antonyms_gradable",
+        "adj+ness_reg"
+    ],
+    "dangerousness": [
+        "adj+ness_reg"
+    ],
+    "dante": [
+        "name_occupation"
+    ],
+    "dark": [
+        "superlative"
+    ],
+    "darkest": [
+        "superlative"
+    ],
+    "darwin": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "data": [
+        "noun_plural_irreg"
+    ],
+    "datum": [
+        "noun_plural_irreg"
+    ],
+    "daughter": [
+        "male_female"
+    ],
+    "daughters": [
+        "family"
+    ],
+    "day": [
+        "noun_plural_reg"
+    ],
+    "daypack": [
+        "hyponyms_misc"
+    ],
+    "days": [
+        "noun_plural_reg"
+    ],
+    "dead": [
+        "antonyms_binary"
+    ],
+    "death": [
+        "noun_plural_reg",
+        "noun+less_reg"
+    ],
+    "deathless": [
+        "noun+less_reg"
+    ],
+    "deaths": [
+        "noun_plural_reg"
+    ],
+    "debug": [
+        "present_participle"
+    ],
+    "debugging": [
+        "present_participle"
+    ],
+    "decide": [
+        "verb_inf_Ved"
+    ],
+    "decided": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved",
+        "adj+ly_reg"
+    ],
+    "decidedly": [
+        "adj+ly_reg"
+    ],
+    "decides": [
+        "verb_3pSg_Ved"
+    ],
+    "deciding": [
+        "verb_Ving_Ved"
+    ],
+    "decisive": [
+        "antonyms_gradable"
+    ],
+    "declaration": [
+        "verb+tion_irreg"
+    ],
+    "declare": [
+        "verb+tion_irreg"
+    ],
+    "decorate": [
+        "re+verb_reg"
+    ],
+    "decrease": [
+        "present_participle",
+        "plural_verbs"
+    ],
+    "decreased": [
+        "past_tense"
+    ],
+    "decreases": [
+        "plural_verbs"
+    ],
+    "decreasing": [
+        "present_participle",
+        "past_tense"
+    ],
+    "decrement": [
+        "antonyms_binary"
+    ],
+    "deem": [
+        "re+verb_reg"
+    ],
+    "deep": [
+        "comparative"
+    ],
+    "deeper": [
+        "comparative"
+    ],
+    "deer": [
+        "hypernyms_animals",
+        "animal_sound"
+    ],
+    "defence": [
+        "noun+less_reg"
+    ],
+    "defenceless": [
+        "noun+less_reg"
+    ],
+    "defend": [
+        "verb+er_irreg"
+    ],
+    "defender": [
+        "verb+er_irreg"
+    ],
+    "definable": [
+        "verb+able_reg"
+    ],
+    "define": [
+        "verb+able_reg",
+        "re+verb_reg"
+    ],
+    "degradation": [
+        "verb+tion_irreg"
+    ],
+    "degrade": [
+        "verb+tion_irreg"
+    ],
+    "deliver": [
+        "verb+able_reg",
+        "verb+er_irreg"
+    ],
+    "deliverable": [
+        "verb+able_reg"
+    ],
+    "deliverer": [
+        "verb+er_irreg"
+    ],
+    "den": [
+        "animal_shelter"
+    ],
+    "denar": [
+        "currency"
+    ],
+    "denim": [
+        "hypernyms_misc"
+    ],
+    "dense": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "denser": [
+        "adj_comparative"
+    ],
+    "densest": [
+        "adj_superlative"
+    ],
+    "deodorant": [
+        "hypernyms_misc"
+    ],
+    "department": [
+        "noun_plural_reg"
+    ],
+    "departments": [
+        "noun_plural_reg"
+    ],
+    "depending": [
+        "verb_Ving_3pSg"
+    ],
+    "depends": [
+        "verb_Ving_3pSg"
+    ],
+    "depp": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "deprivation": [
+        "verb+tion_irreg"
+    ],
+    "deprive": [
+        "verb+tion_irreg"
+    ],
+    "derby": [
+        "UK_city_county"
+    ],
+    "derbyshire": [
+        "UK_city_county"
+    ],
+    "derivation": [
+        "verb+tion_irreg"
+    ],
+    "derive": [
+        "verb+tion_irreg"
+    ],
+    "descartes": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "descend": [
+        "antonyms_binary"
+    ],
+    "describe": [
+        "verb_inf_Ved",
+        "verb_inf_3pSg"
+    ],
+    "described": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "describes": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "describing": [
+        "verb_Ving_3pSg",
+        "verb_Ving_Ved"
+    ],
+    "desirable": [
+        "un+adj_reg"
+    ],
+    "desk": [
+        "hypernyms_misc"
+    ],
+    "dessert": [
+        "hyponyms_misc",
+        "hypernyms_misc"
+    ],
+    "destroy": [
+        "verb+er_irreg"
+    ],
+    "destroyer": [
+        "verb+er_irreg"
+    ],
+    "detach": [
+        "verb+ment_irreg"
+    ],
+    "detachment": [
+        "verb+ment_irreg"
+    ],
+    "determination": [
+        "verb+tion_irreg"
+    ],
+    "determine": [
+        "verb+tion_irreg",
+        "verb+er_irreg"
+    ],
+    "determiner": [
+        "verb+er_irreg"
+    ],
+    "develop": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg",
+        "verb+ment_irreg",
+        "verb+er_irreg",
+        "re+verb_reg"
+    ],
+    "developed": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved",
+        "over+adj_reg"
+    ],
+    "developer": [
+        "verb+er_irreg"
+    ],
+    "developing": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "development": [
+        "noun_plural_reg",
+        "verb+ment_irreg"
+    ],
+    "developments": [
+        "noun_plural_reg"
+    ],
+    "develops": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "device": [
+        "hypernyms_misc"
+    ],
+    "devon": [
+        "UK_city_county"
+    ],
+    "devoted": [
+        "adj+ness_reg"
+    ],
+    "devotedness": [
+        "adj+ness_reg"
+    ],
+    "diamond": [
+        "hyponyms_misc"
+    ],
+    "diary": [
+        "hypernyms_misc"
+    ],
+    "dickens": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "dictator": [
+        "name_occupation"
+    ],
+    "difference": [
+        "noun_plural_reg"
+    ],
+    "differences": [
+        "noun_plural_reg"
+    ],
+    "different": [
+        "adj+ly_reg"
+    ],
+    "differently": [
+        "adj+ly_reg"
+    ],
+    "difficult": [
+        "antonyms_gradable"
+    ],
+    "digital": [
+        "adj+ly_reg"
+    ],
+    "digitally": [
+        "adj+ly_reg"
+    ],
+    "dinar": [
+        "currency"
+    ],
+    "dinosaur": [
+        "hypernyms_animals"
+    ],
+    "directed": [
+        "adj+ness_reg"
+    ],
+    "directedness": [
+        "adj+ness_reg"
+    ],
+    "director": [
+        "noun_plural_reg"
+    ],
+    "directors": [
+        "noun_plural_reg"
+    ],
+    "dirty": [
+        "antonyms_gradable"
+    ],
+    "disagree": [
+        "verb+ment_irreg"
+    ],
+    "disagreement": [
+        "verb+ment_irreg"
+    ],
+    "disappoint": [
+        "verb+ment_irreg"
+    ],
+    "disappointment": [
+        "verb+ment_irreg"
+    ],
+    "discover": [
+        "verb_inf_Ved",
+        "verb+able_reg",
+        "verb+er_irreg",
+        "re+verb_reg"
+    ],
+    "discoverable": [
+        "verb+able_reg"
+    ],
+    "discovered": [
+        "verb_inf_Ved"
+    ],
+    "discoverer": [
+        "verb+er_irreg"
+    ],
+    "discovering": [
+        "verb_Ving_3pSg"
+    ],
+    "discovers": [
+        "verb_Ving_3pSg"
+    ],
+    "dishonest": [
+        "opposite"
+    ],
+    "dishwasher": [
+        "hypernyms_misc"
+    ],
+    "dismiss": [
+        "antonyms_binary"
+    ],
+    "displace": [
+        "verb+ment_irreg"
+    ],
+    "displacement": [
+        "verb+ment_irreg"
+    ],
+    "disposable": [
+        "verb+able_reg"
+    ],
+    "dispose": [
+        "verb+able_reg"
+    ],
+    "distant": [
+        "antonyms_gradable"
+    ],
+    "distasteful": [
+        "opposite"
+    ],
+    "distinct": [
+        "adj+ness_reg"
+    ],
+    "distinctive": [
+        "adj+ness_reg"
+    ],
+    "distinctiveness": [
+        "adj+ness_reg"
+    ],
+    "distinctness": [
+        "adj+ness_reg"
+    ],
+    "distribute": [
+        "re+verb_reg"
+    ],
+    "divan": [
+        "hyponyms_misc"
+    ],
+    "dive": [
+        "antonyms_binary"
+    ],
+    "doe": [
+        "male_female"
+    ],
+    "dog": [
+        "hypernyms_animals",
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "doghouse": [
+        "animal_shelter"
+    ],
+    "dogs": [
+        "plural"
+    ],
+    "doll": [
+        "hyponyms_misc"
+    ],
+    "dollar": [
+        "currency",
+        "plural"
+    ],
+    "dollars": [
+        "plural"
+    ],
+    "dolphin": [
+        "animal_shelter"
+    ],
+    "done": [
+        "over+adj_reg"
+    ],
+    "dong": [
+        "currency"
+    ],
+    "donkey": [
+        "animal_sound"
+    ],
+    "donkeys": [
+        "plural"
+    ],
+    "dook": [
+        "animal_sound"
+    ],
+    "dostoyevsky": [
+        "name_nationality"
+    ],
+    "down": [
+        "antonyms_binary"
+    ],
+    "downhill": [
+        "antonyms_binary"
+    ],
+    "download": [
+        "verb+able_reg"
+    ],
+    "downloadable": [
+        "verb+able_reg"
+    ],
+    "downslope": [
+        "antonyms_binary"
+    ],
+    "dram": [
+        "currency"
+    ],
+    "dream": [
+        "plural"
+    ],
+    "dreams": [
+        "plural"
+    ],
+    "dress": [
+        "hyponyms_misc",
+        "hypernyms_misc"
+    ],
+    "dressed": [
+        "over+adj_reg"
+    ],
+    "drone": [
+        "animal_sound"
+    ],
+    "drop": [
+        "antonyms_binary"
+    ],
+    "drum": [
+        "hyponyms_misc"
+    ],
+    "dry": [
+        "antonyms_gradable"
+    ],
+    "duchess": [
+        "male_female"
+    ],
+    "duck": [
+        "hypernyms_animals",
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "duke": [
+        "male_female"
+    ],
+    "dumb": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "dumber": [
+        "adj_comparative"
+    ],
+    "dumbest": [
+        "adj_superlative"
+    ],
+    "dundee": [
+        "UK_city_county"
+    ],
+    "duties": [
+        "noun_plural_irreg"
+    ],
+    "duty": [
+        "noun_plural_irreg"
+    ],
+    "dynamic": [
+        "antonyms_binary"
+    ],
+    "eagle": [
+        "hypernyms_animals"
+    ],
+    "eagles": [
+        "plural"
+    ],
+    "easier": [
+        "comparative"
+    ],
+    "easiest": [
+        "superlative"
+    ],
+    "east": [
+        "antonyms_binary"
+    ],
+    "easy": [
+        "comparative",
+        "superlative"
+    ],
+    "eat": [
+        "verb+er_irreg"
+    ],
+    "eater": [
+        "verb+er_irreg"
+    ],
+    "eats": [
+        "plural_verbs"
+    ],
+    "economies": [
+        "noun_plural_irreg"
+    ],
+    "economy": [
+        "noun_plural_irreg"
+    ],
+    "edinburgh": [
+        "UK_city_county"
+    ],
+    "edison": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "edit": [
+        "verb+able_reg"
+    ],
+    "editable": [
+        "verb+able_reg"
+    ],
+    "effective": [
+        "adj+ness_reg",
+        "adj+ly_reg"
+    ],
+    "effectively": [
+        "adj+ly_reg"
+    ],
+    "effectiveness": [
+        "adj+ness_reg"
+    ],
+    "efficient": [
+        "adjective_to_adverb",
+        "opposite"
+    ],
+    "efficiently": [
+        "adjective_to_adverb"
+    ],
+    "effort": [
+        "noun+less_reg"
+    ],
+    "effortless": [
+        "noun+less_reg"
+    ],
+    "ego": [
+        "noun+less_reg"
+    ],
+    "egoless": [
+        "noun+less_reg"
+    ],
+    "einstein": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "elephant": [
+        "animal_sound"
+    ],
+    "elephants": [
+        "plural"
+    ],
+    "elk": [
+        "animal_sound"
+    ],
+    "ely": [
+        "UK_city_county"
+    ],
+    "embarrass": [
+        "verb+ment_irreg"
+    ],
+    "embarrassment": [
+        "verb+ment_irreg"
+    ],
+    "emerge": [
+        "antonyms_binary",
+        "re+verb_reg"
+    ],
+    "emotion": [
+        "hyponyms_misc",
+        "noun+less_reg"
+    ],
+    "emotionless": [
+        "noun+less_reg"
+    ],
+    "emperor": [
+        "male_female",
+        "name_occupation"
+    ],
+    "employ": [
+        "antonyms_binary"
+    ],
+    "employed": [
+        "un+adj_reg"
+    ],
+    "empress": [
+        "male_female"
+    ],
+    "empty": [
+        "antonyms_gradable"
+    ],
+    "enable": [
+        "verb_inf_3pSg"
+    ],
+    "enables": [
+        "verb_Ving_3pSg",
+        "verb_inf_3pSg"
+    ],
+    "enabling": [
+        "verb_Ving_3pSg"
+    ],
+    "encourage": [
+        "verb_inf_Ving",
+        "verb+ment_irreg"
+    ],
+    "encouragement": [
+        "verb+ment_irreg"
+    ],
+    "encouraging": [
+        "verb_inf_Ving"
+    ],
+    "end": [
+        "antonyms_binary"
+    ],
+    "endorse": [
+        "verb+ment_irreg"
+    ],
+    "endorsement": [
+        "verb+ment_irreg"
+    ],
+    "energetic": [
+        "antonyms_gradable"
+    ],
+    "energies": [
+        "noun_plural_irreg"
+    ],
+    "energy": [
+        "noun_plural_irreg"
+    ],
+    "enforce": [
+        "verb+ment_irreg"
+    ],
+    "enforcement": [
+        "verb+ment_irreg"
+    ],
+    "engage": [
+        "verb+ment_irreg",
+        "re+verb_reg"
+    ],
+    "engagement": [
+        "verb+ment_irreg"
+    ],
+    "enhance": [
+        "verb+ment_irreg"
+    ],
+    "enhanced": [
+        "past_tense"
+    ],
+    "enhancement": [
+        "verb+ment_irreg"
+    ],
+    "enhances": [
+        "plural_verbs"
+    ],
+    "enhancing": [
+        "present_participle",
+        "past_tense"
+    ],
+    "enjoy": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg",
+        "verb+able_reg",
+        "verb+ment_irreg"
+    ],
+    "enjoyable": [
+        "verb+able_reg"
+    ],
+    "enjoyed": [
+        "verb_inf_Ved"
+    ],
+    "enjoying": [
+        "verb_inf_Ving"
+    ],
+    "enjoyment": [
+        "verb+ment_irreg"
+    ],
+    "enjoys": [
+        "verb_inf_3pSg"
+    ],
+    "enlighten": [
+        "verb+ment_irreg"
+    ],
+    "enlightenment": [
+        "verb+ment_irreg"
+    ],
+    "enroll": [
+        "verb+ment_irreg"
+    ],
+    "enrollment": [
+        "verb+ment_irreg"
+    ],
+    "ensure": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg"
+    ],
+    "ensured": [
+        "verb_inf_Ved"
+    ],
+    "ensures": [
+        "verb_inf_3pSg"
+    ],
+    "ensuring": [
+        "verb_inf_Ving"
+    ],
+    "entertain": [
+        "verb+ment_irreg",
+        "verb+er_irreg"
+    ],
+    "entertainer": [
+        "verb+er_irreg"
+    ],
+    "entertainment": [
+        "verb+ment_irreg"
+    ],
+    "enthusiastic": [
+        "over+adj_reg"
+    ],
+    "entitle": [
+        "verb+ment_irreg"
+    ],
+    "entitlement": [
+        "verb+ment_irreg"
+    ],
+    "entrance": [
+        "antonyms_binary"
+    ],
+    "entries": [
+        "noun_plural_irreg"
+    ],
+    "entry": [
+        "noun_plural_irreg"
+    ],
+    "environmental": [
+        "adj+ly_reg"
+    ],
+    "environmentally": [
+        "adj+ly_reg"
+    ],
+    "equip": [
+        "verb+ment_irreg"
+    ],
+    "equipment": [
+        "verb+ment_irreg"
+    ],
+    "error": [
+        "noun+less_reg"
+    ],
+    "errorless": [
+        "noun+less_reg"
+    ],
+    "establish": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb+ment_irreg",
+        "re+verb_reg"
+    ],
+    "established": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "establishes": [
+        "verb_3pSg_Ved"
+    ],
+    "establishing": [
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "establishment": [
+        "verb+ment_irreg"
+    ],
+    "estimate": [
+        "plural_verbs"
+    ],
+    "estimates": [
+        "plural_verbs"
+    ],
+    "ethical": [
+        "opposite"
+    ],
+    "euclid": [
+        "name_nationality"
+    ],
+    "euler": [
+        "name_occupation"
+    ],
+    "euro": [
+        "currency"
+    ],
+    "evaluate": [
+        "re+verb_reg"
+    ],
+    "event": [
+        "noun_plural_reg"
+    ],
+    "events": [
+        "noun_plural_reg"
+    ],
+    "ewe": [
+        "male_female"
+    ],
+    "examination": [
+        "verb+tion_irreg"
+    ],
+    "examine": [
+        "verb+tion_irreg",
+        "verb+er_irreg",
+        "re+verb_reg"
+    ],
+    "examiner": [
+        "verb+er_irreg"
+    ],
+    "example": [
+        "noun_plural_reg"
+    ],
+    "examples": [
+        "noun_plural_reg"
+    ],
+    "excite": [
+        "verb+ment_irreg"
+    ],
+    "excited": [
+        "over+adj_reg"
+    ],
+    "excitement": [
+        "verb+ment_irreg"
+    ],
+    "executable": [
+        "verb+able_reg"
+    ],
+    "execute": [
+        "verb+able_reg"
+    ],
+    "exeter": [
+        "UK_city_county"
+    ],
+    "exhale": [
+        "antonyms_binary"
+    ],
+    "exist": [
+        "verb_inf_Ving",
+        "verb_inf_3pSg"
+    ],
+    "existed": [
+        "verb_Ving_Ved"
+    ],
+    "existing": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "exists": [
+        "verb_Ving_3pSg",
+        "verb_inf_3pSg"
+    ],
+    "exit": [
+        "antonyms_binary"
+    ],
+    "expand": [
+        "verb+able_reg"
+    ],
+    "expandable": [
+        "verb+able_reg"
+    ],
+    "expect": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb+able_reg"
+    ],
+    "expectable": [
+        "verb+able_reg"
+    ],
+    "expected": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved",
+        "un+adj_reg"
+    ],
+    "expecting": [
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "expects": [
+        "verb_3pSg_Ved"
+    ],
+    "expensive": [
+        "antonyms_gradable"
+    ],
+    "expiration": [
+        "verb+tion_irreg"
+    ],
+    "expire": [
+        "verb+tion_irreg"
+    ],
+    "explain": [
+        "verb_inf_3pSg",
+        "verb+able_reg"
+    ],
+    "explainable": [
+        "verb+able_reg"
+    ],
+    "explaining": [
+        "verb_Ving_3pSg"
+    ],
+    "explains": [
+        "verb_Ving_3pSg",
+        "verb_inf_3pSg"
+    ],
+    "exploration": [
+        "verb+tion_irreg"
+    ],
+    "explore": [
+        "verb+tion_irreg",
+        "verb+er_irreg"
+    ],
+    "explorer": [
+        "name_occupation",
+        "verb+er_irreg"
+    ],
+    "exposed": [
+        "over+adj_reg"
+    ],
+    "expression": [
+        "noun+less_reg"
+    ],
+    "expressionless": [
+        "noun+less_reg"
+    ],
+    "extend": [
+        "verb+able_reg"
+    ],
+    "extendable": [
+        "verb+able_reg"
+    ],
+    "extensive": [
+        "adj+ness_reg",
+        "adj+ly_reg"
+    ],
+    "extensively": [
+        "adj+ly_reg"
+    ],
+    "extensiveness": [
+        "adj+ness_reg"
+    ],
+    "exterior": [
+        "antonyms_binary"
+    ],
+    "external": [
+        "antonyms_binary"
+    ],
+    "extravert": [
+        "antonyms_gradable"
+    ],
+    "eye": [
+        "plural"
+    ],
+    "eyes": [
+        "plural"
+    ],
+    "fabric": [
+        "hypernyms_misc"
+    ],
+    "facilities": [
+        "noun_plural_irreg"
+    ],
+    "facility": [
+        "noun_plural_irreg"
+    ],
+    "fact": [
+        "noun_plural_reg"
+    ],
+    "facts": [
+        "noun_plural_reg"
+    ],
+    "failed": [
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "failing": [
+        "verb_Ving_Ved"
+    ],
+    "fails": [
+        "verb_3pSg_Ved"
+    ],
+    "faith": [
+        "noun+less_reg"
+    ],
+    "faithless": [
+        "noun+less_reg"
+    ],
+    "falcon": [
+        "hypernyms_animals"
+    ],
+    "fall": [
+        "antonyms_binary"
+    ],
+    "falling": [
+        "past_tense"
+    ],
+    "false": [
+        "antonyms_binary"
+    ],
+    "familiar": [
+        "antonyms_gradable"
+    ],
+    "families": [
+        "noun_plural_irreg"
+    ],
+    "family": [
+        "noun_plural_irreg"
+    ],
+    "famous": [
+        "adj+ly_reg"
+    ],
+    "famously": [
+        "adj+ly_reg"
+    ],
+    "fast": [
+        "antonyms_gradable"
+    ],
+    "faster": [
+        "comparative"
+    ],
+    "fastest": [
+        "superlative"
+    ],
+    "fat": [
+        "antonyms_gradable"
+    ],
+    "father": [
+        "male_female"
+    ],
+    "fed": [
+        "past_tense"
+    ],
+    "federal": [
+        "adj+ly_reg"
+    ],
+    "federally": [
+        "adj+ly_reg"
+    ],
+    "feeding": [
+        "past_tense"
+    ],
+    "feline": [
+        "hypernyms_animals"
+    ],
+    "fell": [
+        "past_tense"
+    ],
+    "fermi": [
+        "name_nationality"
+    ],
+    "ferret": [
+        "animal_sound"
+    ],
+    "ferry": [
+        "hyponyms_misc"
+    ],
+    "fierce": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "fiercer": [
+        "adj_comparative"
+    ],
+    "fiercest": [
+        "adj_superlative"
+    ],
+    "filled": [
+        "over+adj_reg"
+    ],
+    "financial": [
+        "adj+ly_reg"
+    ],
+    "financially": [
+        "adj+ly_reg"
+    ],
+    "find": [
+        "plural_verbs"
+    ],
+    "finds": [
+        "plural_verbs"
+    ],
+    "finger": [
+        "plural"
+    ],
+    "fingers": [
+        "plural"
+    ],
+    "finished": [
+        "un+adj_reg"
+    ],
+    "first": [
+        "antonyms_binary"
+    ],
+    "fish": [
+        "animal_shelter"
+    ],
+    "fisherman": [
+        "male_female"
+    ],
+    "fisherwoman": [
+        "male_female"
+    ],
+    "fixed": [
+        "adj+ness_reg"
+    ],
+    "fixedness": [
+        "adj+ness_reg"
+    ],
+    "flask": [
+        "hyponyms_misc"
+    ],
+    "flat": [
+        "antonyms_gradable"
+    ],
+    "flew": [
+        "past_tense"
+    ],
+    "fly": [
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "flying": [
+        "present_participle",
+        "past_tense"
+    ],
+    "follow": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg",
+        "verb+er_irreg"
+    ],
+    "followed": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "follower": [
+        "verb+er_irreg"
+    ],
+    "following": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "follows": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "food": [
+        "hypernyms_misc"
+    ],
+    "foreign": [
+        "adj+ness_reg"
+    ],
+    "foreignness": [
+        "adj+ness_reg"
+    ],
+    "foresee": [
+        "verb+able_reg"
+    ],
+    "foreseeable": [
+        "verb+able_reg"
+    ],
+    "forget": [
+        "antonyms_binary"
+    ],
+    "forgettable": [
+        "un+adj_reg"
+    ],
+    "forint": [
+        "currency"
+    ],
+    "formula": [
+        "noun_plural_irreg"
+    ],
+    "formulae": [
+        "noun_plural_irreg"
+    ],
+    "fortunate": [
+        "un+adj_reg"
+    ],
+    "fortunately": [
+        "adjective_to_adverb"
+    ],
+    "forward": [
+        "antonyms_binary"
+    ],
+    "fowl": [
+        "hypernyms_animals"
+    ],
+    "fox": [
+        "hypernyms_animals",
+        "male_female",
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "free": [
+        "adjective_to_adverb"
+    ],
+    "freely": [
+        "adjective_to_adverb"
+    ],
+    "friction": [
+        "noun+less_reg"
+    ],
+    "frictionless": [
+        "noun+less_reg"
+    ],
+    "fridge": [
+        "hypernyms_misc"
+    ],
+    "friend": [
+        "noun_plural_reg",
+        "noun+less_reg"
+    ],
+    "friendless": [
+        "noun+less_reg"
+    ],
+    "friends": [
+        "noun_plural_reg"
+    ],
+    "frog": [
+        "animal_sound"
+    ],
+    "front": [
+        "antonyms_binary"
+    ],
+    "fruit": [
+        "hypernyms_misc"
+    ],
+    "fuel": [
+        "hypernyms_misc"
+    ],
+    "fulfil": [
+        "verb+ment_irreg"
+    ],
+    "fulfill": [
+        "verb+ment_irreg"
+    ],
+    "fulfillment": [
+        "verb+ment_irreg"
+    ],
+    "fulfilment": [
+        "verb+ment_irreg"
+    ],
+    "full": [
+        "antonyms_gradable"
+    ],
+    "furious": [
+        "adjective_to_adverb"
+    ],
+    "furiously": [
+        "adjective_to_adverb"
+    ],
+    "furniture": [
+        "hypernyms_misc"
+    ],
+    "galilei": [
+        "name_nationality"
+    ],
+    "gaseous": [
+        "antonyms_gradable"
+    ],
+    "gasoline": [
+        "hypernyms_misc"
+    ],
+    "gender": [
+        "noun+less_reg"
+    ],
+    "genderless": [
+        "noun+less_reg"
+    ],
+    "generate": [
+        "re+verb_reg"
+    ],
+    "generated": [
+        "past_tense"
+    ],
+    "generates": [
+        "plural_verbs"
+    ],
+    "generating": [
+        "present_participle",
+        "past_tense"
+    ],
+    "generous": [
+        "antonyms_gradable"
+    ],
+    "gentleman": [
+        "male_female"
+    ],
+    "gibbon": [
+        "hypernyms_animals"
+    ],
+    "girl": [
+        "male_female"
+    ],
+    "glamorgan": [
+        "UK_city_county"
+    ],
+    "glasgow": [
+        "UK_city_county"
+    ],
+    "global": [
+        "adj+ly_reg"
+    ],
+    "globalization": [
+        "verb+tion_irreg"
+    ],
+    "globalize": [
+        "verb+tion_irreg"
+    ],
+    "globally": [
+        "adj+ly_reg"
+    ],
+    "gloucester": [
+        "UK_city_county"
+    ],
+    "gloucestershire": [
+        "UK_city_county"
+    ],
+    "go": [
+        "present_participle",
+        "plural_verbs"
+    ],
+    "goal": [
+        "noun+less_reg"
+    ],
+    "goalless": [
+        "noun+less_reg"
+    ],
+    "goat": [
+        "hypernyms_animals",
+        "animal_sound"
+    ],
+    "goats": [
+        "plural"
+    ],
+    "gobble": [
+        "animal_sound"
+    ],
+    "god": [
+        "noun_plural_reg",
+        "male_female",
+        "noun+less_reg"
+    ],
+    "goddess": [
+        "male_female"
+    ],
+    "godless": [
+        "noun+less_reg"
+    ],
+    "gods": [
+        "noun_plural_reg"
+    ],
+    "goes": [
+        "plural_verbs"
+    ],
+    "goethe": [
+        "name_occupation"
+    ],
+    "going": [
+        "present_participle",
+        "past_tense"
+    ],
+    "goldfish": [
+        "animal_shelter"
+    ],
+    "good": [
+        "comparative",
+        "superlative"
+    ],
+    "goose": [
+        "hypernyms_animals"
+    ],
+    "gorbachev": [
+        "name_nationality"
+    ],
+    "gorilla": [
+        "hypernyms_animals",
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "government": [
+        "noun_plural_reg"
+    ],
+    "governments": [
+        "noun_plural_reg"
+    ],
+    "gown": [
+        "hyponyms_misc"
+    ],
+    "granddaughter": [
+        "male_female"
+    ],
+    "grandfather": [
+        "male_female"
+    ],
+    "grandma": [
+        "male_female"
+    ],
+    "grandmother": [
+        "male_female"
+    ],
+    "grandpa": [
+        "male_female"
+    ],
+    "grandson": [
+        "male_female"
+    ],
+    "grapefruit": [
+        "hypernyms_misc"
+    ],
+    "great": [
+        "comparative",
+        "superlative"
+    ],
+    "greater": [
+        "comparative"
+    ],
+    "greatest": [
+        "superlative"
+    ],
+    "groom": [
+        "male_female"
+    ],
+    "grove": [
+        "animal_shelter"
+    ],
+    "grow": [
+        "re+verb_reg"
+    ],
+    "growl": [
+        "animal_sound"
+    ],
+    "grown": [
+        "over+adj_reg"
+    ],
+    "grunt": [
+        "animal_sound"
+    ],
+    "guile": [
+        "noun+less_reg"
+    ],
+    "guileless": [
+        "noun+less_reg"
+    ],
+    "guilt": [
+        "noun+less_reg"
+    ],
+    "guiltless": [
+        "noun+less_reg"
+    ],
+    "guitar": [
+        "hyponyms_misc"
+    ],
+    "gun": [
+        "hyponyms_misc"
+    ],
+    "gwent": [
+        "UK_city_county"
+    ],
+    "haiku": [
+        "hyponyms_misc"
+    ],
+    "hair": [
+        "noun+less_reg"
+    ],
+    "hairless": [
+        "noun+less_reg"
+    ],
+    "hairnet": [
+        "hypernyms_misc"
+    ],
+    "hairpin": [
+        "hypernyms_misc"
+    ],
+    "hamburger": [
+        "hyponyms_misc",
+        "hypernyms_misc"
+    ],
+    "hampshire": [
+        "UK_city_county"
+    ],
+    "hamster": [
+        "animal_shelter"
+    ],
+    "hand": [
+        "plural"
+    ],
+    "handier": [
+        "adj_comparative"
+    ],
+    "handiest": [
+        "adj_superlative"
+    ],
+    "hands": [
+        "plural"
+    ],
+    "handy": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "happen": [
+        "verb_inf_Ving",
+        "verb_inf_3pSg"
+    ],
+    "happened": [
+        "verb_3pSg_Ved"
+    ],
+    "happening": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving"
+    ],
+    "happens": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "happier": [
+        "adj_comparative"
+    ],
+    "happiest": [
+        "adj_superlative"
+    ],
+    "happily": [
+        "adjective_to_adverb"
+    ],
+    "happiness": [
+        "adj+ness_reg"
+    ],
+    "happy": [
+        "antonyms_gradable",
+        "adj_comparative",
+        "adj_superlative",
+        "adj+ness_reg",
+        "un+adj_reg"
+    ],
+    "harass": [
+        "verb+ment_irreg"
+    ],
+    "harassment": [
+        "verb+ment_irreg"
+    ],
+    "hard": [
+        "antonyms_gradable"
+    ],
+    "harder": [
+        "comparative"
+    ],
+    "hardier": [
+        "adj_comparative"
+    ],
+    "hardiest": [
+        "adj_superlative"
+    ],
+    "hardy": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "harsh": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "harsher": [
+        "adj_comparative"
+    ],
+    "harshest": [
+        "adj_superlative"
+    ],
+    "hawk": [
+        "hypernyms_animals"
+    ],
+    "hawking": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "haydn": [
+        "name_occupation"
+    ],
+    "he": [
+        "family"
+    ],
+    "headmaster": [
+        "male_female"
+    ],
+    "headmistress": [
+        "male_female"
+    ],
+    "healthier": [
+        "adj_comparative"
+    ],
+    "healthiest": [
+        "adj_superlative"
+    ],
+    "healthy": [
+        "adj_comparative",
+        "adj_superlative",
+        "un+adj_reg"
+    ],
+    "hear": [
+        "verb_inf_Ved",
+        "verb_inf_3pSg"
+    ],
+    "heard": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved",
+        "over+adj_reg"
+    ],
+    "hearing": [
+        "verb_Ving_3pSg",
+        "verb_Ving_Ved"
+    ],
+    "hears": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "heart": [
+        "noun+less_reg"
+    ],
+    "heartless": [
+        "noun+less_reg"
+    ],
+    "heated": [
+        "over+adj_reg"
+    ],
+    "heavier": [
+        "comparative"
+    ],
+    "heavy": [
+        "comparative"
+    ],
+    "hedgehog": [
+        "animal_shelter"
+    ],
+    "hegel": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "heir": [
+        "male_female",
+        "noun+less_reg"
+    ],
+    "heiress": [
+        "male_female"
+    ],
+    "heirless": [
+        "noun+less_reg"
+    ],
+    "helpful": [
+        "adj+ness_reg"
+    ],
+    "helpfulness": [
+        "adj+ness_reg"
+    ],
+    "hen": [
+        "male_female"
+    ],
+    "her": [
+        "family"
+    ],
+    "hereford": [
+        "UK_city_county"
+    ],
+    "herefordshire": [
+        "UK_city_county"
+    ],
+    "hero": [
+        "male_female"
+    ],
+    "heroine": [
+        "male_female"
+    ],
+    "herring": [
+        "animal_shelter"
+    ],
+    "hesitating": [
+        "antonyms_gradable"
+    ],
+    "hid": [
+        "past_tense"
+    ],
+    "hidden": [
+        "adj+ness_reg"
+    ],
+    "hiddenness": [
+        "adj+ness_reg"
+    ],
+    "hiding": [
+        "past_tense"
+    ],
+    "high": [
+        "comparative",
+        "superlative"
+    ],
+    "higher": [
+        "comparative"
+    ],
+    "highest": [
+        "superlative"
+    ],
+    "highlands": [
+        "UK_city_county"
+    ],
+    "hill": [
+        "animal_shelter"
+    ],
+    "hippopotamus": [
+        "animal_shelter"
+    ],
+    "his": [
+        "family"
+    ],
+    "hiss": [
+        "animal_sound"
+    ],
+    "historical": [
+        "adj+ly_reg"
+    ],
+    "historically": [
+        "adj+ly_reg"
+    ],
+    "histories": [
+        "noun_plural_irreg"
+    ],
+    "history": [
+        "noun_plural_irreg"
+    ],
+    "hit": [
+        "past_tense"
+    ],
+    "hitler": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "hitting": [
+        "past_tense"
+    ],
+    "hive": [
+        "animal_shelter"
+    ],
+    "hole": [
+        "animal_shelter"
+    ],
+    "home": [
+        "noun+less_reg"
+    ],
+    "homeless": [
+        "noun+less_reg"
+    ],
+    "homer": [
+        "name_nationality"
+    ],
+    "honest": [
+        "opposite"
+    ],
+    "hornet": [
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "horse": [
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "horses": [
+        "plural"
+    ],
+    "hot": [
+        "antonyms_gradable",
+        "adj_comparative",
+        "adj_superlative",
+        "adj+ness_reg"
+    ],
+    "hotness": [
+        "adj+ness_reg"
+    ],
+    "hotter": [
+        "adj_comparative"
+    ],
+    "hottest": [
+        "adj_superlative"
+    ],
+    "hound": [
+        "male_female",
+        "animal_sound"
+    ],
+    "hour": [
+        "noun_plural_reg"
+    ],
+    "hours": [
+        "noun_plural_reg"
+    ],
+    "howl": [
+        "animal_sound"
+    ],
+    "hryvnia": [
+        "currency"
+    ],
+    "huge": [
+        "adj_comparative",
+        "adj_superlative",
+        "adj+ness_reg",
+        "adj+ly_reg"
+    ],
+    "hugely": [
+        "adj+ly_reg"
+    ],
+    "hugeness": [
+        "adj+ness_reg"
+    ],
+    "huger": [
+        "adj_comparative"
+    ],
+    "hugest": [
+        "adj_superlative"
+    ],
+    "hull": [
+        "UK_city_county"
+    ],
+    "human": [
+        "hypernyms_animals"
+    ],
+    "hume": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "hungrier": [
+        "adj_comparative"
+    ],
+    "hungriest": [
+        "adj_superlative"
+    ],
+    "hungry": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "husband": [
+        "male_female"
+    ],
+    "hyena": [
+        "animal_sound"
+    ],
+    "idea": [
+        "noun_plural_reg"
+    ],
+    "ideas": [
+        "noun_plural_reg"
+    ],
+    "identifiable": [
+        "verb+able_reg"
+    ],
+    "identified": [
+        "verb_inf_Ved",
+        "un+adj_reg"
+    ],
+    "identifies": [
+        "verb_inf_3pSg"
+    ],
+    "identify": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg",
+        "verb+able_reg"
+    ],
+    "identifying": [
+        "verb_inf_Ving"
+    ],
+    "illogical": [
+        "opposite"
+    ],
+    "illumination": [
+        "verb+tion_irreg"
+    ],
+    "illumine": [
+        "verb+tion_irreg"
+    ],
+    "imaginable": [
+        "verb+able_reg"
+    ],
+    "imagination": [
+        "verb+tion_irreg"
+    ],
+    "imagine": [
+        "verb+tion_irreg",
+        "verb+able_reg"
+    ],
+    "immediate": [
+        "adj+ly_reg"
+    ],
+    "immediately": [
+        "adj+ly_reg"
+    ],
+    "immortal": [
+        "antonyms_binary"
+    ],
+    "impair": [
+        "verb+ment_irreg"
+    ],
+    "impairment": [
+        "verb+ment_irreg"
+    ],
+    "implement": [
+        "present_participle",
+        "plural_verbs"
+    ],
+    "implemented": [
+        "past_tense"
+    ],
+    "implementing": [
+        "present_participle",
+        "past_tense"
+    ],
+    "implements": [
+        "plural_verbs"
+    ],
+    "important": [
+        "adj+ly_reg"
+    ],
+    "importantly": [
+        "adj+ly_reg"
+    ],
+    "impossible": [
+        "opposite"
+    ],
+    "impossibly": [
+        "opposite"
+    ],
+    "impressive": [
+        "adj+ness_reg"
+    ],
+    "impressiveness": [
+        "adj+ness_reg"
+    ],
+    "improvable": [
+        "verb+able_reg"
+    ],
+    "improve": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg",
+        "verb+able_reg",
+        "verb+ment_irreg"
+    ],
+    "improved": [
+        "verb_inf_Ved",
+        "verb_Ving_Ved"
+    ],
+    "improvement": [
+        "verb+ment_irreg"
+    ],
+    "improves": [
+        "verb_Ving_3pSg",
+        "verb_inf_3pSg"
+    ],
+    "improving": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "improvization": [
+        "verb+tion_irreg"
+    ],
+    "improvize": [
+        "verb+tion_irreg"
+    ],
+    "in": [
+        "antonyms_binary"
+    ],
+    "inbound": [
+        "antonyms_binary"
+    ],
+    "include": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg"
+    ],
+    "included": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "includes": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "including": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "incompetent": [
+        "antonyms_gradable"
+    ],
+    "inconsistent": [
+        "opposite"
+    ],
+    "inconvenient": [
+        "opposite"
+    ],
+    "increase": [
+        "present_participle",
+        "plural_verbs"
+    ],
+    "increased": [
+        "past_tense"
+    ],
+    "increases": [
+        "plural_verbs"
+    ],
+    "increasing": [
+        "adj+ly_reg"
+    ],
+    "increasingly": [
+        "adj+ly_reg"
+    ],
+    "increment": [
+        "antonyms_binary"
+    ],
+    "industries": [
+        "noun_plural_irreg"
+    ],
+    "industry": [
+        "noun_plural_irreg"
+    ],
+    "inefficient": [
+        "opposite"
+    ],
+    "inflatable": [
+        "verb+able_reg"
+    ],
+    "inflate": [
+        "verb+able_reg"
+    ],
+    "inflated": [
+        "over+adj_reg"
+    ],
+    "informative": [
+        "opposite"
+    ],
+    "informed": [
+        "opposite"
+    ],
+    "infrequent": [
+        "adjective_to_adverb"
+    ],
+    "infrequently": [
+        "adjective_to_adverb"
+    ],
+    "infringe": [
+        "verb+ment_irreg"
+    ],
+    "infringement": [
+        "verb+ment_irreg"
+    ],
+    "inhale": [
+        "antonyms_binary"
+    ],
+    "innovative": [
+        "adj+ness_reg"
+    ],
+    "innovativeness": [
+        "adj+ness_reg"
+    ],
+    "input": [
+        "antonyms_binary"
+    ],
+    "insect": [
+        "hypernyms_animals",
+        "animal_shelter"
+    ],
+    "inside": [
+        "antonyms_binary"
+    ],
+    "insincere": [
+        "antonyms_gradable"
+    ],
+    "inspiration": [
+        "verb+tion_irreg"
+    ],
+    "inspire": [
+        "verb+tion_irreg"
+    ],
+    "install": [
+        "verb+tion_irreg",
+        "re+verb_reg"
+    ],
+    "installation": [
+        "verb+tion_irreg"
+    ],
+    "integrate": [
+        "re+verb_reg"
+    ],
+    "intended": [
+        "verb_3pSg_Ved",
+        "un+adj_reg"
+    ],
+    "intends": [
+        "verb_3pSg_Ved"
+    ],
+    "interesting": [
+        "antonyms_gradable",
+        "adj+ness_reg",
+        "adj+ly_reg"
+    ],
+    "interestingly": [
+        "adj+ly_reg"
+    ],
+    "interestingness": [
+        "adj+ness_reg"
+    ],
+    "interior": [
+        "antonyms_binary"
+    ],
+    "internal": [
+        "antonyms_binary",
+        "adj+ly_reg"
+    ],
+    "internally": [
+        "adj+ly_reg"
+    ],
+    "international": [
+        "adj+ly_reg"
+    ],
+    "internationally": [
+        "adj+ly_reg"
+    ],
+    "interpret": [
+        "verb+er_irreg",
+        "re+verb_reg"
+    ],
+    "interpreter": [
+        "verb+er_irreg"
+    ],
+    "interrupted": [
+        "un+adj_reg"
+    ],
+    "introduce": [
+        "verb_inf_Ved",
+        "re+verb_reg"
+    ],
+    "introduced": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "introduces": [
+        "verb_3pSg_Ved"
+    ],
+    "introducing": [
+        "verb_Ving_Ved"
+    ],
+    "introvert": [
+        "antonyms_gradable"
+    ],
+    "intrude": [
+        "verb+er_irreg"
+    ],
+    "intruder": [
+        "verb+er_irreg"
+    ],
+    "invent": [
+        "present_participle"
+    ],
+    "inventing": [
+        "present_participle"
+    ],
+    "inventor": [
+        "name_occupation"
+    ],
+    "inverness": [
+        "UK_city_county"
+    ],
+    "inverse": [
+        "antonyms_binary"
+    ],
+    "invest": [
+        "verb+ment_irreg",
+        "re+verb_reg"
+    ],
+    "investigate": [
+        "re+verb_reg"
+    ],
+    "investment": [
+        "verb+ment_irreg"
+    ],
+    "involve": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg",
+        "verb+ment_irreg"
+    ],
+    "involved": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "involvement": [
+        "verb+ment_irreg"
+    ],
+    "involves": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "involving": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "irrational": [
+        "opposite"
+    ],
+    "irresponsible": [
+        "opposite"
+    ],
+    "jackal": [
+        "hypernyms_animals"
+    ],
+    "jacket": [
+        "hypernyms_misc"
+    ],
+    "jaguar": [
+        "hypernyms_animals"
+    ],
+    "january": [
+        "hyponyms_misc"
+    ],
+    "jar": [
+        "hypernyms_misc"
+    ],
+    "jeans": [
+        "hyponyms_misc",
+        "hypernyms_misc"
+    ],
+    "jewel": [
+        "hyponyms_misc"
+    ],
+    "jewelry": [
+        "hyponyms_misc",
+        "hypernyms_misc"
+    ],
+    "jolie": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "journal": [
+        "hypernyms_misc"
+    ],
+    "juicer": [
+        "hypernyms_misc"
+    ],
+    "jump": [
+        "present_participle"
+    ],
+    "jumped": [
+        "past_tense"
+    ],
+    "jumping": [
+        "present_participle",
+        "past_tense"
+    ],
+    "kant": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "kent": [
+        "UK_city_county"
+    ],
+    "kepler": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "king": [
+        "male_female"
+    ],
+    "knew": [
+        "past_tense"
+    ],
+    "knife": [
+        "hyponyms_misc"
+    ],
+    "knowing": [
+        "past_tense"
+    ],
+    "known": [
+        "un+adj_reg"
+    ],
+    "krona": [
+        "currency"
+    ],
+    "krone": [
+        "currency"
+    ],
+    "kuna": [
+        "currency"
+    ],
+    "kwanza": [
+        "currency"
+    ],
+    "lady": [
+        "male_female"
+    ],
+    "laid": [
+        "over+adj_reg"
+    ],
+    "lancashire": [
+        "UK_city_county"
+    ],
+    "lancaster": [
+        "UK_city_county"
+    ],
+    "language": [
+        "noun_plural_reg"
+    ],
+    "languages": [
+        "noun_plural_reg"
+    ],
+    "laptop": [
+        "hyponyms_misc"
+    ],
+    "large": [
+        "antonyms_gradable"
+    ],
+    "larger": [
+        "comparative"
+    ],
+    "largest": [
+        "superlative"
+    ],
+    "last": [
+        "antonyms_binary"
+    ],
+    "lats": [
+        "currency"
+    ],
+    "laugh": [
+        "animal_sound"
+    ],
+    "lavoisier": [
+        "name_nationality"
+    ],
+    "law": [
+        "noun_plural_reg",
+        "noun+less_reg"
+    ],
+    "lawful": [
+        "un+adj_reg"
+    ],
+    "lawless": [
+        "noun+less_reg"
+    ],
+    "laws": [
+        "noun_plural_reg"
+    ],
+    "lazier": [
+        "adj_comparative"
+    ],
+    "laziest": [
+        "adj_superlative"
+    ],
+    "lazy": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "learn": [
+        "verb_inf_Ving",
+        "verb_inf_3pSg",
+        "verb+able_reg",
+        "verb+er_irreg",
+        "re+verb_reg"
+    ],
+    "learnable": [
+        "verb+able_reg"
+    ],
+    "learner": [
+        "verb+er_irreg"
+    ],
+    "learning": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving"
+    ],
+    "learns": [
+        "verb_Ving_3pSg",
+        "verb_inf_3pSg"
+    ],
+    "leeds": [
+        "UK_city_county"
+    ],
+    "leg": [
+        "noun+less_reg"
+    ],
+    "legal": [
+        "adj+ly_reg"
+    ],
+    "legally": [
+        "adj+ly_reg"
+    ],
+    "legless": [
+        "noun+less_reg"
+    ],
+    "leibniz": [
+        "name_nationality"
+    ],
+    "leicester": [
+        "UK_city_county"
+    ],
+    "lemon": [
+        "hyponyms_misc",
+        "hypernyms_misc"
+    ],
+    "lengthier": [
+        "adj_comparative"
+    ],
+    "lengthiest": [
+        "adj_superlative"
+    ],
+    "lengthy": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "lenin": [
+        "name_nationality"
+    ],
+    "lennon": [
+        "name_nationality"
+    ],
+    "leopard": [
+        "hypernyms_animals",
+        "animal_sound"
+    ],
+    "lethargic": [
+        "antonyms_gradable"
+    ],
+    "leu": [
+        "currency"
+    ],
+    "lev": [
+        "currency"
+    ],
+    "libraries": [
+        "noun_plural_irreg"
+    ],
+    "library": [
+        "noun_plural_irreg"
+    ],
+    "life": [
+        "noun_plural_irreg",
+        "noun+less_reg"
+    ],
+    "lifeless": [
+        "noun+less_reg"
+    ],
+    "lift": [
+        "antonyms_binary"
+    ],
+    "likely": [
+        "opposite"
+    ],
+    "limousine": [
+        "hyponyms_misc"
+    ],
+    "lincoln": [
+        "UK_city_county",
+        "name_occupation",
+        "name_nationality"
+    ],
+    "lincolnshire": [
+        "UK_city_county"
+    ],
+    "lion": [
+        "hypernyms_animals",
+        "male_female",
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "lioness": [
+        "male_female"
+    ],
+    "lions": [
+        "plural"
+    ],
+    "listen": [
+        "verb+er_irreg"
+    ],
+    "listened": [
+        "past_tense"
+    ],
+    "listener": [
+        "verb+er_irreg"
+    ],
+    "listening": [
+        "present_participle",
+        "past_tense"
+    ],
+    "listens": [
+        "plural_verbs"
+    ],
+    "litas": [
+        "currency"
+    ],
+    "liverpool": [
+        "UK_city_county"
+    ],
+    "lives": [
+        "noun_plural_irreg"
+    ],
+    "loaded": [
+        "over+adj_reg"
+    ],
+    "locate": [
+        "verb_inf_Ved",
+        "re+verb_reg"
+    ],
+    "located": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "locates": [
+        "verb_3pSg_Ved"
+    ],
+    "locating": [
+        "verb_Ving_Ved"
+    ],
+    "locke": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "locust": [
+        "animal_shelter"
+    ],
+    "logical": [
+        "opposite"
+    ],
+    "lollipop": [
+        "hyponyms_misc"
+    ],
+    "long": [
+        "antonyms_gradable"
+    ],
+    "longer": [
+        "comparative"
+    ],
+    "longest": [
+        "superlative"
+    ],
+    "look": [
+        "present_participle"
+    ],
+    "looked": [
+        "past_tense"
+    ],
+    "looking": [
+        "present_participle",
+        "past_tense"
+    ],
+    "loose": [
+        "antonyms_gradable"
+    ],
+    "lose": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb+er_irreg"
+    ],
+    "loser": [
+        "verb+er_irreg"
+    ],
+    "loses": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved"
+    ],
+    "losing": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "loss": [
+        "noun_plural_irreg"
+    ],
+    "losses": [
+        "noun_plural_irreg"
+    ],
+    "lost": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "lotion": [
+        "hypernyms_misc"
+    ],
+    "loud": [
+        "comparative"
+    ],
+    "louder": [
+        "comparative"
+    ],
+    "low": [
+        "comparative",
+        "superlative"
+    ],
+    "lower": [
+        "comparative"
+    ],
+    "lowest": [
+        "superlative"
+    ],
+    "lowlands": [
+        "UK_city_county"
+    ],
+    "luck": [
+        "noun+less_reg"
+    ],
+    "luckier": [
+        "adj_comparative"
+    ],
+    "luckiest": [
+        "adj_superlative"
+    ],
+    "luckily": [
+        "adjective_to_adverb"
+    ],
+    "luckless": [
+        "noun+less_reg"
+    ],
+    "lucky": [
+        "adj_comparative",
+        "adj_superlative",
+        "un+adj_reg"
+    ],
+    "lullaby": [
+        "hyponyms_misc"
+    ],
+    "lumpy": [
+        "antonyms_gradable"
+    ],
+    "machiavelli": [
+        "name_nationality"
+    ],
+    "machine": [
+        "plural"
+    ],
+    "machines": [
+        "plural"
+    ],
+    "mad": [
+        "adj_comparative",
+        "adj+ness_reg"
+    ],
+    "madam": [
+        "male_female"
+    ],
+    "madder": [
+        "adj_comparative"
+    ],
+    "madness": [
+        "adj+ness_reg"
+    ],
+    "magpie": [
+        "animal_sound"
+    ],
+    "maid": [
+        "male_female"
+    ],
+    "maintain": [
+        "verb_inf_Ving",
+        "verb_inf_3pSg",
+        "verb+able_reg"
+    ],
+    "maintainable": [
+        "verb+able_reg"
+    ],
+    "maintaining": [
+        "verb_inf_Ving"
+    ],
+    "maintains": [
+        "verb_inf_3pSg"
+    ],
+    "majorities": [
+        "noun_plural_irreg"
+    ],
+    "majority": [
+        "noun_plural_irreg"
+    ],
+    "makeup": [
+        "hypernyms_misc"
+    ],
+    "mallard": [
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "mamba": [
+        "hypernyms_animals"
+    ],
+    "man": [
+        "male_female"
+    ],
+    "manage": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb+able_reg",
+        "verb+ment_irreg",
+        "verb+er_irreg"
+    ],
+    "manageable": [
+        "verb+able_reg"
+    ],
+    "managed": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "management": [
+        "verb+ment_irreg"
+    ],
+    "manager": [
+        "male_female",
+        "verb+er_irreg"
+    ],
+    "manageress": [
+        "male_female"
+    ],
+    "manages": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved"
+    ],
+    "managing": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "manchester": [
+        "UK_city_county"
+    ],
+    "mango": [
+        "plural"
+    ],
+    "mangoes": [
+        "plural"
+    ],
+    "mare": [
+        "male_female"
+    ],
+    "marked": [
+        "adj+ness_reg"
+    ],
+    "markedness": [
+        "adj+ness_reg"
+    ],
+    "married": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "marries": [
+        "verb_3pSg_Ved"
+    ],
+    "marry": [
+        "verb_inf_Ved",
+        "re+verb_reg"
+    ],
+    "marrying": [
+        "verb_Ving_Ved"
+    ],
+    "marx": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "mascara": [
+        "hypernyms_misc"
+    ],
+    "massive": [
+        "adj+ness_reg"
+    ],
+    "massiveness": [
+        "adj+ness_reg"
+    ],
+    "mathematician": [
+        "name_occupation"
+    ],
+    "maximization": [
+        "verb+tion_irreg"
+    ],
+    "maximize": [
+        "verb+tion_irreg"
+    ],
+    "maxwell": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "meat": [
+        "noun+less_reg"
+    ],
+    "meatless": [
+        "noun+less_reg"
+    ],
+    "melon": [
+        "plural"
+    ],
+    "melons": [
+        "plural"
+    ],
+    "member": [
+        "noun_plural_reg"
+    ],
+    "members": [
+        "noun_plural_reg"
+    ],
+    "memories": [
+        "noun_plural_irreg"
+    ],
+    "memory": [
+        "noun_plural_irreg"
+    ],
+    "men": [
+        "plural"
+    ],
+    "mencius": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "mental": [
+        "adj+ly_reg"
+    ],
+    "mentally": [
+        "adj+ly_reg"
+    ],
+    "meow": [
+        "animal_sound"
+    ],
+    "merrier": [
+        "adj_comparative"
+    ],
+    "merriest": [
+        "adj_superlative"
+    ],
+    "merry": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "mice": [
+        "plural"
+    ],
+    "michelangelo": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "midlands": [
+        "UK_city_county"
+    ],
+    "mild": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "milder": [
+        "adj_comparative"
+    ],
+    "mildest": [
+        "adj_superlative"
+    ],
+    "minimization": [
+        "verb+tion_irreg"
+    ],
+    "minimize": [
+        "verb+tion_irreg"
+    ],
+    "mirth": [
+        "noun+less_reg"
+    ],
+    "mirthless": [
+        "noun+less_reg"
+    ],
+    "miss": [
+        "male_female"
+    ],
+    "mister": [
+        "male_female"
+    ],
+    "mixer": [
+        "hyponyms_misc"
+    ],
+    "modernization": [
+        "verb+tion_irreg"
+    ],
+    "modernize": [
+        "verb+tion_irreg"
+    ],
+    "moist": [
+        "adj_comparative"
+    ],
+    "moister": [
+        "adj_comparative"
+    ],
+    "mole": [
+        "animal_shelter"
+    ],
+    "molest": [
+        "verb+er_irreg"
+    ],
+    "molester": [
+        "verb+er_irreg"
+    ],
+    "mom": [
+        "male_female"
+    ],
+    "mommy": [
+        "male_female"
+    ],
+    "monday": [
+        "hyponyms_misc"
+    ],
+    "money": [
+        "noun+less_reg"
+    ],
+    "moneyless": [
+        "noun+less_reg"
+    ],
+    "monkey": [
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "monkeys": [
+        "plural"
+    ],
+    "monorail": [
+        "hyponyms_misc"
+    ],
+    "month": [
+        "hyponyms_misc",
+        "noun_plural_reg"
+    ],
+    "months": [
+        "noun_plural_reg"
+    ],
+    "moo": [
+        "animal_sound"
+    ],
+    "moose": [
+        "animal_sound"
+    ],
+    "mortal": [
+        "antonyms_binary"
+    ],
+    "moses": [
+        "name_occupation"
+    ],
+    "most": [
+        "adjective_to_adverb"
+    ],
+    "mostly": [
+        "adjective_to_adverb"
+    ],
+    "mother": [
+        "male_female"
+    ],
+    "mourn": [
+        "verb+er_irreg"
+    ],
+    "mourner": [
+        "verb+er_irreg"
+    ],
+    "mouse": [
+        "hypernyms_animals",
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "move": [
+        "present_participle"
+    ],
+    "moved": [
+        "past_tense"
+    ],
+    "moving": [
+        "present_participle",
+        "past_tense"
+    ],
+    "mozart": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "mule": [
+        "animal_sound"
+    ],
+    "murderer": [
+        "male_female"
+    ],
+    "murderess": [
+        "male_female"
+    ],
+    "naira": [
+        "currency"
+    ],
+    "napoleon": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "narrow": [
+        "antonyms_gradable"
+    ],
+    "nastier": [
+        "adj_comparative"
+    ],
+    "nastiest": [
+        "adj_superlative"
+    ],
+    "nasty": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "naturalist": [
+        "name_occupation"
+    ],
+    "neat": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "neater": [
+        "adj_comparative"
+    ],
+    "neatest": [
+        "adj_superlative"
+    ],
+    "necklace": [
+        "hypernyms_misc"
+    ],
+    "negotiate": [
+        "re+verb_reg"
+    ],
+    "neigh": [
+        "animal_sound"
+    ],
+    "nephew": [
+        "male_female"
+    ],
+    "nest": [
+        "animal_shelter"
+    ],
+    "net": [
+        "hypernyms_misc"
+    ],
+    "new": [
+        "comparative"
+    ],
+    "newcastle": [
+        "UK_city_county"
+    ],
+    "newer": [
+        "comparative"
+    ],
+    "newport": [
+        "UK_city_county"
+    ],
+    "newton": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "nice": [
+        "adj_comparative",
+        "adj_superlative",
+        "adj+ness_reg",
+        "adj+ly_reg"
+    ],
+    "nicely": [
+        "adj+ly_reg"
+    ],
+    "niceness": [
+        "adj+ness_reg"
+    ],
+    "nicer": [
+        "adj_comparative"
+    ],
+    "nicest": [
+        "adj_superlative"
+    ],
+    "niece": [
+        "male_female"
+    ],
+    "night": [
+        "noun_plural_reg"
+    ],
+    "nights": [
+        "noun_plural_reg"
+    ],
+    "noisier": [
+        "adj_comparative"
+    ],
+    "noisiest": [
+        "adj_superlative"
+    ],
+    "noisy": [
+        "antonyms_gradable",
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "norfolk": [
+        "UK_city_county"
+    ],
+    "normal": [
+        "antonyms_gradable"
+    ],
+    "north": [
+        "antonyms_binary"
+    ],
+    "northumberland": [
+        "UK_city_county"
+    ],
+    "norwich": [
+        "UK_city_county"
+    ],
+    "notebook": [
+        "hypernyms_misc"
+    ],
+    "notepad": [
+        "hypernyms_misc"
+    ],
+    "noticed": [
+        "un+adj_reg"
+    ],
+    "nottingham": [
+        "UK_city_county"
+    ],
+    "nottinghamshire": [
+        "UK_city_county"
+    ],
+    "novelist": [
+        "name_occupation"
+    ],
+    "obligation": [
+        "verb+tion_irreg"
+    ],
+    "oblige": [
+        "verb+tion_irreg"
+    ],
+    "observable": [
+        "verb+able_reg"
+    ],
+    "observation": [
+        "verb+tion_irreg"
+    ],
+    "observe": [
+        "verb+tion_irreg",
+        "verb+able_reg",
+        "verb+er_irreg"
+    ],
+    "observer": [
+        "verb+er_irreg"
+    ],
+    "obvious": [
+        "adj+ness_reg",
+        "adj+ly_reg"
+    ],
+    "obviously": [
+        "adj+ly_reg"
+    ],
+    "obviousness": [
+        "adj+ness_reg"
+    ],
+    "occasional": [
+        "adjective_to_adverb"
+    ],
+    "occasionally": [
+        "adjective_to_adverb"
+    ],
+    "occupation": [
+        "verb+tion_irreg"
+    ],
+    "occupied": [
+        "antonyms_binary"
+    ],
+    "occupy": [
+        "verb+tion_irreg"
+    ],
+    "occur": [
+        "verb_inf_3pSg",
+        "re+verb_reg"
+    ],
+    "occurred": [
+        "verb_3pSg_Ved"
+    ],
+    "occurring": [
+        "verb_Ving_3pSg"
+    ],
+    "occurs": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "odd": [
+        "adj+ness_reg"
+    ],
+    "oddness": [
+        "adj+ness_reg"
+    ],
+    "odor": [
+        "noun+less_reg"
+    ],
+    "odorless": [
+        "noun+less_reg"
+    ],
+    "off": [
+        "antonyms_binary"
+    ],
+    "offend": [
+        "verb+er_irreg"
+    ],
+    "offender": [
+        "verb+er_irreg"
+    ],
+    "office": [
+        "noun_plural_reg"
+    ],
+    "offices": [
+        "noun_plural_reg"
+    ],
+    "oink": [
+        "animal_sound"
+    ],
+    "old": [
+        "antonyms_gradable"
+    ],
+    "older": [
+        "comparative"
+    ],
+    "oldest": [
+        "superlative"
+    ],
+    "on": [
+        "antonyms_binary"
+    ],
+    "onion": [
+        "plural"
+    ],
+    "onions": [
+        "plural"
+    ],
+    "operate": [
+        "verb_inf_Ving",
+        "verb_inf_3pSg"
+    ],
+    "operated": [
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "operates": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "operating": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "opportunities": [
+        "noun_plural_irreg"
+    ],
+    "opportunity": [
+        "noun_plural_irreg"
+    ],
+    "optimistic": [
+        "over+adj_reg"
+    ],
+    "optimization": [
+        "verb+tion_irreg"
+    ],
+    "optimize": [
+        "verb+tion_irreg"
+    ],
+    "orangutan": [
+        "hypernyms_animals"
+    ],
+    "organise": [
+        "verb+er_irreg"
+    ],
+    "organiser": [
+        "verb+er_irreg"
+    ],
+    "organization": [
+        "verb+tion_irreg"
+    ],
+    "organize": [
+        "verb+tion_irreg",
+        "verb+er_irreg",
+        "re+verb_reg"
+    ],
+    "organized": [
+        "antonyms_gradable"
+    ],
+    "organizer": [
+        "verb+er_irreg"
+    ],
+    "out": [
+        "antonyms_binary"
+    ],
+    "outbound": [
+        "antonyms_binary"
+    ],
+    "output": [
+        "antonyms_binary"
+    ],
+    "outside": [
+        "antonyms_binary"
+    ],
+    "outward": [
+        "antonyms_binary"
+    ],
+    "oven": [
+        "hyponyms_misc"
+    ],
+    "over": [
+        "antonyms_binary"
+    ],
+    "overambitious": [
+        "over+adj_reg"
+    ],
+    "overarching": [
+        "over+adj_reg"
+    ],
+    "overbooked": [
+        "over+adj_reg"
+    ],
+    "overcharged": [
+        "over+adj_reg"
+    ],
+    "overcompensated": [
+        "over+adj_reg"
+    ],
+    "overconfident": [
+        "over+adj_reg"
+    ],
+    "overcooked": [
+        "over+adj_reg"
+    ],
+    "overcrowded": [
+        "over+adj_reg"
+    ],
+    "overdeveloped": [
+        "over+adj_reg"
+    ],
+    "overdone": [
+        "over+adj_reg"
+    ],
+    "overdressed": [
+        "over+adj_reg"
+    ],
+    "overenthusiastic": [
+        "over+adj_reg"
+    ],
+    "overexcited": [
+        "over+adj_reg"
+    ],
+    "overexposed": [
+        "over+adj_reg"
+    ],
+    "overfilled": [
+        "over+adj_reg"
+    ],
+    "overgrown": [
+        "over+adj_reg"
+    ],
+    "overheard": [
+        "over+adj_reg"
+    ],
+    "overheated": [
+        "over+adj_reg"
+    ],
+    "overinflated": [
+        "over+adj_reg"
+    ],
+    "overlaid": [
+        "over+adj_reg"
+    ],
+    "overloaded": [
+        "over+adj_reg"
+    ],
+    "overoptimistic": [
+        "over+adj_reg"
+    ],
+    "overpaid": [
+        "over+adj_reg"
+    ],
+    "overpainted": [
+        "over+adj_reg"
+    ],
+    "overplayed": [
+        "over+adj_reg"
+    ],
+    "overpopulated": [
+        "over+adj_reg"
+    ],
+    "overpowered": [
+        "over+adj_reg"
+    ],
+    "overprotected": [
+        "over+adj_reg"
+    ],
+    "overprotective": [
+        "over+adj_reg"
+    ],
+    "overqualified": [
+        "over+adj_reg"
+    ],
+    "overrepresented": [
+        "over+adj_reg"
+    ],
+    "oversaturated": [
+        "over+adj_reg"
+    ],
+    "overshadowed": [
+        "over+adj_reg"
+    ],
+    "oversimplified": [
+        "over+adj_reg"
+    ],
+    "oversized": [
+        "over+adj_reg"
+    ],
+    "oversold": [
+        "over+adj_reg"
+    ],
+    "overspent": [
+        "over+adj_reg"
+    ],
+    "overstated": [
+        "over+adj_reg"
+    ],
+    "overstimulated": [
+        "over+adj_reg"
+    ],
+    "overstocked": [
+        "over+adj_reg"
+    ],
+    "overstrained": [
+        "over+adj_reg"
+    ],
+    "overstressed": [
+        "over+adj_reg"
+    ],
+    "overstretched": [
+        "over+adj_reg"
+    ],
+    "oversubscribed": [
+        "over+adj_reg"
+    ],
+    "overtaken": [
+        "over+adj_reg"
+    ],
+    "overthrown": [
+        "over+adj_reg"
+    ],
+    "overturned": [
+        "over+adj_reg"
+    ],
+    "overused": [
+        "over+adj_reg"
+    ],
+    "overwritten": [
+        "over+adj_reg"
+    ],
+    "overzealous": [
+        "over+adj_reg"
+    ],
+    "owl": [
+        "hypernyms_animals"
+    ],
+    "oxford": [
+        "UK_city_county"
+    ],
+    "oxfordshire": [
+        "UK_city_county"
+    ],
+    "pacino": [
+        "name_occupation"
+    ],
+    "pad": [
+        "hypernyms_misc"
+    ],
+    "paid": [
+        "over+adj_reg",
+        "un+adj_reg"
+    ],
+    "painted": [
+        "over+adj_reg"
+    ],
+    "painter": [
+        "name_occupation"
+    ],
+    "painting": [
+        "hyponyms_misc"
+    ],
+    "pale": [
+        "antonyms_gradable"
+    ],
+    "paperback": [
+        "hyponyms_misc"
+    ],
+    "pascal": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "passion": [
+        "noun+less_reg"
+    ],
+    "passionless": [
+        "noun+less_reg"
+    ],
+    "pastry": [
+        "hypernyms_misc"
+    ],
+    "path": [
+        "noun+less_reg"
+    ],
+    "pathless": [
+        "noun+less_reg"
+    ],
+    "paying": [
+        "past_tense"
+    ],
+    "peach": [
+        "hypernyms_misc"
+    ],
+    "pear": [
+        "plural"
+    ],
+    "pears": [
+        "plural"
+    ],
+    "penniless": [
+        "noun+less_reg"
+    ],
+    "penny": [
+        "noun+less_reg"
+    ],
+    "pepper": [
+        "hyponyms_misc"
+    ],
+    "perform": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb+able_reg",
+        "verb+er_irreg"
+    ],
+    "performable": [
+        "verb+able_reg"
+    ],
+    "performed": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "performer": [
+        "verb+er_irreg"
+    ],
+    "performing": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "performs": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved"
+    ],
+    "perfume": [
+        "hypernyms_misc"
+    ],
+    "period": [
+        "noun_plural_reg"
+    ],
+    "periods": [
+        "noun_plural_reg"
+    ],
+    "perspiration": [
+        "verb+tion_irreg"
+    ],
+    "perspire": [
+        "verb+tion_irreg"
+    ],
+    "peso": [
+        "currency"
+    ],
+    "philosopher": [
+        "name_occupation"
+    ],
+    "photo": [
+        "hypernyms_misc"
+    ],
+    "physical": [
+        "adj+ly_reg"
+    ],
+    "physically": [
+        "adj+ly_reg"
+    ],
+    "physicist": [
+        "name_occupation"
+    ],
+    "picasso": [
+        "name_occupation"
+    ],
+    "picture": [
+        "hypernyms_misc"
+    ],
+    "pie": [
+        "hypernyms_misc"
+    ],
+    "pig": [
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "pigeon": [
+        "animal_sound"
+    ],
+    "pigs": [
+        "plural"
+    ],
+    "pin": [
+        "hypernyms_misc"
+    ],
+    "pincushion": [
+        "hyponyms_misc"
+    ],
+    "pineapple": [
+        "plural"
+    ],
+    "pineapples": [
+        "plural"
+    ],
+    "plato": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "play": [
+        "present_participle",
+        "plural_verbs"
+    ],
+    "played": [
+        "over+adj_reg"
+    ],
+    "player": [
+        "noun_plural_reg"
+    ],
+    "players": [
+        "noun_plural_reg"
+    ],
+    "playing": [
+        "present_participle",
+        "past_tense"
+    ],
+    "plays": [
+        "plural_verbs"
+    ],
+    "playwright": [
+        "name_occupation"
+    ],
+    "pleasant": [
+        "un+adj_reg"
+    ],
+    "plum": [
+        "hypernyms_misc"
+    ],
+    "plymouth": [
+        "UK_city_county"
+    ],
+    "poem": [
+        "hyponyms_misc"
+    ],
+    "poet": [
+        "male_female",
+        "name_occupation"
+    ],
+    "poetess": [
+        "male_female"
+    ],
+    "policeman": [
+        "male_female"
+    ],
+    "policewoman": [
+        "male_female"
+    ],
+    "policies": [
+        "noun_plural_irreg"
+    ],
+    "policy": [
+        "noun_plural_irreg"
+    ],
+    "polite": [
+        "adj_superlative"
+    ],
+    "politest": [
+        "adj_superlative"
+    ],
+    "political": [
+        "adj+ly_reg"
+    ],
+    "politically": [
+        "adj+ly_reg"
+    ],
+    "polo": [
+        "hyponyms_misc"
+    ],
+    "pond": [
+        "animal_shelter"
+    ],
+    "pony": [
+        "hypernyms_animals"
+    ],
+    "poor": [
+        "antonyms_gradable"
+    ],
+    "popular": [
+        "un+adj_reg",
+        "adj+ly_reg"
+    ],
+    "popularly": [
+        "adj+ly_reg"
+    ],
+    "populated": [
+        "over+adj_reg"
+    ],
+    "population": [
+        "noun_plural_reg"
+    ],
+    "populations": [
+        "noun_plural_reg"
+    ],
+    "porcupine": [
+        "hypernyms_animals"
+    ],
+    "portsmouth": [
+        "UK_city_county"
+    ],
+    "possible": [
+        "adjective_to_adverb",
+        "opposite"
+    ],
+    "possibly": [
+        "adjective_to_adverb",
+        "opposite"
+    ],
+    "postcard": [
+        "hypernyms_misc"
+    ],
+    "posterior": [
+        "antonyms_binary"
+    ],
+    "pot": [
+        "hyponyms_misc"
+    ],
+    "pouch": [
+        "hyponyms_misc"
+    ],
+    "powered": [
+        "over+adj_reg"
+    ],
+    "practical": [
+        "adj+ly_reg"
+    ],
+    "practically": [
+        "adj+ly_reg"
+    ],
+    "preach": [
+        "verb+er_irreg"
+    ],
+    "preacher": [
+        "verb+er_irreg"
+    ],
+    "precise": [
+        "adjective_to_adverb"
+    ],
+    "precisely": [
+        "adjective_to_adverb"
+    ],
+    "predict": [
+        "verb+able_reg"
+    ],
+    "predictable": [
+        "verb+able_reg",
+        "un+adj_reg"
+    ],
+    "predicted": [
+        "past_tense"
+    ],
+    "predicting": [
+        "present_participle",
+        "past_tense"
+    ],
+    "predicts": [
+        "plural_verbs"
+    ],
+    "prefer": [
+        "verb+able_reg"
+    ],
+    "preferable": [
+        "verb+able_reg"
+    ],
+    "preparation": [
+        "verb+tion_irreg"
+    ],
+    "prepare": [
+        "verb+tion_irreg"
+    ],
+    "prepared": [
+        "adj+ness_reg"
+    ],
+    "preparedness": [
+        "adj+ness_reg"
+    ],
+    "president": [
+        "name_occupation"
+    ],
+    "preston": [
+        "UK_city_county"
+    ],
+    "prevent": [
+        "verb_inf_Ving",
+        "verb_inf_3pSg",
+        "verb+able_reg"
+    ],
+    "preventable": [
+        "verb+able_reg"
+    ],
+    "preventing": [
+        "verb_inf_Ving"
+    ],
+    "prevents": [
+        "verb_inf_3pSg"
+    ],
+    "previous": [
+        "adj+ly_reg"
+    ],
+    "previously": [
+        "antonyms_binary",
+        "adj+ly_reg"
+    ],
+    "primate": [
+        "hypernyms_animals"
+    ],
+    "prince": [
+        "male_female"
+    ],
+    "princess": [
+        "male_female"
+    ],
+    "privatization": [
+        "verb+tion_irreg"
+    ],
+    "privatize": [
+        "verb+tion_irreg"
+    ],
+    "problem": [
+        "noun_plural_reg"
+    ],
+    "problems": [
+        "noun_plural_reg"
+    ],
+    "proceed": [
+        "antonyms_binary"
+    ],
+    "product": [
+        "noun_plural_reg"
+    ],
+    "productive": [
+        "opposite"
+    ],
+    "products": [
+        "noun_plural_reg"
+    ],
+    "professional": [
+        "adjective_to_adverb"
+    ],
+    "professionally": [
+        "adjective_to_adverb"
+    ],
+    "promote": [
+        "verb_inf_Ving",
+        "verb_inf_3pSg",
+        "verb+er_irreg"
+    ],
+    "promoter": [
+        "verb+er_irreg"
+    ],
+    "promotes": [
+        "verb_Ving_3pSg",
+        "verb_inf_3pSg"
+    ],
+    "promoting": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving"
+    ],
+    "properties": [
+        "noun_plural_irreg"
+    ],
+    "property": [
+        "noun_plural_irreg"
+    ],
+    "prophet": [
+        "name_occupation"
+    ],
+    "proposed": [
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "proposes": [
+        "verb_3pSg_Ved"
+    ],
+    "proposing": [
+        "verb_Ving_Ved"
+    ],
+    "protect": [
+        "verb_inf_Ving",
+        "verb_inf_3pSg",
+        "verb+able_reg"
+    ],
+    "protectable": [
+        "verb+able_reg"
+    ],
+    "protected": [
+        "over+adj_reg"
+    ],
+    "protecting": [
+        "verb_inf_Ving"
+    ],
+    "protective": [
+        "over+adj_reg"
+    ],
+    "protects": [
+        "verb_inf_3pSg"
+    ],
+    "proud": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "prouder": [
+        "adj_comparative"
+    ],
+    "proudest": [
+        "adj_superlative"
+    ],
+    "provide": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg",
+        "verb+er_irreg"
+    ],
+    "provided": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "provider": [
+        "verb+er_irreg"
+    ],
+    "provides": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "providing": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "publish": [
+        "verb_inf_Ved",
+        "verb+able_reg",
+        "verb+er_irreg",
+        "re+verb_reg"
+    ],
+    "publishable": [
+        "verb+able_reg"
+    ],
+    "published": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved",
+        "un+adj_reg"
+    ],
+    "publisher": [
+        "verb+er_irreg"
+    ],
+    "publishes": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved"
+    ],
+    "publishing": [
+        "verb_Ving_3pSg",
+        "verb_Ving_Ved"
+    ],
+    "punish": [
+        "verb+ment_irreg"
+    ],
+    "punishment": [
+        "verb+ment_irreg"
+    ],
+    "pure": [
+        "adj_comparative",
+        "adj_superlative",
+        "adj+ness_reg"
+    ],
+    "pureness": [
+        "adj+ness_reg"
+    ],
+    "purer": [
+        "adj_comparative"
+    ],
+    "purest": [
+        "adj_superlative"
+    ],
+    "quack": [
+        "animal_sound"
+    ],
+    "quail": [
+        "hypernyms_animals"
+    ],
+    "qualified": [
+        "over+adj_reg"
+    ],
+    "queen": [
+        "male_female"
+    ],
+    "quick": [
+        "adjective_to_adverb",
+        "comparative",
+        "superlative"
+    ],
+    "quicker": [
+        "comparative"
+    ],
+    "quickest": [
+        "superlative"
+    ],
+    "quickly": [
+        "adjective_to_adverb"
+    ],
+    "quiet": [
+        "adjective_to_adverb"
+    ],
+    "quietly": [
+        "adjective_to_adverb"
+    ],
+    "rabbit": [
+        "animal_shelter"
+    ],
+    "railway": [
+        "hyponyms_misc"
+    ],
+    "rake": [
+        "hyponyms_misc"
+    ],
+    "ram": [
+        "male_female"
+    ],
+    "ran": [
+        "past_tense"
+    ],
+    "random": [
+        "adj+ness_reg"
+    ],
+    "randomization": [
+        "verb+tion_irreg"
+    ],
+    "randomize": [
+        "verb+tion_irreg"
+    ],
+    "randomness": [
+        "adj+ness_reg"
+    ],
+    "raphael": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "rapid": [
+        "adjective_to_adverb"
+    ],
+    "rapidly": [
+        "adjective_to_adverb"
+    ],
+    "raptor": [
+        "hypernyms_animals"
+    ],
+    "rare": [
+        "antonyms_gradable",
+        "adj_superlative",
+        "adj+ness_reg",
+        "adj+ly_reg"
+    ],
+    "rarely": [
+        "adj+ly_reg"
+    ],
+    "rareness": [
+        "adj+ness_reg"
+    ],
+    "rarest": [
+        "adj_superlative"
+    ],
+    "rat": [
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "rational": [
+        "opposite"
+    ],
+    "rats": [
+        "plural"
+    ],
+    "rattlesnake": [
+        "hypernyms_animals"
+    ],
+    "raven": [
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "raw": [
+        "antonyms_gradable"
+    ],
+    "reacquire": [
+        "re+verb_reg"
+    ],
+    "read": [
+        "present_participle",
+        "past_tense"
+    ],
+    "reading": [
+        "UK_city_county"
+    ],
+    "readjust": [
+        "re+verb_reg"
+    ],
+    "real": [
+        "currency"
+    ],
+    "realistic": [
+        "un+adj_reg"
+    ],
+    "realization": [
+        "verb+tion_irreg"
+    ],
+    "realize": [
+        "verb+tion_irreg"
+    ],
+    "reappear": [
+        "re+verb_reg"
+    ],
+    "reapply": [
+        "re+verb_reg"
+    ],
+    "reappoint": [
+        "re+verb_reg"
+    ],
+    "rearrange": [
+        "re+verb_reg"
+    ],
+    "reasonable": [
+        "adj+ness_reg",
+        "un+adj_reg"
+    ],
+    "reasonableness": [
+        "adj+ness_reg"
+    ],
+    "reassess": [
+        "re+verb_reg"
+    ],
+    "reassign": [
+        "re+verb_reg"
+    ],
+    "reassure": [
+        "re+verb_reg"
+    ],
+    "recalculate": [
+        "re+verb_reg"
+    ],
+    "receive": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg",
+        "verb+er_irreg"
+    ],
+    "received": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "receiver": [
+        "verb+er_irreg"
+    ],
+    "receives": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "receiving": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "recognizable": [
+        "verb+able_reg"
+    ],
+    "recognize": [
+        "verb+able_reg",
+        "re+verb_reg"
+    ],
+    "recommend": [
+        "verb+able_reg",
+        "verb+er_irreg",
+        "re+verb_reg"
+    ],
+    "recommendable": [
+        "verb+able_reg"
+    ],
+    "recommender": [
+        "verb+er_irreg"
+    ],
+    "reconfigure": [
+        "re+verb_reg"
+    ],
+    "reconfirm": [
+        "re+verb_reg"
+    ],
+    "reconnect": [
+        "re+verb_reg"
+    ],
+    "reconsider": [
+        "re+verb_reg"
+    ],
+    "recreate": [
+        "re+verb_reg"
+    ],
+    "redecorate": [
+        "re+verb_reg"
+    ],
+    "redeem": [
+        "re+verb_reg"
+    ],
+    "redefine": [
+        "re+verb_reg"
+    ],
+    "redevelop": [
+        "verb+ment_irreg",
+        "re+verb_reg"
+    ],
+    "redevelopment": [
+        "verb+ment_irreg"
+    ],
+    "rediscover": [
+        "re+verb_reg"
+    ],
+    "redistribute": [
+        "re+verb_reg"
+    ],
+    "reduce": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg"
+    ],
+    "reduced": [
+        "verb_inf_Ved",
+        "verb_Ving_Ved"
+    ],
+    "reduces": [
+        "verb_Ving_3pSg",
+        "verb_inf_3pSg"
+    ],
+    "reducing": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "reemerge": [
+        "re+verb_reg"
+    ],
+    "reengage": [
+        "re+verb_reg"
+    ],
+    "reestablish": [
+        "re+verb_reg"
+    ],
+    "reevaluate": [
+        "re+verb_reg"
+    ],
+    "reexamine": [
+        "re+verb_reg"
+    ],
+    "refer": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg"
+    ],
+    "referred": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved"
+    ],
+    "referring": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving"
+    ],
+    "refers": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "regenerate": [
+        "re+verb_reg"
+    ],
+    "regional": [
+        "adj+ly_reg"
+    ],
+    "regionally": [
+        "adj+ly_reg"
+    ],
+    "regrow": [
+        "re+verb_reg"
+    ],
+    "reimburse": [
+        "verb+ment_irreg"
+    ],
+    "reimbursement": [
+        "verb+ment_irreg"
+    ],
+    "reinforce": [
+        "verb+ment_irreg"
+    ],
+    "reinforcement": [
+        "verb+ment_irreg"
+    ],
+    "reinstall": [
+        "re+verb_reg"
+    ],
+    "reintegrate": [
+        "re+verb_reg"
+    ],
+    "reinterpret": [
+        "re+verb_reg"
+    ],
+    "reintroduce": [
+        "re+verb_reg"
+    ],
+    "reinvest": [
+        "re+verb_reg"
+    ],
+    "reinvestigate": [
+        "re+verb_reg"
+    ],
+    "relate": [
+        "verb_inf_Ved"
+    ],
+    "related": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved",
+        "adj+ness_reg",
+        "un+adj_reg"
+    ],
+    "relatedness": [
+        "adj+ness_reg"
+    ],
+    "relates": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved"
+    ],
+    "relating": [
+        "verb_Ving_3pSg",
+        "verb_Ving_Ved"
+    ],
+    "relearn": [
+        "re+verb_reg"
+    ],
+    "reliable": [
+        "verb+able_reg",
+        "un+adj_reg"
+    ],
+    "relocate": [
+        "re+verb_reg"
+    ],
+    "reluctant": [
+        "adjective_to_adverb"
+    ],
+    "reluctantly": [
+        "adjective_to_adverb"
+    ],
+    "rely": [
+        "verb+able_reg"
+    ],
+    "remain": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg"
+    ],
+    "remained": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "remaining": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "remains": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "remarry": [
+        "re+verb_reg"
+    ],
+    "rembrandt": [
+        "name_occupation"
+    ],
+    "remember": [
+        "antonyms_binary",
+        "verb_inf_Ving",
+        "verb_inf_3pSg"
+    ],
+    "remembering": [
+        "verb_inf_Ving"
+    ],
+    "remembers": [
+        "verb_inf_3pSg"
+    ],
+    "remorse": [
+        "noun+less_reg"
+    ],
+    "remorseless": [
+        "noun+less_reg"
+    ],
+    "renegotiate": [
+        "re+verb_reg"
+    ],
+    "renew": [
+        "verb+able_reg"
+    ],
+    "renewable": [
+        "verb+able_reg"
+    ],
+    "reoccur": [
+        "re+verb_reg"
+    ],
+    "reorganization": [
+        "verb+tion_irreg"
+    ],
+    "reorganize": [
+        "verb+tion_irreg",
+        "re+verb_reg"
+    ],
+    "replace": [
+        "verb_inf_Ved",
+        "verb+able_reg",
+        "verb+ment_irreg"
+    ],
+    "replaceable": [
+        "verb+able_reg"
+    ],
+    "replaced": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "replacement": [
+        "verb+ment_irreg"
+    ],
+    "replaces": [
+        "verb_3pSg_Ved"
+    ],
+    "replacing": [
+        "verb_Ving_Ved"
+    ],
+    "represent": [
+        "verb_inf_Ving",
+        "verb_inf_3pSg",
+        "verb+able_reg"
+    ],
+    "representable": [
+        "verb+able_reg"
+    ],
+    "represented": [
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved",
+        "over+adj_reg"
+    ],
+    "representing": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "represents": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "republish": [
+        "re+verb_reg"
+    ],
+    "require": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg",
+        "verb+ment_irreg"
+    ],
+    "required": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "requirement": [
+        "verb+ment_irreg"
+    ],
+    "requires": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "requiring": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "resend": [
+        "re+verb_reg"
+    ],
+    "resent": [
+        "verb+ment_irreg"
+    ],
+    "resentment": [
+        "verb+ment_irreg"
+    ],
+    "resolve": [
+        "re+verb_reg"
+    ],
+    "resolved": [
+        "un+adj_reg"
+    ],
+    "resource": [
+        "noun_plural_reg"
+    ],
+    "resources": [
+        "noun_plural_reg"
+    ],
+    "responsibilities": [
+        "noun_plural_irreg"
+    ],
+    "responsibility": [
+        "noun_plural_irreg"
+    ],
+    "responsible": [
+        "opposite"
+    ],
+    "restoration": [
+        "verb+tion_irreg"
+    ],
+    "restore": [
+        "verb+tion_irreg"
+    ],
+    "restricted": [
+        "un+adj_reg"
+    ],
+    "resubmit": [
+        "re+verb_reg"
+    ],
+    "retell": [
+        "re+verb_reg"
+    ],
+    "retreat": [
+        "antonyms_binary"
+    ],
+    "reunite": [
+        "re+verb_reg"
+    ],
+    "reupload": [
+        "re+verb_reg"
+    ],
+    "reverse": [
+        "antonyms_binary"
+    ],
+    "rewrite": [
+        "re+verb_reg"
+    ],
+    "rial": [
+        "currency"
+    ],
+    "ribbit": [
+        "animal_sound"
+    ],
+    "rich": [
+        "antonyms_gradable"
+    ],
+    "riel": [
+        "currency"
+    ],
+    "rifle": [
+        "hyponyms_misc"
+    ],
+    "righteous": [
+        "adj+ness_reg"
+    ],
+    "righteousness": [
+        "adj+ness_reg"
+    ],
+    "ringgit": [
+        "currency"
+    ],
+    "rise": [
+        "antonyms_binary"
+    ],
+    "riskier": [
+        "adj_comparative"
+    ],
+    "riskiest": [
+        "adj_superlative"
+    ],
+    "risky": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "river": [
+        "noun_plural_reg",
+        "animal_shelter"
+    ],
+    "rivers": [
+        "noun_plural_reg"
+    ],
+    "road": [
+        "noun_plural_reg"
+    ],
+    "roads": [
+        "noun_plural_reg"
+    ],
+    "roar": [
+        "animal_sound"
+    ],
+    "rockier": [
+        "adj_comparative"
+    ],
+    "rocky": [
+        "adj_comparative"
+    ],
+    "rodent": [
+        "hypernyms_animals"
+    ],
+    "role": [
+        "noun_plural_reg"
+    ],
+    "roles": [
+        "noun_plural_reg"
+    ],
+    "rooster": [
+        "male_female"
+    ],
+    "rousseau": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "ruble": [
+        "currency"
+    ],
+    "rude": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "ruder": [
+        "adj_comparative"
+    ],
+    "rudest": [
+        "adj_superlative"
+    ],
+    "run": [
+        "present_participle"
+    ],
+    "running": [
+        "present_participle",
+        "past_tense"
+    ],
+    "rupee": [
+        "currency"
+    ],
+    "ruth": [
+        "noun+less_reg"
+    ],
+    "ruthless": [
+        "noun+less_reg"
+    ],
+    "sacred": [
+        "adj+ness_reg"
+    ],
+    "sacredness": [
+        "adj+ness_reg"
+    ],
+    "sad": [
+        "antonyms_gradable",
+        "adj_comparative",
+        "adj_superlative",
+        "adj+ness_reg"
+    ],
+    "sadder": [
+        "adj_comparative"
+    ],
+    "saddest": [
+        "adj_superlative"
+    ],
+    "sadness": [
+        "adj+ness_reg"
+    ],
+    "safe": [
+        "antonyms_gradable"
+    ],
+    "safely": [
+        "adjective_to_adverb"
+    ],
+    "safer": [
+        "comparative"
+    ],
+    "safeties": [
+        "noun_plural_irreg"
+    ],
+    "safety": [
+        "noun_plural_irreg"
+    ],
+    "said": [
+        "past_tense"
+    ],
+    "salford": [
+        "UK_city_county"
+    ],
+    "salisbury": [
+        "UK_city_county"
+    ],
+    "same": [
+        "adj+ness_reg"
+    ],
+    "sameness": [
+        "adj+ness_reg"
+    ],
+    "sandwich": [
+        "hypernyms_misc"
+    ],
+    "sane": [
+        "antonyms_gradable"
+    ],
+    "sang": [
+        "past_tense"
+    ],
+    "sat": [
+        "past_tense"
+    ],
+    "satisfactory": [
+        "un+adj_reg"
+    ],
+    "saturated": [
+        "over+adj_reg"
+    ],
+    "saw": [
+        "past_tense"
+    ],
+    "say": [
+        "present_participle",
+        "plural_verbs"
+    ],
+    "saying": [
+        "present_participle",
+        "past_tense"
+    ],
+    "says": [
+        "plural_verbs"
+    ],
+    "scarce": [
+        "antonyms_gradable"
+    ],
+    "scarier": [
+        "adj_comparative"
+    ],
+    "scariest": [
+        "adj_superlative"
+    ],
+    "scary": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "schwarzenegger": [
+        "name_occupation"
+    ],
+    "science": [
+        "noun_plural_reg"
+    ],
+    "sciences": [
+        "noun_plural_reg"
+    ],
+    "scientist": [
+        "name_occupation"
+    ],
+    "scorpion": [
+        "animal_shelter"
+    ],
+    "scream": [
+        "animal_sound"
+    ],
+    "screamed": [
+        "past_tense"
+    ],
+    "screaming": [
+        "present_participle",
+        "past_tense"
+    ],
+    "screams": [
+        "plural_verbs"
+    ],
+    "sculptor": [
+        "male_female",
+        "name_occupation"
+    ],
+    "sculptress": [
+        "male_female"
+    ],
+    "sea": [
+        "animal_shelter"
+    ],
+    "seal": [
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "search": [
+        "plural_verbs"
+    ],
+    "searches": [
+        "plural_verbs"
+    ],
+    "season": [
+        "hyponyms_misc"
+    ],
+    "seat": [
+        "hyponyms_misc"
+    ],
+    "secretaries": [
+        "noun_plural_irreg"
+    ],
+    "secretary": [
+        "noun_plural_irreg"
+    ],
+    "securities": [
+        "noun_plural_irreg"
+    ],
+    "security": [
+        "noun_plural_irreg"
+    ],
+    "see": [
+        "present_participle",
+        "plural_verbs"
+    ],
+    "seeing": [
+        "present_participle",
+        "past_tense"
+    ],
+    "seem": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg"
+    ],
+    "seemed": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved"
+    ],
+    "seeming": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving"
+    ],
+    "seems": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "sees": [
+        "plural_verbs"
+    ],
+    "selling": [
+        "past_tense"
+    ],
+    "send": [
+        "verb_inf_Ved",
+        "verb_inf_3pSg",
+        "verb+er_irreg",
+        "re+verb_reg"
+    ],
+    "sender": [
+        "verb+er_irreg"
+    ],
+    "sending": [
+        "verb_Ving_Ved"
+    ],
+    "sends": [
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "sensor": [
+        "noun+less_reg"
+    ],
+    "sensorless": [
+        "noun+less_reg"
+    ],
+    "sent": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "series": [
+        "noun_plural_irreg"
+    ],
+    "serious": [
+        "adj+ness_reg",
+        "adj+ly_reg"
+    ],
+    "seriously": [
+        "adj+ly_reg"
+    ],
+    "seriousness": [
+        "adj+ness_reg"
+    ],
+    "sexier": [
+        "adj_comparative"
+    ],
+    "sexiest": [
+        "adj_superlative"
+    ],
+    "sexual": [
+        "adj+ly_reg"
+    ],
+    "sexually": [
+        "adj+ly_reg"
+    ],
+    "sexy": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "shadowed": [
+        "over+adj_reg"
+    ],
+    "shakespeare": [
+        "name_occupation"
+    ],
+    "sharp": [
+        "comparative",
+        "superlative"
+    ],
+    "sharper": [
+        "comparative"
+    ],
+    "sharpest": [
+        "superlative"
+    ],
+    "she": [
+        "family"
+    ],
+    "sheep": [
+        "animal_sound"
+    ],
+    "sheffield": [
+        "UK_city_county"
+    ],
+    "shelf": [
+        "hyponyms_misc",
+        "hypernyms_misc"
+    ],
+    "shiniest": [
+        "adj_superlative"
+    ],
+    "shiny": [
+        "adj_superlative"
+    ],
+    "shirt": [
+        "hyponyms_misc",
+        "hypernyms_misc"
+    ],
+    "shoes": [
+        "hyponyms_misc"
+    ],
+    "short": [
+        "antonyms_gradable"
+    ],
+    "shorter": [
+        "comparative"
+    ],
+    "shortest": [
+        "superlative"
+    ],
+    "shrank": [
+        "past_tense"
+    ],
+    "shrinking": [
+        "past_tense"
+    ],
+    "shuffle": [
+        "present_participle",
+        "plural_verbs"
+    ],
+    "shuffles": [
+        "plural_verbs"
+    ],
+    "shuffling": [
+        "present_participle"
+    ],
+    "sidewalk": [
+        "hypernyms_misc"
+    ],
+    "significant": [
+        "adj+ly_reg"
+    ],
+    "significantly": [
+        "adj+ly_reg"
+    ],
+    "silent": [
+        "antonyms_gradable"
+    ],
+    "similar": [
+        "adj+ly_reg"
+    ],
+    "similarly": [
+        "adj+ly_reg"
+    ],
+    "simple": [
+        "antonyms_gradable"
+    ],
+    "simpler": [
+        "comparative"
+    ],
+    "simplest": [
+        "superlative"
+    ],
+    "simplified": [
+        "over+adj_reg"
+    ],
+    "sincere": [
+        "antonyms_gradable"
+    ],
+    "sing": [
+        "animal_sound"
+    ],
+    "singing": [
+        "present_participle",
+        "past_tense"
+    ],
+    "sings": [
+        "plural_verbs"
+    ],
+    "sink": [
+        "antonyms_binary"
+    ],
+    "sir": [
+        "male_female"
+    ],
+    "sister": [
+        "male_female"
+    ],
+    "sisters": [
+        "family"
+    ],
+    "sit": [
+        "verb_inf_Ving"
+    ],
+    "sits": [
+        "verb_Ving_3pSg"
+    ],
+    "sitting": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving"
+    ],
+    "situated": [
+        "adj+ness_reg"
+    ],
+    "situatedness": [
+        "adj+ness_reg"
+    ],
+    "sized": [
+        "over+adj_reg"
+    ],
+    "skirt": [
+        "hypernyms_misc"
+    ],
+    "skydive": [
+        "verb+er_irreg"
+    ],
+    "skydiver": [
+        "verb+er_irreg"
+    ],
+    "slay": [
+        "verb+er_irreg"
+    ],
+    "slayer": [
+        "verb+er_irreg"
+    ],
+    "sleeping": [
+        "past_tense"
+    ],
+    "sleeve": [
+        "noun+less_reg"
+    ],
+    "sleeveless": [
+        "noun+less_reg"
+    ],
+    "slept": [
+        "past_tense"
+    ],
+    "slow": [
+        "antonyms_gradable"
+    ],
+    "slowed": [
+        "past_tense"
+    ],
+    "slower": [
+        "comparative"
+    ],
+    "slowest": [
+        "superlative"
+    ],
+    "slowing": [
+        "present_participle",
+        "past_tense"
+    ],
+    "slowly": [
+        "adjective_to_adverb"
+    ],
+    "slows": [
+        "plural_verbs"
+    ],
+    "small": [
+        "antonyms_gradable"
+    ],
+    "smaller": [
+        "comparative"
+    ],
+    "smallest": [
+        "superlative"
+    ],
+    "smart": [
+        "comparative",
+        "superlative"
+    ],
+    "smarter": [
+        "comparative"
+    ],
+    "smartest": [
+        "superlative"
+    ],
+    "snake": [
+        "hypernyms_animals",
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "snakes": [
+        "plural"
+    ],
+    "sneakers": [
+        "hyponyms_misc"
+    ],
+    "societies": [
+        "noun_plural_irreg"
+    ],
+    "society": [
+        "noun_plural_irreg"
+    ],
+    "sofa": [
+        "hyponyms_misc",
+        "hypernyms_misc"
+    ],
+    "soft": [
+        "antonyms_gradable"
+    ],
+    "sold": [
+        "over+adj_reg"
+    ],
+    "solid": [
+        "antonyms_gradable"
+    ],
+    "solution": [
+        "noun_plural_reg"
+    ],
+    "solutions": [
+        "noun_plural_reg"
+    ],
+    "solve": [
+        "re+verb_reg"
+    ],
+    "somerset": [
+        "UK_city_county"
+    ],
+    "son": [
+        "male_female"
+    ],
+    "song": [
+        "hyponyms_misc",
+        "noun_plural_reg"
+    ],
+    "songbird": [
+        "animal_sound"
+    ],
+    "songs": [
+        "noun_plural_reg"
+    ],
+    "sons": [
+        "family"
+    ],
+    "soul": [
+        "noun+less_reg"
+    ],
+    "soulless": [
+        "noun+less_reg"
+    ],
+    "sour": [
+        "antonyms_gradable"
+    ],
+    "south": [
+        "antonyms_binary"
+    ],
+    "southampton": [
+        "UK_city_county"
+    ],
+    "southeast": [
+        "antonyms_binary"
+    ],
+    "southwest": [
+        "antonyms_binary"
+    ],
+    "sow": [
+        "male_female"
+    ],
+    "speak": [
+        "verb+er_irreg"
+    ],
+    "speaker": [
+        "verb+er_irreg"
+    ],
+    "speaks": [
+        "plural_verbs"
+    ],
+    "specialization": [
+        "verb+tion_irreg"
+    ],
+    "specialize": [
+        "verb+tion_irreg"
+    ],
+    "species": [
+        "noun_plural_irreg"
+    ],
+    "specified": [
+        "un+adj_reg"
+    ],
+    "speech": [
+        "noun+less_reg"
+    ],
+    "speechless": [
+        "noun+less_reg"
+    ],
+    "spend": [
+        "verb_inf_Ving",
+        "verb_inf_Ved"
+    ],
+    "spending": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "spends": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved"
+    ],
+    "spent": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved",
+        "over+adj_reg"
+    ],
+    "spice": [
+        "hyponyms_misc"
+    ],
+    "spider": [
+        "animal_shelter"
+    ],
+    "spine": [
+        "noun+less_reg"
+    ],
+    "spineless": [
+        "noun+less_reg"
+    ],
+    "spinoza": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "spring": [
+        "hyponyms_misc"
+    ],
+    "squeak": [
+        "animal_sound"
+    ],
+    "squirrel": [
+        "hypernyms_animals"
+    ],
+    "stabilization": [
+        "verb+tion_irreg"
+    ],
+    "stabilize": [
+        "verb+tion_irreg"
+    ],
+    "stable": [
+        "animal_shelter"
+    ],
+    "stalin": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "stallion": [
+        "male_female"
+    ],
+    "standardization": [
+        "verb+tion_irreg"
+    ],
+    "standardize": [
+        "verb+tion_irreg"
+    ],
+    "stapler": [
+        "hypernyms_misc"
+    ],
+    "starvation": [
+        "verb+tion_irreg"
+    ],
+    "starve": [
+        "verb+tion_irreg"
+    ],
+    "stated": [
+        "over+adj_reg"
+    ],
+    "static": [
+        "antonyms_binary"
+    ],
+    "stegosaurus": [
+        "hypernyms_animals"
+    ],
+    "stepbrother": [
+        "family"
+    ],
+    "stepdaughter": [
+        "family"
+    ],
+    "stepfather": [
+        "male_female"
+    ],
+    "stepmother": [
+        "male_female"
+    ],
+    "stepsister": [
+        "family"
+    ],
+    "stepson": [
+        "family"
+    ],
+    "stickier": [
+        "adj_comparative"
+    ],
+    "sticky": [
+        "adj_comparative"
+    ],
+    "stimulated": [
+        "over+adj_reg"
+    ],
+    "stingy": [
+        "antonyms_gradable"
+    ],
+    "stirling": [
+        "UK_city_county"
+    ],
+    "stirlingshire": [
+        "UK_city_county"
+    ],
+    "stocked": [
+        "over+adj_reg"
+    ],
+    "stories": [
+        "noun_plural_irreg"
+    ],
+    "story": [
+        "noun_plural_irreg"
+    ],
+    "strained": [
+        "over+adj_reg"
+    ],
+    "strange": [
+        "adj_superlative",
+        "adj+ness_reg"
+    ],
+    "strangeness": [
+        "adj+ness_reg"
+    ],
+    "strangest": [
+        "adj_superlative"
+    ],
+    "strategies": [
+        "noun_plural_irreg"
+    ],
+    "strategy": [
+        "noun_plural_irreg"
+    ],
+    "strauss": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "street": [
+        "noun_plural_reg"
+    ],
+    "streets": [
+        "noun_plural_reg"
+    ],
+    "stressed": [
+        "over+adj_reg"
+    ],
+    "stretched": [
+        "over+adj_reg"
+    ],
+    "strict": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "stricter": [
+        "adj_comparative"
+    ],
+    "strictest": [
+        "adj_superlative"
+    ],
+    "striking": [
+        "past_tense"
+    ],
+    "strong": [
+        "adj_comparative",
+        "adj_superlative",
+        "adj+ly_reg"
+    ],
+    "stronger": [
+        "adj_comparative"
+    ],
+    "strongest": [
+        "adj_superlative"
+    ],
+    "strongly": [
+        "adj+ly_reg"
+    ],
+    "struck": [
+        "past_tense"
+    ],
+    "student": [
+        "noun_plural_reg"
+    ],
+    "students": [
+        "noun_plural_reg"
+    ],
+    "sty": [
+        "animal_shelter"
+    ],
+    "submerge": [
+        "antonyms_binary"
+    ],
+    "submit": [
+        "re+verb_reg"
+    ],
+    "subscribe": [
+        "verb+er_irreg"
+    ],
+    "subscribed": [
+        "over+adj_reg"
+    ],
+    "subscriber": [
+        "verb+er_irreg"
+    ],
+    "subsequent": [
+        "adj+ly_reg"
+    ],
+    "subsequently": [
+        "antonyms_binary",
+        "adj+ly_reg"
+    ],
+    "subtle": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "subtler": [
+        "adj_comparative"
+    ],
+    "subtlest": [
+        "adj_superlative"
+    ],
+    "success": [
+        "noun_plural_irreg"
+    ],
+    "successes": [
+        "noun_plural_irreg"
+    ],
+    "successful": [
+        "un+adj_reg",
+        "adj+ly_reg"
+    ],
+    "successfully": [
+        "adj+ly_reg"
+    ],
+    "sudden": [
+        "adjective_to_adverb"
+    ],
+    "suddenly": [
+        "adjective_to_adverb"
+    ],
+    "suffer": [
+        "verb+er_irreg"
+    ],
+    "suffered": [
+        "verb_Ving_Ved"
+    ],
+    "sufferer": [
+        "verb+er_irreg"
+    ],
+    "suffering": [
+        "verb_Ving_Ved"
+    ],
+    "suggest": [
+        "verb_inf_3pSg"
+    ],
+    "suggested": [
+        "verb_3pSg_Ved"
+    ],
+    "suggesting": [
+        "verb_Ving_3pSg"
+    ],
+    "suggests": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "suitable": [
+        "un+adj_reg"
+    ],
+    "sunnier": [
+        "adj_comparative"
+    ],
+    "sunniest": [
+        "adj_superlative"
+    ],
+    "sunny": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "sunscreen": [
+        "hypernyms_misc"
+    ],
+    "superman": [
+        "male_female"
+    ],
+    "superwoman": [
+        "male_female"
+    ],
+    "sure": [
+        "opposite"
+    ],
+    "survivable": [
+        "verb+able_reg"
+    ],
+    "survive": [
+        "verb+able_reg"
+    ],
+    "sussex": [
+        "UK_city_county"
+    ],
+    "sustain": [
+        "verb+able_reg"
+    ],
+    "sustainable": [
+        "verb+able_reg",
+        "un+adj_reg"
+    ],
+    "swam": [
+        "past_tense"
+    ],
+    "swansea": [
+        "UK_city_county"
+    ],
+    "sweater": [
+        "hyponyms_misc",
+        "hypernyms_misc"
+    ],
+    "sweet": [
+        "antonyms_gradable"
+    ],
+    "sweetest": [
+        "superlative"
+    ],
+    "swift": [
+        "adjective_to_adverb"
+    ],
+    "swiftly": [
+        "adjective_to_adverb"
+    ],
+    "swim": [
+        "present_participle",
+        "plural_verbs"
+    ],
+    "swimming": [
+        "present_participle",
+        "past_tense"
+    ],
+    "swims": [
+        "plural_verbs"
+    ],
+    "system": [
+        "noun_plural_reg"
+    ],
+    "systems": [
+        "noun_plural_reg"
+    ],
+    "tableware": [
+        "hypernyms_misc"
+    ],
+    "tact": [
+        "noun+less_reg"
+    ],
+    "tactless": [
+        "noun+less_reg"
+    ],
+    "taken": [
+        "over+adj_reg"
+    ],
+    "taking": [
+        "past_tense"
+    ],
+    "talent": [
+        "noun+less_reg"
+    ],
+    "talentless": [
+        "noun+less_reg"
+    ],
+    "talk": [
+        "plural_verbs"
+    ],
+    "talks": [
+        "plural_verbs"
+    ],
+    "tall": [
+        "antonyms_gradable"
+    ],
+    "taller": [
+        "comparative"
+    ],
+    "tallest": [
+        "superlative"
+    ],
+    "tambourine": [
+        "hyponyms_misc"
+    ],
+    "tanned": [
+        "antonyms_gradable"
+    ],
+    "tasteful": [
+        "opposite"
+    ],
+    "tasteless": [
+        "antonyms_gradable"
+    ],
+    "tastier": [
+        "adj_comparative"
+    ],
+    "tastiest": [
+        "adj_superlative"
+    ],
+    "tasty": [
+        "antonyms_gradable",
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "taught": [
+        "verb_Ving_Ved"
+    ],
+    "tchaikovsky": [
+        "name_nationality"
+    ],
+    "teach": [
+        "verb_inf_Ving",
+        "verb+er_irreg"
+    ],
+    "teacher": [
+        "verb+er_irreg"
+    ],
+    "teaches": [
+        "verb_Ving_3pSg"
+    ],
+    "teaching": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "teacup": [
+        "hyponyms_misc"
+    ],
+    "technologies": [
+        "noun_plural_irreg"
+    ],
+    "technology": [
+        "noun_plural_irreg"
+    ],
+    "tell": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg",
+        "verb+er_irreg",
+        "re+verb_reg"
+    ],
+    "teller": [
+        "verb+er_irreg"
+    ],
+    "telling": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "tells": [
+        "verb_Ving_3pSg",
+        "verb_3pSg_Ved",
+        "verb_inf_3pSg"
+    ],
+    "termite": [
+        "animal_shelter"
+    ],
+    "thanking": [
+        "verb_Ving_3pSg"
+    ],
+    "thanks": [
+        "verb_Ving_3pSg"
+    ],
+    "theories": [
+        "noun_plural_irreg"
+    ],
+    "theory": [
+        "noun_plural_irreg"
+    ],
+    "thermos": [
+        "hyponyms_misc"
+    ],
+    "thin": [
+        "antonyms_gradable"
+    ],
+    "thing": [
+        "noun_plural_reg"
+    ],
+    "things": [
+        "noun_plural_reg"
+    ],
+    "think": [
+        "present_participle",
+        "plural_verbs"
+    ],
+    "thinking": [
+        "present_participle",
+        "past_tense"
+    ],
+    "thinks": [
+        "plural_verbs"
+    ],
+    "thought": [
+        "noun+less_reg"
+    ],
+    "thoughtless": [
+        "noun+less_reg"
+    ],
+    "thrown": [
+        "over+adj_reg"
+    ],
+    "thundercloud": [
+        "hyponyms_misc"
+    ],
+    "tiger": [
+        "hypernyms_animals",
+        "male_female",
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "tight": [
+        "antonyms_gradable"
+    ],
+    "tighter": [
+        "comparative"
+    ],
+    "tigress": [
+        "male_female"
+    ],
+    "tinier": [
+        "adj_comparative"
+    ],
+    "tiniest": [
+        "adj_superlative"
+    ],
+    "tiny": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "toad": [
+        "animal_sound"
+    ],
+    "toaster": [
+        "hypernyms_misc"
+    ],
+    "toiletry": [
+        "hypernyms_misc"
+    ],
+    "told": [
+        "verb_inf_Ved",
+        "verb_3pSg_Ved",
+        "verb_Ving_Ved"
+    ],
+    "tolstoi": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "took": [
+        "past_tense"
+    ],
+    "tool": [
+        "hyponyms_misc"
+    ],
+    "tooth": [
+        "noun+less_reg"
+    ],
+    "toothbrush": [
+        "hyponyms_misc",
+        "hypernyms_misc"
+    ],
+    "toothless": [
+        "noun+less_reg"
+    ],
+    "top": [
+        "antonyms_binary"
+    ],
+    "tough": [
+        "comparative"
+    ],
+    "tougher": [
+        "comparative"
+    ],
+    "toward": [
+        "antonyms_binary"
+    ],
+    "town": [
+        "noun_plural_reg"
+    ],
+    "towns": [
+        "noun_plural_reg"
+    ],
+    "toy": [
+        "hyponyms_misc"
+    ],
+    "traditional": [
+        "adj+ly_reg"
+    ],
+    "traditionally": [
+        "adj+ly_reg"
+    ],
+    "tree": [
+        "animal_shelter"
+    ],
+    "triceratops": [
+        "hypernyms_animals"
+    ],
+    "trickier": [
+        "adj_comparative"
+    ],
+    "trickiest": [
+        "adj_superlative"
+    ],
+    "tricky": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "trousers": [
+        "hyponyms_misc",
+        "hypernyms_misc"
+    ],
+    "trout": [
+        "animal_shelter"
+    ],
+    "true": [
+        "antonyms_binary"
+    ],
+    "truman": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "trumpet": [
+        "animal_sound"
+    ],
+    "tub": [
+        "hypernyms_misc"
+    ],
+    "turkey": [
+        "hypernyms_animals",
+        "animal_sound"
+    ],
+    "turned": [
+        "over+adj_reg"
+    ],
+    "turtleneck": [
+        "hyponyms_misc"
+    ],
+    "tv": [
+        "hypernyms_misc"
+    ],
+    "typical": [
+        "adj+ly_reg"
+    ],
+    "typically": [
+        "adj+ly_reg"
+    ],
+    "tyrannosaurus": [
+        "hypernyms_animals"
+    ],
+    "uglier": [
+        "adj_comparative"
+    ],
+    "ugliest": [
+        "adj_superlative"
+    ],
+    "ugly": [
+        "antonyms_gradable",
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "ukulele": [
+        "hyponyms_misc"
+    ],
+    "unable": [
+        "antonyms_gradable",
+        "un+adj_reg"
+    ],
+    "unacceptable": [
+        "un+adj_reg"
+    ],
+    "unaffected": [
+        "un+adj_reg"
+    ],
+    "unauthorized": [
+        "un+adj_reg"
+    ],
+    "unavailable": [
+        "un+adj_reg"
+    ],
+    "unavoidable": [
+        "un+adj_reg"
+    ],
+    "unaware": [
+        "antonyms_gradable",
+        "un+adj_reg"
+    ],
+    "unbelievable": [
+        "un+adj_reg"
+    ],
+    "unbiased": [
+        "un+adj_reg"
+    ],
+    "uncertain": [
+        "un+adj_reg"
+    ],
+    "unchanged": [
+        "un+adj_reg"
+    ],
+    "uncle": [
+        "male_female"
+    ],
+    "unclear": [
+        "opposite"
+    ],
+    "uncomfortable": [
+        "un+adj_reg"
+    ],
+    "uncompetitive": [
+        "opposite"
+    ],
+    "unconcerned": [
+        "antonyms_gradable"
+    ],
+    "unconditional": [
+        "un+adj_reg"
+    ],
+    "unconscious": [
+        "un+adj_reg"
+    ],
+    "uncontrolled": [
+        "un+adj_reg"
+    ],
+    "unconvincing": [
+        "opposite"
+    ],
+    "undecided": [
+        "opposite"
+    ],
+    "under": [
+        "antonyms_binary"
+    ],
+    "understand": [
+        "verb_inf_Ving",
+        "verb_inf_Ved",
+        "verb_inf_3pSg",
+        "verb+able_reg"
+    ],
+    "understandable": [
+        "verb+able_reg"
+    ],
+    "understanding": [
+        "verb_Ving_3pSg",
+        "verb_inf_Ving",
+        "verb_Ving_Ved"
+    ],
+    "understands": [
+        "verb_Ving_3pSg",
+        "verb_inf_3pSg"
+    ],
+    "understood": [
+        "verb_inf_Ved",
+        "verb_Ving_Ved"
+    ],
+    "undesirable": [
+        "un+adj_reg"
+    ],
+    "unemployed": [
+        "un+adj_reg"
+    ],
+    "unethical": [
+        "opposite"
+    ],
+    "unexpected": [
+        "un+adj_reg"
+    ],
+    "unfamiliar": [
+        "antonyms_gradable"
+    ],
+    "unfinished": [
+        "un+adj_reg"
+    ],
+    "unforgettable": [
+        "un+adj_reg"
+    ],
+    "unfortunate": [
+        "un+adj_reg"
+    ],
+    "unfortunately": [
+        "adjective_to_adverb"
+    ],
+    "unhappy": [
+        "un+adj_reg"
+    ],
+    "unhealthy": [
+        "un+adj_reg"
+    ],
+    "unidentified": [
+        "un+adj_reg"
+    ],
+    "unimpressive": [
+        "opposite"
+    ],
+    "uninformative": [
+        "opposite"
+    ],
+    "uninformed": [
+        "opposite"
+    ],
+    "unintended": [
+        "un+adj_reg"
+    ],
+    "uninteresting": [
+        "antonyms_gradable"
+    ],
+    "uninterrupted": [
+        "un+adj_reg"
+    ],
+    "unique": [
+        "adj+ness_reg",
+        "adj+ly_reg"
+    ],
+    "uniquely": [
+        "adj+ly_reg"
+    ],
+    "uniqueness": [
+        "adj+ness_reg"
+    ],
+    "unite": [
+        "verb_inf_Ved",
+        "re+verb_reg"
+    ],
+    "united": [
+        "verb_inf_Ved",
+        "verb_Ving_Ved"
+    ],
+    "uniting": [
+        "verb_Ving_Ved"
+    ],
+    "universities": [
+        "noun_plural_irreg"
+    ],
+    "university": [
+        "noun_plural_irreg"
+    ],
+    "unknown": [
+        "un+adj_reg"
+    ],
+    "unlawful": [
+        "un+adj_reg"
+    ],
+    "unlikely": [
+        "opposite"
+    ],
+    "unlucky": [
+        "un+adj_reg"
+    ],
+    "unnoticed": [
+        "un+adj_reg"
+    ],
+    "unorganized": [
+        "antonyms_gradable"
+    ],
+    "unpaid": [
+        "un+adj_reg"
+    ],
+    "unpleasant": [
+        "un+adj_reg"
+    ],
+    "unpopular": [
+        "un+adj_reg"
+    ],
+    "unpredictable": [
+        "un+adj_reg"
+    ],
+    "unproductive": [
+        "opposite"
+    ],
+    "unpublished": [
+        "un+adj_reg"
+    ],
+    "unrealistic": [
+        "un+adj_reg"
+    ],
+    "unreasonable": [
+        "un+adj_reg"
+    ],
+    "unrelated": [
+        "un+adj_reg"
+    ],
+    "unreliable": [
+        "un+adj_reg"
+    ],
+    "unresolved": [
+        "un+adj_reg"
+    ],
+    "unrestricted": [
+        "un+adj_reg"
+    ],
+    "unsatisfactory": [
+        "un+adj_reg"
+    ],
+    "unspecified": [
+        "un+adj_reg"
+    ],
+    "unsuccessful": [
+        "un+adj_reg"
+    ],
+    "unsuitable": [
+        "un+adj_reg"
+    ],
+    "unsure": [
+        "opposite"
+    ],
+    "unsustainable": [
+        "un+adj_reg"
+    ],
+    "unused": [
+        "un+adj_reg"
+    ],
+    "unusual": [
+        "un+adj_reg"
+    ],
+    "unveiled": [
+        "un+adj_reg"
+    ],
+    "unwanted": [
+        "un+adj_reg"
+    ],
+    "unwilling": [
+        "antonyms_gradable"
+    ],
+    "up": [
+        "antonyms_binary"
+    ],
+    "uphill": [
+        "antonyms_binary"
+    ],
+    "upload": [
+        "re+verb_reg"
+    ],
+    "upslope": [
+        "antonyms_binary"
+    ],
+    "upward": [
+        "antonyms_binary"
+    ],
+    "used": [
+        "over+adj_reg",
+        "un+adj_reg"
+    ],
+    "useful": [
+        "adj+ness_reg"
+    ],
+    "usefulness": [
+        "adj+ness_reg"
+    ],
+    "user": [
+        "noun_plural_reg"
+    ],
+    "users": [
+        "noun_plural_reg"
+    ],
+    "usual": [
+        "un+adj_reg"
+    ],
+    "usually": [
+        "adjective_to_adverb"
+    ],
+    "utensil": [
+        "hypernyms_misc"
+    ],
+    "utilization": [
+        "verb+tion_irreg"
+    ],
+    "utilize": [
+        "verb+tion_irreg"
+    ],
+    "vacant": [
+        "antonyms_binary"
+    ],
+    "vague": [
+        "antonyms_gradable",
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "vaguer": [
+        "adj_comparative"
+    ],
+    "vaguest": [
+        "adj_superlative"
+    ],
+    "valet": [
+        "male_female"
+    ],
+    "vanish": [
+        "present_participle",
+        "plural_verbs"
+    ],
+    "vanished": [
+        "past_tense"
+    ],
+    "vanishes": [
+        "plural_verbs"
+    ],
+    "vanishing": [
+        "present_participle",
+        "past_tense"
+    ],
+    "variable": [
+        "verb+able_reg"
+    ],
+    "varieties": [
+        "noun_plural_irreg"
+    ],
+    "variety": [
+        "noun_plural_irreg"
+    ],
+    "vary": [
+        "verb+able_reg"
+    ],
+    "vase": [
+        "hypernyms_misc"
+    ],
+    "vast": [
+        "adj_comparative",
+        "adj+ness_reg"
+    ],
+    "vaster": [
+        "adj_comparative"
+    ],
+    "vastness": [
+        "adj+ness_reg"
+    ],
+    "veiled": [
+        "un+adj_reg"
+    ],
+    "velociraptor": [
+        "hypernyms_animals"
+    ],
+    "version": [
+        "noun_plural_reg"
+    ],
+    "versions": [
+        "noun_plural_reg"
+    ],
+    "village": [
+        "noun_plural_reg"
+    ],
+    "villages": [
+        "noun_plural_reg"
+    ],
+    "viper": [
+        "hypernyms_animals"
+    ],
+    "virtual": [
+        "adj+ly_reg"
+    ],
+    "virtually": [
+        "adj+ly_reg"
+    ],
+    "visual": [
+        "adj+ly_reg"
+    ],
+    "visualization": [
+        "verb+tion_irreg"
+    ],
+    "visualize": [
+        "verb+tion_irreg"
+    ],
+    "visually": [
+        "adj+ly_reg"
+    ],
+    "vixen": [
+        "male_female"
+    ],
+    "vulture": [
+        "hypernyms_animals"
+    ],
+    "wagner": [
+        "name_occupation",
+        "name_nationality"
+    ],
+    "waiter": [
+        "male_female"
+    ],
+    "waitress": [
+        "male_female"
+    ],
+    "wakefield": [
+        "UK_city_county"
+    ],
+    "walk": [
+        "hypernyms_misc"
+    ],
+    "walked": [
+        "past_tense"
+    ],
+    "walking": [
+        "present_participle",
+        "past_tense"
+    ],
+    "walks": [
+        "plural_verbs"
+    ],
+    "wanted": [
+        "un+adj_reg"
+    ],
+    "warm": [
+        "antonyms_gradable"
+    ],
+    "warmer": [
+        "comparative"
+    ],
+    "warmest": [
+        "superlative"
+    ],
+    "wasp": [
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "watercolor": [
+        "hyponyms_misc"
+    ],
+    "weak": [
+        "adj_comparative",
+        "adj_superlative",
+        "adj+ness_reg"
+    ],
+    "weaker": [
+        "adj_comparative"
+    ],
+    "weakest": [
+        "adj_superlative"
+    ],
+    "weakness": [
+        "adj+ness_reg"
+    ],
+    "wealthier": [
+        "adj_comparative"
+    ],
+    "wealthiest": [
+        "adj_superlative"
+    ],
+    "wealthy": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "weapon": [
+        "hyponyms_misc"
+    ],
+    "web": [
+        "animal_shelter"
+    ],
+    "webmaster": [
+        "male_female"
+    ],
+    "webmistress": [
+        "male_female"
+    ],
+    "website": [
+        "noun_plural_reg"
+    ],
+    "websites": [
+        "noun_plural_reg"
+    ],
+    "week": [
+        "noun_plural_reg"
+    ],
+    "weekday": [
+        "hyponyms_misc"
+    ],
+    "weeks": [
+        "noun_plural_reg"
+    ],
+    "weird": [
+        "adj_comparative",
+        "adj_superlative"
+    ],
+    "weirder": [
+        "adj_comparative"
+    ],
+    "weirdest": [
+        "adj_superlative"
+    ],
+    "wells": [
+        "UK_city_county"
+    ],
+    "went": [
+        "past_tense"
+    ],
+    "west": [
+        "antonyms_binary"
+    ],
+    "wet": [
+        "antonyms_gradable"
+    ],
+    "whale": [
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "white": [
+        "antonyms_gradable",
+        "hyponyms_misc"
+    ],
+    "wide": [
+        "antonyms_gradable"
+    ],
+    "wider": [
+        "comparative"
+    ],
+    "widest": [
+        "superlative"
+    ],
+    "wife": [
+        "noun_plural_irreg",
+        "male_female"
+    ],
+    "willing": [
+        "antonyms_gradable"
+    ],
+    "wiltshire": [
+        "UK_city_county"
+    ],
+    "winchester": [
+        "UK_city_county"
+    ],
+    "window": [
+        "noun+less_reg"
+    ],
+    "windowless": [
+        "noun+less_reg"
+    ],
+    "wit": [
+        "noun+less_reg"
+    ],
+    "witless": [
+        "noun+less_reg"
+    ],
+    "wittgenstein": [
+        "name_occupation"
+    ],
+    "wives": [
+        "noun_plural_irreg"
+    ],
+    "wolf": [
+        "hypernyms_animals",
+        "animal_shelter",
+        "animal_sound"
+    ],
+    "wolverhampton": [
+        "UK_city_county"
+    ],
+    "woman": [
+        "noun_plural_irreg",
+        "male_female"
+    ],
+    "women": [
+        "noun_plural_irreg"
+    ],
+    "won": [
+        "currency"
+    ],
+    "woodchuck": [
+        "animal_shelter"
+    ],
+    "worcester": [
+        "UK_city_county"
+    ],
+    "worcestershire": [
+        "UK_city_county"
+    ],
+    "work": [
+        "plural_verbs"
+    ],
+    "works": [
+        "plural_verbs"
+    ],
+    "worse": [
+        "comparative"
+    ],
+    "worst": [
+        "superlative"
+    ],
+    "wristband": [
+        "hypernyms_misc"
+    ],
+    "write": [
+        "verb+able_reg",
+        "verb+er_irreg",
+        "re+verb_reg"
+    ],
+    "writeable": [
+        "verb+able_reg"
+    ],
+    "writer": [
+        "name_occupation",
+        "verb+er_irreg"
+    ],
+    "writes": [
+        "plural_verbs"
+    ],
+    "writing": [
+        "present_participle",
+        "past_tense"
+    ],
+    "written": [
+        "over+adj_reg"
+    ],
+    "wrote": [
+        "past_tense"
+    ],
+    "year": [
+        "noun_plural_reg"
+    ],
+    "years": [
+        "noun_plural_reg"
+    ],
+    "yen": [
+        "currency"
+    ],
+    "york": [
+        "UK_city_county"
+    ],
+    "yorkshire": [
+        "UK_city_county"
+    ],
+    "young": [
+        "antonyms_gradable"
+    ],
+    "younger": [
+        "comparative"
+    ],
+    "youngest": [
+        "superlative"
+    ],
+    "zealous": [
+        "over+adj_reg"
+    ],
+    "zloty": [
+        "currency"
+    ],
+    "2": [
+        "math_squares",
+        "math_cubes",
+        "math_division2",
+        "math_division5",
+        "math_division10",
+        "math_double",
+        "math_root"
+    ],
+    "4": [
+        "math_squares",
+        "math_cubes",
+        "math_division2",
+        "math_division5",
+        "math_division10",
+        "math_double",
+        "math_root"
+    ],
+    "5": [
+        "math_squares",
+        "math_cubes",
+        "math_division2",
+        "math_division5",
+        "math_division10",
+        "math_double",
+        "math_root"
+    ],
+    "6": [
+        "math_squares",
+        "math_cubes",
+        "math_division2",
+        "math_division5",
+        "math_division10",
+        "math_double",
+        "math_root"
+    ],
+    "8": [
+        "math_squares",
+        "math_cubes",
+        "math_division2",
+        "math_division5",
+        "math_division10",
+        "math_double",
+        "math_root"
+    ],
+    "10": [
+        "math_squares",
+        "math_division2",
+        "math_division5",
+        "math_division10",
+        "math_double",
+        "math_root"
+    ],
+    "12": [
+        "math_squares",
+        "math_division2",
+        "math_division5",
+        "math_double"
+    ],
+    "14": [
+        "math_squares",
+        "math_division2",
+        "math_division5",
+        "math_double"
+    ],
+    "15": [
+        "math_squares",
+        "math_division2",
+        "math_division5",
+        "math_double"
+    ],
+    "16": [
+        "math_squares",
+        "math_division2",
+        "math_division5",
+        "math_double",
+        "math_root"
+    ],
+    "18": [
+        "math_squares",
+        "math_division2",
+        "math_division5",
+        "math_double"
+    ],
+    "20": [
+        "math_squares",
+        "math_division2",
+        "math_division5",
+        "math_division10",
+        "math_double"
+    ],
+    "22": [
+        "math_squares",
+        "math_division2",
+        "math_double"
+    ],
+    "24": [
+        "math_squares",
+        "math_division2",
+        "math_double"
+    ],
+    "25": [
+        "math_squares",
+        "math_division2",
+        "math_division5",
+        "math_double",
+        "math_root"
+    ],
+    "26": [
+        "math_squares",
+        "math_division2",
+        "math_double"
+    ],
+    "28": [
+        "math_squares",
+        "math_division2",
+        "math_double"
+    ],
+    "30": [
+        "math_squares",
+        "math_division2",
+        "math_division5",
+        "math_division10",
+        "math_double"
+    ],
+    "36": [
+        "math_squares",
+        "math_division2",
+        "math_double",
+        "math_root"
+    ],
+    "64": [
+        "math_squares",
+        "math_cubes",
+        "math_division2",
+        "math_double",
+        "math_root"
+    ],
+    "100": [
+        "math_squares",
+        "math_division2",
+        "math_division5",
+        "math_division10",
+        "math_double",
+        "math_root"
+    ],
+    "144": [
+        "math_squares",
+        "math_double"
+    ],
+    "196": [
+        "math_squares",
+        "math_double"
+    ],
+    "225": [
+        "math_squares"
+    ],
+    "256": [
+        "math_squares"
+    ],
+    "324": [
+        "math_squares"
+    ],
+    "400": [
+        "math_squares"
+    ],
+    "484": [
+        "math_squares"
+    ],
+    "576": [
+        "math_squares"
+    ],
+    "625": [
+        "math_squares"
+    ],
+    "676": [
+        "math_squares"
+    ],
+    "784": [
+        "math_squares"
+    ],
+    "900": [
+        "math_squares"
+    ],
+    "125": [
+        "math_cubes"
+    ],
+    "216": [
+        "math_cubes"
+    ],
+    "512": [
+        "math_cubes"
+    ],
+    "1": [
+        "math_division2",
+        "math_division5",
+        "math_division10"
+    ],
+    "3": [
+        "math_division2",
+        "math_division5",
+        "math_division10"
+    ],
+    "7": [
+        "math_division2",
+        "math_division5",
+        "math_division10"
+    ],
+    "9": [
+        "math_division2",
+        "math_division5",
+        "math_division10"
+    ],
+    "11": [
+        "math_division2",
+        "math_division5"
+    ],
+    "13": [
+        "math_division2",
+        "math_division5"
+    ],
+    "17": [
+        "math_division2",
+        "math_division5"
+    ],
+    "19": [
+        "math_division2",
+        "math_division5"
+    ],
+    "21": [
+        "math_division2"
+    ],
+    "23": [
+        "math_division2"
+    ],
+    "27": [
+        "math_division2"
+    ],
+    "29": [
+        "math_division2"
+    ],
+    "31": [
+        "math_division2"
+    ],
+    "32": [
+        "math_division2",
+        "math_double"
+    ],
+    "33": [
+        "math_division2"
+    ],
+    "34": [
+        "math_division2",
+        "math_double"
+    ],
+    "35": [
+        "math_division2",
+        "math_division5",
+        "math_double"
+    ],
+    "37": [
+        "math_division2"
+    ],
+    "38": [
+        "math_division2",
+        "math_double"
+    ],
+    "39": [
+        "math_division2"
+    ],
+    "40": [
+        "math_division2",
+        "math_division5",
+        "math_division10",
+        "math_double"
+    ],
+    "41": [
+        "math_division2"
+    ],
+    "42": [
+        "math_division2",
+        "math_double"
+    ],
+    "43": [
+        "math_division2"
+    ],
+    "44": [
+        "math_division2",
+        "math_double"
+    ],
+    "45": [
+        "math_division2",
+        "math_division5",
+        "math_double"
+    ],
+    "46": [
+        "math_division2",
+        "math_double"
+    ],
+    "47": [
+        "math_division2"
+    ],
+    "48": [
+        "math_division2",
+        "math_double"
+    ],
+    "49": [
+        "math_division2"
+    ],
+    "50": [
+        "math_division2",
+        "math_division5",
+        "math_division10",
+        "math_double"
+    ],
+    "52": [
+        "math_division2",
+        "math_double"
+    ],
+    "54": [
+        "math_division2",
+        "math_double"
+    ],
+    "56": [
+        "math_division2",
+        "math_double"
+    ],
+    "58": [
+        "math_division2",
+        "math_double"
+    ],
+    "60": [
+        "math_division2",
+        "math_division5",
+        "math_division10",
+        "math_double"
+    ],
+    "62": [
+        "math_division2",
+        "math_double"
+    ],
+    "66": [
+        "math_division2",
+        "math_double"
+    ],
+    "68": [
+        "math_division2",
+        "math_double"
+    ],
+    "70": [
+        "math_division2",
+        "math_division5",
+        "math_division10",
+        "math_double"
+    ],
+    "72": [
+        "math_division2",
+        "math_double"
+    ],
+    "74": [
+        "math_division2",
+        "math_double"
+    ],
+    "76": [
+        "math_division2",
+        "math_double"
+    ],
+    "78": [
+        "math_division2",
+        "math_double"
+    ],
+    "80": [
+        "math_division2",
+        "math_division5",
+        "math_division10",
+        "math_double"
+    ],
+    "82": [
+        "math_division2",
+        "math_double"
+    ],
+    "84": [
+        "math_division2",
+        "math_double"
+    ],
+    "86": [
+        "math_division2",
+        "math_double"
+    ],
+    "88": [
+        "math_division2",
+        "math_double"
+    ],
+    "90": [
+        "math_division2",
+        "math_division5",
+        "math_division10",
+        "math_double"
+    ],
+    "92": [
+        "math_division2",
+        "math_double"
+    ],
+    "94": [
+        "math_division2",
+        "math_double"
+    ],
+    "96": [
+        "math_division2",
+        "math_double"
+    ],
+    "98": [
+        "math_division2",
+        "math_double"
+    ],
+    "55": [
+        "math_division5",
+        "math_double"
+    ],
+    "65": [
+        "math_division5",
+        "math_double"
+    ],
+    "75": [
+        "math_division5",
+        "math_double"
+    ],
+    "85": [
+        "math_division5",
+        "math_double"
+    ],
+    "95": [
+        "math_division5",
+        "math_double"
+    ],
+    "104": [
+        "math_double"
+    ],
+    "108": [
+        "math_double"
+    ],
+    "110": [
+        "math_double"
+    ],
+    "112": [
+        "math_double"
+    ],
+    "116": [
+        "math_double"
+    ],
+    "120": [
+        "math_double"
+    ],
+    "124": [
+        "math_double"
+    ],
+    "128": [
+        "math_double"
+    ],
+    "130": [
+        "math_double"
+    ],
+    "132": [
+        "math_double"
+    ],
+    "136": [
+        "math_double"
+    ],
+    "140": [
+        "math_double"
+    ],
+    "148": [
+        "math_double"
+    ],
+    "150": [
+        "math_double"
+    ],
+    "152": [
+        "math_double"
+    ],
+    "156": [
+        "math_double"
+    ],
+    "160": [
+        "math_double"
+    ],
+    "164": [
+        "math_double"
+    ],
+    "168": [
+        "math_double"
+    ],
+    "170": [
+        "math_double"
+    ],
+    "172": [
+        "math_double"
+    ],
+    "176": [
+        "math_double"
+    ],
+    "180": [
+        "math_double"
+    ],
+    "184": [
+        "math_double"
+    ],
+    "188": [
+        "math_double"
+    ],
+    "190": [
+        "math_double"
+    ],
+    "192": [
+        "math_double"
+    ],
+    "200": [
+        "math_double"
+    ]
+}

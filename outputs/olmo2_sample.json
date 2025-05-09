@@ -1,0 +1,2010 @@
+{
+    "capital_world": [
+        {
+            "doc": "Riga is to Latvia as Zagreb is to",
+            "target": "croatia",
+            "next_token": {
+                "token": "Croatia",
+                "softmax": 0.17,
+                "top5_tokens": {
+                    "Croatia": 0.17,
+                    "what": 0.09,
+                    "______": 0.09,
+                    "__": 0.06,
+                    "which": 0.04
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "croatia": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.1669921875
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (zagreb)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.48,
+            "vsa_sim": {
+                "croatia": 0.48
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "currency": [
+        {
+            "doc": "peso is to Mexico as rupee is to",
+            "target": "india",
+            "next_token": {
+                "token": "India",
+                "softmax": 0.45,
+                "top5_tokens": {
+                    "India": 0.45,
+                    "______": 0.07,
+                    "?": 0.05,
+                    "__": 0.03,
+                    "____": 0.02
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "india": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.447265625
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (rupee)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.51,
+            "vsa_sim": {
+                "india": 0.51
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "family": [
+        {
+            "doc": "girl is to boy as princess is to",
+            "target": "prince",
+            "next_token": {
+                "token": "prince",
+                "softmax": 0.19,
+                "top5_tokens": {
+                    "prince": 0.19,
+                    "king": 0.13,
+                    "______": 0.07,
+                    "what": 0.06,
+                    "_____": 0.05
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "prince": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.1884765625
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (girl ⊙ boy ⊙ princess)",
+            "unbunding_type": "context",
+            "best_item_type": "target",
+            "extracted_factors": "context|target",
+            "target_vsa_cosine_sim": 0.5,
+            "vsa_sim": {
+                "prince": 0.5,
+                "princess": 0.49
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "adjective_to_adverb": [
+        {
+            "doc": "completely is to complete as possibly is to",
+            "target": "possible",
+            "next_token": {
+                "token": "______",
+                "softmax": 0.11,
+                "top5_tokens": {
+                    "______": 0.11,
+                    "": 0.06,
+                    "_____": 0.04,
+                    "__": 0.04
+                },
+                "correct": false
+            },
+            "target_token_rank": {
+                "possible": {
+                    "rank": 28,
+                    "normalized_rank": 0.9997209821428571,
+                    "softmax_diff": 0.101409912109375,
+                    "softmax": 0.006500244140625
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (possibly)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.13,
+            "vsa_sim": {
+                "possible": 0.13
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "opposite": [
+        {
+            "doc": "uncomfortable is to comfortable as unsure is to",
+            "target": "sure",
+            "next_token": {
+                "token": "certain",
+                "softmax": 0.1,
+                "top5_tokens": {
+                    "certain": 0.1,
+                    "sure": 0.1,
+                    "______": 0.06,
+                    "confident": 0.06,
+                    "\"": 0.04
+                },
+                "correct": false
+            },
+            "target_token_rank": {
+                "sure": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.10498046875
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (unsure)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.27,
+            "vsa_sim": {
+                "sure": 0.27
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "comparative": [
+        {
+            "doc": "small is to smaller as good is to",
+            "target": "better",
+            "next_token": {
+                "token": "better",
+                "softmax": 0.32,
+                "top5_tokens": {
+                    "better": 0.32,
+                    "______": 0.05,
+                    "bad": 0.05,
+                    "worse": 0.03,
+                    "\"": 0.03
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "better": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.31640625
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (good)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.38,
+            "vsa_sim": {
+                "better": 0.38
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "superlative": [
+        {
+            "doc": "strangest is to strange as sweetest is to",
+            "target": "sweet",
+            "next_token": {
+                "token": "sweet",
+                "softmax": 0.16,
+                "top5_tokens": {
+                    "sweet": 0.16,
+                    ":": 0.05,
+                    "\"": 0.05,
+                    "": 0.04,
+                    "______": 0.03
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "sweet": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.158203125
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (sweetest)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.13,
+            "vsa_sim": {
+                "sweet": 0.13
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "present_participle": [
+        {
+            "doc": "listening is to listen as dancing is to",
+            "target": "dance",
+            "next_token": {
+                "token": "dance",
+                "softmax": 0.21,
+                "top5_tokens": {
+                    "dance": 0.21,
+                    "walk": 0.15,
+                    "music": 0.11,
+                    "walking": 0.06,
+                    "movement": 0.04
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "dance": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.2109375
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (dancing)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.48,
+            "vsa_sim": {
+                "dance": 0.48
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "nationality_adjective": [
+        {
+            "doc": "Israeli is to Israel as Danish is to",
+            "target": "denmark",
+            "next_token": {
+                "token": "Denmark",
+                "softmax": 0.96,
+                "top5_tokens": {
+                    "Denmark": 0.96,
+                    "Dan": 0.01,
+                    "Danish": 0.0,
+                    "the": 0.0,
+                    "__": 0.0
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "denmark": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.96484375
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (danish)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.73,
+            "vsa_sim": {
+                "denmark": 0.73
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "past_tense": [
+        {
+            "doc": "moved is to moving as read is to",
+            "target": "reading",
+            "next_token": {
+                "token": "reading",
+                "softmax": 0.42,
+                "top5_tokens": {
+                    "reading": 0.42,
+                    "": 0.04,
+                    "______": 0.04,
+                    "_": 0.02,
+                    "_____": 0.02
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "reading": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.423828125
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (read)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.52,
+            "vsa_sim": {
+                "reading": 0.52
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "plural": [
+        {
+            "doc": "bananas is to banana as machines is to",
+            "target": "machine",
+            "next_token": {
+                "token": "machine",
+                "softmax": 0.08,
+                "top5_tokens": {
+                    "machine": 0.08,
+                    "______": 0.07,
+                    "what": 0.07,
+                    "____": 0.04,
+                    "__": 0.04
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "machine": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.080078125
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (machines)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.38,
+            "vsa_sim": {
+                "machine": 0.38
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "plural_verbs": [
+        {
+            "doc": "decreases is to decrease as implements is to",
+            "target": "implement",
+            "next_token": {
+                "token": "increase",
+                "softmax": 0.23,
+                "top5_tokens": {
+                    "increase": 0.23,
+                    "______": 0.05,
+                    "decrease": 0.05,
+                    "__": 0.04,
+                    "increases": 0.03
+                },
+                "correct": false
+            },
+            "target_token_rank": {
+                "implement": {
+                    "rank": 7,
+                    "normalized_rank": 0.9999302455357143,
+                    "softmax_diff": 0.2059326171875,
+                    "softmax": 0.0196533203125
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (implements)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.24,
+            "vsa_sim": {
+                "implement": 0.24
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "antonyms_gradable": [
+        {
+            "doc": "insincere is to sincere as old is to",
+            "target": "young",
+            "next_token": {
+                "token": "young",
+                "softmax": 0.3,
+                "top5_tokens": {
+                    "young": 0.3,
+                    "new": 0.17,
+                    "": 0.05,
+                    "______": 0.04,
+                    "_____": 0.03
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "young": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.30078125
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (old)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.75,
+            "vsa_sim": {
+                "young": 0.75
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "hyponyms_misc": [
+        {
+            "doc": "lollipop is to candy as cake is to",
+            "target": "dessert",
+            "next_token": {
+                "token": "dessert",
+                "softmax": 0.35,
+                "top5_tokens": {
+                    "dessert": 0.35,
+                    "______": 0.03,
+                    "\"": 0.03,
+                    "what": 0.03,
+                    "": 0.02
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "dessert": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.353515625
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (cake)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.32,
+            "vsa_sim": {
+                "dessert": 0.32
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "antonyms_binary": [
+        {
+            "doc": "up is to down as sink is to",
+            "target": "rise",
+            "next_token": {
+                "token": "?",
+                "softmax": 0.19,
+                "top5_tokens": {
+                    "?": 0.04,
+                    "": 0.07,
+                    ":": 0.05
+                },
+                "correct": false
+            },
+            "target_token_rank": {
+                "rise": {
+                    "rank": 116,
+                    "normalized_rank": 0.9988440688775511,
+                    "softmax_diff": 0.19389724731445312,
+                    "softmax": 0.000438690185546875
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (sink)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.51,
+            "vsa_sim": {
+                "rise": 0.51
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "hypernyms_animals": [
+        {
+            "doc": "bovid is to cow as feline is to",
+            "target": "tiger",
+            "next_token": {
+                "token": "cat",
+                "softmax": 0.09,
+                "top5_tokens": {
+                    "cat": 0.09,
+                    "______": 0.09,
+                    "_____": 0.06,
+                    "what": 0.06,
+                    "____": 0.05
+                },
+                "correct": false
+            },
+            "target_token_rank": {
+                "tiger": {
+                    "rank": 18,
+                    "normalized_rank": 0.9998206313775511,
+                    "softmax_diff": 0.0797119140625,
+                    "softmax": 0.0115966796875
+                }
+            },
+            "unbunding_combo": "vsa",
+            "unbunding_type": "original",
+            "best_item_type": "out-of-context",
+            "extracted_factors": "",
+            "target_vsa_cosine_sim": -0.02,
+            "vsa_sim": {},
+            "precisions": {
+                "precision@1": false,
+                "precision@3": false,
+                "precision@5": false
+            }
+        }
+    ],
+    "hypernyms_misc": [
+        {
+            "doc": "container is to tub as device is to",
+            "target": "tv",
+            "next_token": {
+                "token": "?",
+                "softmax": 0.07,
+                "top5_tokens": {
+                    "?": 0.07,
+                    "__": 0.05,
+                    ":": 0.05,
+                    "______": 0.04,
+                    "": 0.04
+                },
+                "correct": false
+            },
+            "target_token_rank": {
+                "tv": {
+                    "rank": 50,
+                    "normalized_rank": 0.9995017538265306,
+                    "softmax_diff": 0.0682220458984375,
+                    "softmax": 0.0025787353515625
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (container)",
+            "unbunding_type": "example_key",
+            "best_item_type": "example_value",
+            "extracted_factors": "example",
+            "target_vsa_cosine_sim": 0.03,
+            "vsa_sim": {
+                "tub": 0.47
+            },
+            "precisions": {
+                "precision@1": false,
+                "precision@3": false,
+                "precision@5": false
+            }
+        }
+    ],
+    "verb_Ving_3pSg": [
+        {
+            "doc": "appears is to appearing as develops is to",
+            "target": "developing",
+            "next_token": {
+                "token": "development",
+                "softmax": 0.29,
+                "top5_tokens": {
+                    "development": 0.29,
+                    "develop": 0.12,
+                    "developed": 0.09,
+                    "developing": 0.09,
+                    "evolution": 0.04
+                },
+                "correct": false
+            },
+            "target_token_rank": {
+                "developing": {
+                    "rank": 3,
+                    "normalized_rank": 0.9999701052295918,
+                    "softmax_diff": 0.20361328125,
+                    "softmax": 0.08935546875
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (appears ⊙ appearing ⊙ develops)",
+            "unbunding_type": "context",
+            "best_item_type": "target",
+            "extracted_factors": "context|target",
+            "target_vsa_cosine_sim": 0.51,
+            "vsa_sim": {
+                "developing": 0.51,
+                "develops": 0.49
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "adj_comparative": [
+        {
+            "doc": "nastier is to nasty as rockier is to",
+            "target": "rocky",
+            "next_token": {
+                "token": "rocky",
+                "softmax": 0.1,
+                "top5_tokens": {
+                    "rocky": 0.1,
+                    "rock": 0.09,
+                    "": 0.06,
+                    ":": 0.04,
+                    "a": 0.03
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "rocky": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.0986328125
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (rockier)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.47,
+            "vsa_sim": {
+                "rocky": 0.47
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "verb_inf_Ving": [
+        {
+            "doc": "perform is to performing as protect is to",
+            "target": "protecting",
+            "next_token": {
+                "token": "protecting",
+                "softmax": 0.18,
+                "top5_tokens": {
+                    "protecting": 0.18,
+                    "______": 0.14,
+                    "protection": 0.08,
+                    "__": 0.08,
+                    "____": 0.04
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "protecting": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.1787109375
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (protect)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.49,
+            "vsa_sim": {
+                "protecting": 0.49
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "adj_superlative": [
+        {
+            "doc": "scary is to scariest as weird is to",
+            "target": "weirdest",
+            "next_token": {
+                "token": "weir",
+                "softmax": 0.16,
+                "top5_tokens": {
+                    "weir": 0.16,
+                    "what": 0.09,
+                    "\"": 0.05,
+                    "______": 0.04,
+                    "_": 0.03
+                },
+                "correct": 0.5
+            },
+            "target_token_rank": {
+                "weir": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.1572265625
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (weird)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.44,
+            "vsa_sim": {
+                "weirdest": 0.44
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "verb_inf_Ved": [
+        {
+            "doc": "achieve is to achieved as marry is to",
+            "target": "married",
+            "next_token": {
+                "token": "married",
+                "softmax": 0.14,
+                "top5_tokens": {
+                    "married": 0.14,
+                    "marry": 0.11,
+                    "": 0.06,
+                    "______": 0.05,
+                    "marriage": 0.05
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "married": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.14453125
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (marry)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.52,
+            "vsa_sim": {
+                "married": 0.52
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "verb_3pSg_Ved": [
+        {
+            "doc": "became is to becomes as contained is to",
+            "target": "contains",
+            "next_token": {
+                "token": "contains",
+                "softmax": 0.5,
+                "top5_tokens": {
+                    "contains": 0.5,
+                    "contained": 0.05,
+                    "__": 0.03,
+                    "contain": 0.03,
+                    "container": 0.02
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "contains": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.50390625
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (became ⊙ becomes ⊙ contained)",
+            "unbunding_type": "context",
+            "best_item_type": "target",
+            "extracted_factors": "context|target",
+            "target_vsa_cosine_sim": 0.53,
+            "vsa_sim": {
+                "contains": 0.53,
+                "contained": 0.48
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "verb_Ving_Ved": [
+        {
+            "doc": "operating is to operated as proposing is to",
+            "target": "proposed",
+            "next_token": {
+                "token": "proposed",
+                "softmax": 0.2,
+                "top5_tokens": {
+                    "proposed": 0.2,
+                    "propose": 0.14,
+                    "______": 0.03,
+                    "proposition": 0.03,
+                    "__": 0.03
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "proposed": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.1962890625
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (proposing)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.54,
+            "vsa_sim": {
+                "proposed": 0.54
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "noun_plural_reg": [
+        {
+            "doc": "resources is to resource as rivers is to",
+            "target": "river",
+            "next_token": {
+                "token": "water",
+                "softmax": 0.2,
+                "top5_tokens": {
+                    "water": 0.2,
+                    "river": 0.11,
+                    "rivers": 0.06,
+                    "______": 0.04,
+                    "": 0.03
+                },
+                "correct": false
+            },
+            "target_token_rank": {
+                "river": {
+                    "rank": 1,
+                    "normalized_rank": 0.9999900350765306,
+                    "softmax_diff": 0.09423828125,
+                    "softmax": 0.10888671875
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (rivers)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.53,
+            "vsa_sim": {
+                "river": 0.53
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "verb_inf_3pSg": [
+        {
+            "doc": "apply is to applies as seem is to",
+            "target": "seems",
+            "next_token": {
+                "token": "seems",
+                "softmax": 0.11,
+                "top5_tokens": {
+                    "seems": 0.11,
+                    "seem": 0.1,
+                    "see": 0.04,
+                    "______": 0.04,
+                    "": 0.03
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "seems": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.109375
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (seem)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.52,
+            "vsa_sim": {
+                "seems": 0.52
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "noun_plural_irreg": [
+        {
+            "doc": "society is to societies as university is to",
+            "target": "universities",
+            "next_token": {
+                "token": "universities",
+                "softmax": 0.7,
+                "top5_tokens": {
+                    "universities": 0.7,
+                    "univers": 0.04,
+                    "university": 0.03,
+                    "students": 0.02,
+                    "the": 0.02
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "universities": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.69921875
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (university)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.56,
+            "vsa_sim": {
+                "universities": 0.56
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "UK_city_county": [
+        {
+            "doc": "aberdeen is to aberdeenshire as inverness is to",
+            "target": "highlands",
+            "next_token": {
+                "token": "in",
+                "softmax": 0.52,
+                "top5_tokens": {
+                    "in": 0.52,
+                    "high": 0.09,
+                    "?": 0.03,
+                    "": 0.03
+                },
+                "correct": false
+            },
+            "target_token_rank": {
+                "highlands": {
+                    "rank": 347,
+                    "normalized_rank": 0.9965421715561225,
+                    "softmax_diff": 0.5155887603759766,
+                    "softmax": 3.62396240234375e-05
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (inverness)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.48,
+            "vsa_sim": {
+                "highlands": 0.48
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "male_female": [
+        {
+            "doc": "chairman is to chairwoman as murderer is to",
+            "target": "murderess",
+            "next_token": {
+                "token": "_",
+                "softmax": 0.05,
+                "top5_tokens": {
+                    "_": 0.05,
+                    "______": 0.05,
+                    "...": 0.05,
+                    "": 0.05,
+                    "?": 0.04
+                },
+                "correct": false
+            },
+            "target_token_rank": {
+                "murder": {
+                    "rank": 14,
+                    "normalized_rank": 0.9998604910714286,
+                    "softmax_diff": 0.037353515625,
+                    "softmax": 0.015625
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (murderer)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.59,
+            "vsa_sim": {
+                "murderess": 0.59
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "country_language": [
+        {
+            "doc": "Ethiopia is to Amharic as Nicaragua is to",
+            "target": "spanish",
+            "next_token": {
+                "token": "Spanish",
+                "softmax": 0.33,
+                "top5_tokens": {
+                    "Spanish": 0.33,
+                    "______": 0.07,
+                    "_____": 0.04,
+                    "what": 0.04,
+                    "": 0.04
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "spanish": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.333984375
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (nicaragua)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.37,
+            "vsa_sim": {
+                "spanish": 0.37
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "name_occupation": [
+        {
+            "doc": "einstein is to physicist as hawking is to",
+            "target": "physicist",
+            "next_token": {
+                "token": "?",
+                "softmax": 0.09,
+                "top5_tokens": {
+                    "?": 0.05,
+                    "physicist": 0.09,
+                    "": 0.07,
+                    "what": 0.06
+                },
+                "correct": false
+            },
+            "target_token_rank": {
+                "physicist": {
+                    "rank": 1,
+                    "normalized_rank": 0.9999900350765306,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.08984375
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (einstein)",
+            "unbunding_type": "example_key",
+            "best_item_type": "target",
+            "extracted_factors": "example_key|target",
+            "target_vsa_cosine_sim": 0.19,
+            "vsa_sim": {
+                "physicist": 0.19,
+                "hawking": 0.19
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "animal_shelter": [
+        {
+            "doc": "hedgehog is to nest as lion is to",
+            "target": "den",
+            "next_token": {
+                "token": "den",
+                "softmax": 0.18,
+                "top5_tokens": {
+                    "den": 0.18,
+                    "_____": 0.07,
+                    "roar": 0.06,
+                    "______": 0.05,
+                    "la": 0.04
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "den": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.181640625
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (lion)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.64,
+            "vsa_sim": {
+                "den": 0.64
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "name_nationality": [
+        {
+            "doc": "aristotle is to Greek as confucius is to",
+            "target": "chinese",
+            "next_token": {
+                "token": "Chinese",
+                "softmax": 0.28,
+                "top5_tokens": {
+                    "Chinese": 0.28,
+                    "chinese": 0.25,
+                    "": 0.03,
+                    "______": 0.03,
+                    "what": 0.02
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "chinese": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.28125
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (confucius)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.43,
+            "vsa_sim": {
+                "chinese": 0.43
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "animal_sound": [
+        {
+            "doc": "cricket is to chirp as toad is to",
+            "target": "ribbit",
+            "next_token": {
+                "token": "cro",
+                "softmax": 0.22,
+                "top5_tokens": {
+                    "cro": 0.22,
+                    "______": 0.05,
+                    "rib": 0.04,
+                    "___": 0.04,
+                    "hop": 0.03
+                },
+                "correct": false
+            },
+            "target_token_rank": {
+                "rib": {
+                    "rank": 2,
+                    "normalized_rank": 0.9999800701530612,
+                    "softmax_diff": 0.178955078125,
+                    "softmax": 0.040771484375
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (toad)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.74,
+            "vsa_sim": {
+                "ribbit": 0.74
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "country_capital": [
+        {
+            "doc": "Jakarta is to Indonesia as Kabul is to",
+            "target": "afghanistan",
+            "next_token": {
+                "token": "Afghanistan",
+                "softmax": 0.89,
+                "top5_tokens": {
+                    "Afghanistan": 0.89,
+                    "what": 0.01,
+                    "A": 0.01,
+                    "__": 0.01,
+                    "the": 0.01
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "afghanistan": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.88671875
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (kabul)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.71,
+            "vsa_sim": {
+                "afghanistan": 0.71
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "verb+tion_irreg": [
+        {
+            "doc": "consulation is to consult as maximization is to",
+            "target": "maximize",
+            "next_token": {
+                "token": "maximize",
+                "softmax": 0.38,
+                "top5_tokens": {
+                    "maximize": 0.38,
+                    "optimize": 0.1,
+                    "maxim": 0.08,
+                    "minimize": 0.04,
+                    "optimization": 0.01
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "maximize": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.380859375
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (maximization)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.67,
+            "vsa_sim": {
+                "maximize": 0.67
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "over+adj_reg": [
+        {
+            "doc": "overstrained is to strained as overtaken is to",
+            "target": "taken",
+            "next_token": {
+                "token": "taken",
+                "softmax": 0.31,
+                "top5_tokens": {
+                    "taken": 0.31,
+                    ":": 0.04,
+                    "": 0.04,
+                    "?": 0.04
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "taken": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.30859375
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (overtaken)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.27,
+            "vsa_sim": {
+                "taken": 0.27
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "noun+less_reg": [
+        {
+            "doc": "egoless is to ego as thoughtless is to",
+            "target": "thought",
+            "next_token": {
+                "token": "thought",
+                "softmax": 0.35,
+                "top5_tokens": {
+                    "thought": 0.35,
+                    "__": 0.06,
+                    "______": 0.06,
+                    "thinking": 0.05,
+                    "____": 0.04
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "thought": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.34765625
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (thoughtless)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.2,
+            "vsa_sim": {
+                "thought": 0.2
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "verb+able_reg": [
+        {
+            "doc": "accept is to acceptable as download is to",
+            "target": "downloadable",
+            "next_token": {
+                "token": "",
+                "softmax": 0.07,
+                "top5_tokens": {
+                    "": 0.06,
+                    ":": 0.06,
+                    "?": 0.06,
+                    "\"": 0.05
+                },
+                "correct": false
+            },
+            "target_token_rank": {
+                "downloadable": {
+                    "rank": 6,
+                    "normalized_rank": 0.9999402104591837,
+                    "softmax_diff": 0.042724609375,
+                    "softmax": 0.030517578125
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (download)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.56,
+            "vsa_sim": {
+                "downloadable": 0.56
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "verb+ment_irreg": [
+        {
+            "doc": "amend is to amendment as embarrass is to",
+            "target": "embarrassment",
+            "next_token": {
+                "token": "embarrassment",
+                "softmax": 0.46,
+                "top5_tokens": {
+                    "embarrassment": 0.46,
+                    "______": 0.08,
+                    "embarrass": 0.05,
+                    "__": 0.04,
+                    "emb": 0.02
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "embarrassment": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.4609375
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (embarrass)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.62,
+            "vsa_sim": {
+                "embarrassment": 0.62
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "adj+ness_reg": [
+        {
+            "doc": "dangerousness is to dangerous as sameness is to",
+            "target": "same",
+            "next_token": {
+                "token": "same",
+                "softmax": 0.59,
+                "top5_tokens": {
+                    "same": 0.59,
+                    "the": 0.05,
+                    "different": 0.03,
+                    "similar": 0.03,
+                    "safe": 0.02
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "same": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.59375
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (sameness)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.67,
+            "vsa_sim": {
+                "same": 0.67
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "verb+er_irreg": [
+        {
+            "doc": "composer is to compose as publisher is to",
+            "target": "publish",
+            "next_token": {
+                "token": "publish",
+                "softmax": 0.64,
+                "top5_tokens": {
+                    "publish": 0.64,
+                    "__": 0.04,
+                    "______": 0.03,
+                    "print": 0.02,
+                    "____": 0.01
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "publish": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.640625
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (publisher)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.49,
+            "vsa_sim": {
+                "publish": 0.49
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "re+verb_reg": [
+        {
+            "doc": "reemerge is to emerge as reexamine is to",
+            "target": "examine",
+            "next_token": {
+                "token": "examine",
+                "softmax": 0.29,
+                "top5_tokens": {
+                    "examine": 0.29,
+                    "re": 0.24,
+                    "exam": 0.03,
+                    "reconsider": 0.02,
+                    "__": 0.02
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "examine": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.287109375
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (reexamine)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.5,
+            "vsa_sim": {
+                "examine": 0.5
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "un+adj_reg": [
+        {
+            "doc": "unsatisfactory is to satisfactory as unusual is to",
+            "target": "usual",
+            "next_token": {
+                "token": "",
+                "softmax": 0.07,
+                "top5_tokens": {
+                    "": 0.04,
+                    "normal": 0.06,
+                    "______": 0.05,
+                    "?": 0.04
+                },
+                "correct": false
+            },
+            "target_token_rank": {
+                "usual": {
+                    "rank": 8,
+                    "normalized_rank": 0.9999202806122449,
+                    "softmax_diff": 0.04736328125,
+                    "softmax": 0.01904296875
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (unusual)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.32,
+            "vsa_sim": {
+                "usual": 0.32
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "adj+ly_reg": [
+        {
+            "doc": "famously is to famous as obviously is to",
+            "target": "obvious",
+            "next_token": {
+                "token": "obvious",
+                "softmax": 0.46,
+                "top5_tokens": {
+                    "obvious": 0.46,
+                    "ob": 0.09,
+                    "obviously": 0.03,
+                    "evident": 0.03,
+                    "clear": 0.02
+                },
+                "correct": true
+            },
+            "target_token_rank": {
+                "obvious": {
+                    "rank": 0,
+                    "normalized_rank": 1.0,
+                    "softmax_diff": 0.0,
+                    "softmax": 0.462890625
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (obviously)",
+            "unbunding_type": "key",
+            "best_item_type": "target",
+            "extracted_factors": "key|target",
+            "target_vsa_cosine_sim": 0.59,
+            "vsa_sim": {
+                "obvious": 0.59
+            },
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ],
+    "math_squares": [
+        {
+            "doc": "24 is to 576 as 14 is to",
+            "target": "196",
+            "next_token": {
+                "token": "x",
+                "softmax": 0.64,
+                "top5_tokens": {
+                    "x": 0.64,
+                    "": 0.13,
+                    "what": 0.11,
+                    "y": 0.04,
+                    "X": 0.03
+                },
+                "correct": false
+            },
+            "target_token_rank": {
+                "196": {
+                    "rank": 11626,
+                    "normalized_rank": 0.884147799744898,
+                    "softmax_diff": 0.6367187459545676,
+                    "softmax": 4.045432433485985e-09
+                }
+            },
+            "unbunding_combo": "vsa",
+            "unbunding_type": "original",
+            "best_item_type": "out-of-context",
+            "extracted_factors": "",
+            "target_vsa_cosine_sim": 0.04,
+            "vsa_sim": {},
+            "precisions": {
+                "precision@1": false,
+                "precision@3": false,
+                "precision@5": false
+            }
+        }
+    ],
+    "math_cubes": [
+        {
+            "doc": "2 is to 8 as 5 is to",
+            "target": "125",
+            "next_token": {
+                "token": "x",
+                "softmax": 0.53,
+                "top5_tokens": {
+                    "x": 0.53,
+                    "y": 0.17,
+                    "what": 0.13,
+                    "": 0.09,
+                    "X": 0.03
+                },
+                "correct": false
+            },
+            "target_token_rank": {
+                "125": {
+                    "rank": 5731,
+                    "normalized_rank": 0.9428910235969388,
+                    "softmax_diff": 0.531249983352609,
+                    "softmax": 1.664739102125168e-08
+                }
+            },
+            "unbunding_combo": "vsa",
+            "unbunding_type": "original",
+            "best_item_type": "out-of-context",
+            "extracted_factors": "",
+            "target_vsa_cosine_sim": 0.0,
+            "vsa_sim": {},
+            "precisions": {
+                "precision@1": false,
+                "precision@3": false,
+                "precision@5": false
+            }
+        }
+    ],
+    "math_division2": [
+        {
+            "doc": "20 is to 10 as 94 is to",
+            "target": "47",
+            "next_token": {
+                "token": "x",
+                "softmax": 0.66,
+                "top5_tokens": {
+                    "x": 0.66,
+                    "": 0.1,
+                    "what": 0.09,
+                    "y": 0.08,
+                    "X": 0.02
+                },
+                "correct": false
+            },
+            "target_token_rank": {
+                "47": {
+                    "rank": 4812,
+                    "normalized_rank": 0.9520487882653061,
+                    "softmax_diff": 0.664062483352609,
+                    "softmax": 1.664739102125168e-08
+                }
+            },
+            "unbunding_combo": "vsa",
+            "unbunding_type": "original",
+            "best_item_type": "out-of-context",
+            "extracted_factors": "",
+            "target_vsa_cosine_sim": 0.03,
+            "vsa_sim": {},
+            "precisions": {
+                "precision@1": false,
+                "precision@3": false,
+                "precision@5": false
+            }
+        }
+    ],
+    "math_division5": [
+        {
+            "doc": "5 is to 1 as 35 is to",
+            "target": "7",
+            "next_token": {
+                "token": "x",
+                "softmax": 0.61,
+                "top5_tokens": {
+                    "x": 0.61,
+                    "": 0.12,
+                    "y": 0.08,
+                    "X": 0.06,
+                    "what": 0.05
+                },
+                "correct": false
+            },
+            "target_token_rank": {
+                "7": {
+                    "rank": 1224,
+                    "normalized_rank": 0.9878029336734694,
+                    "softmax_diff": 0.6054682433605194,
+                    "softmax": 5.066394805908203e-07
+                }
+            },
+            "unbunding_combo": "vsa",
+            "unbunding_type": "original",
+            "best_item_type": "out-of-context",
+            "extracted_factors": "",
+            "target_vsa_cosine_sim": 0.0,
+            "vsa_sim": {},
+            "precisions": {
+                "precision@1": false,
+                "precision@3": false,
+                "precision@5": false
+            }
+        }
+    ],
+    "math_division10": [
+        {
+            "doc": "20 is to 2 as 80 is to",
+            "target": "8",
+            "next_token": {
+                "token": "x",
+                "softmax": 0.82,
+                "top5_tokens": {
+                    "x": 0.82,
+                    "y": 0.07,
+                    "what": 0.04,
+                    "": 0.03,
+                    "X": 0.02
+                },
+                "correct": false
+            },
+            "target_token_rank": {
+                "8": {
+                    "rank": 738,
+                    "normalized_rank": 0.9926458864795918,
+                    "softmax_diff": 0.8164061512798071,
+                    "softmax": 9.872019290924072e-08
+                }
+            },
+            "unbunding_combo": "vsa",
+            "unbunding_type": "original",
+            "best_item_type": "out-of-context",
+            "extracted_factors": "",
+            "target_vsa_cosine_sim": -0.01,
+            "vsa_sim": {},
+            "precisions": {
+                "precision@1": false,
+                "precision@3": false,
+                "precision@5": false
+            }
+        }
+    ],
+    "math_double": [
+        {
+            "doc": "78 is to 156 as 68 is to",
+            "target": "136",
+            "next_token": {
+                "token": "x",
+                "softmax": 0.44,
+                "top5_tokens": {
+                    "x": 0.44,
+                    "what": 0.23,
+                    "y": 0.14,
+                    "": 0.12,
+                    "X": 0.02
+                },
+                "correct": false
+            },
+            "target_token_rank": {
+                "136": {
+                    "rank": 2086,
+                    "normalized_rank": 0.9792131696428571,
+                    "softmax_diff": 0.44140618527308106,
+                    "softmax": 6.472691893577576e-08
+                }
+            },
+            "unbunding_combo": "vsa",
+            "unbunding_type": "original",
+            "best_item_type": "out-of-context",
+            "extracted_factors": "",
+            "target_vsa_cosine_sim": -0.0,
+            "vsa_sim": {},
+            "precisions": {
+                "precision@1": false,
+                "precision@3": false,
+                "precision@5": false
+            }
+        }
+    ],
+    "math_root": [
+        {
+            "doc": "100 is to 10 as 36 is to",
+            "target": "6",
+            "next_token": {
+                "token": "x",
+                "softmax": 0.66,
+                "top5_tokens": {
+                    "x": 0.66,
+                    "y": 0.12,
+                    "what": 0.09,
+                    "": 0.04,
+                    "X": 0.03
+                },
+                "correct": false
+            },
+            "target_token_rank": {
+                "6": {
+                    "rank": 2021,
+                    "normalized_rank": 0.9798608896683674,
+                    "softmax_diff": 0.6562499068677425,
+                    "softmax": 9.313225746154785e-08
+                }
+            },
+            "unbunding_combo": "vsa ⊙ (replacing)",
+            "unbunding_type": "greedy",
+            "best_item_type": "target",
+            "extracted_factors": "out-of-context",
+            "target_vsa_cosine_sim": 0.06,
+            "vsa_sim": {},
+            "precisions": {
+                "precision@1": true,
+                "precision@3": true,
+                "precision@5": true
+            }
+        }
+    ]
+}

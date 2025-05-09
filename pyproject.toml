@@ -1,0 +1,43 @@
+[project]
+name = "hyperprobe"
+version = "0.1"
+dependencies = [
+  "numpy",
+  "pandas",
+  "matplotlib",
+  "seaborn",
+  "scikit-learn",
+  "pyarrow",
+  "transformers",
+  "accelerate",
+  "torch",
+  "torchmetrics",
+  "torch-hd",
+  "lightning",
+  "tensorboard"
+]
+authors = [
+  {name="Name Surname"}
+]
+maintainers = [
+  {name = "Name Surname", email = "name.surname@email.com"}
+]
+description = "This is the Python implementation of the framework proposed in the paper Hyperdimensional Probe: Decoding LLM Representations via Vector Symbolic Architectures"
+readme = "README.md"
+license = {text = "CC BY-NC-SA 4.0"}
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: Free for non-commercial use",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+keywords = ["Large Language Models", "Information Decoding", "Residual Stream", "Probes"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
