@@ -123,6 +123,8 @@ NOTE: The folder [``../probing/utils/logitLens``](src/hyperprobe/probing/utils/l
 ### Probing performance
 ![experimental_figures](images/experimental_figures.png)
 ![experimental_table](images/experimental_table.png)
+![extracted_concepts](images/extracted_concepts.png)
+
 
 ## Computational resources
 We recommend to have a GPU to run this pipeline (see [CUDA](https://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html)).
