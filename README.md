@@ -40,7 +40,7 @@ This should automatically install all the dependencies listed in [``pyproject.to
 
 ## Execute via high-level APIs 
 The framework can be run via standalone APIs, as detailed further in [``src/script.py``](src/script.py). 
-It is designed to work with any autoregressive language models hosted on the Hugging Face platform: [huggingface.co/models](https://huggingface.co/models?pipeline_tag=text-generation&library=transformers&sort=downloads)
+It is designed to work with any autoregressive language models hosted on the Hugging Face platform: [huggingface.co/models](https://huggingface.co/models?pipeline_tag=text-generation&library=transformers&sort=downloads).
 
 ``` python
 import hyperprobe
@@ -52,14 +52,14 @@ codebook = hyperprobe.create_codebook(
     concepts = ['Denmark', 'Mexico', 'krone', 'peso'], 
     vsa_dimension = 4096)
 ```
-### 2) Get the embeddings from an autoregressive language model
+### 2) Get the neural embeddings from an autoregressive language model, and cluster them
 ``` python
 llm_embeddings, *_ = hyperprobe.ingest_embeddings(
     docs = ['Denmark : krone = Mexico : peso'], 
     model_name = 'meta-llama/Llama-4-Scout-17B-16E')
 ```
 
-2a) Apply sum pooling on the LLM embeddings
+2a) Apply sum pooling on the embeddings
 ``` python
 llm_embeddings = {doc: embedding.sum(dim=0) for doc, embedding in llm_embeddings.items()}
 ```
