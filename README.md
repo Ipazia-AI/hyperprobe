@@ -17,7 +17,7 @@ Our work advances information decoding in LLM vector space, unlocking the potent
 - [``data``](data): Corpus of factual and linguistic analogies;
 - [``src/hyperprobe``](src/hyperprobe) Implementation of *hyperdimensional probe*;
 - [``src/script.py``](src/script.py) Script for showcasing the framework;
-- [``outputs/extracted_concepts.json``](outputs/extracted_concepts.json) Findings from a sample.
+- [``outputs/olmo2_sample.json``](outputs/olmo2_sample.json) Findings from a sample of extracted concepts using [AllenAI's OLMo2-32B](https://huggingface.co/allenai/OLMo-2-0325-32B)
 
 ## Data
 ### Corpus of factual and linguistic analogies
