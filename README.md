@@ -36,7 +36,7 @@ Download the repository, and install the python package locally via the package 
 pip install -e .
 ```
 
-This should automatically install dependencies from [``pyproject.toml``](pyproject.toml). If that fails, you can manually install them using ```pip install -r requirements.txt```.
+This should automatically install all the dependencies listed in [``pyproject.toml``](pyproject.toml). If that fails, you can manually install them using ```pip install -r requirements.txt```.
 
 ## Execute via high-level APIs 
 The framework can be run via standalone APIs, as detailed further in [``src/script.py``](src/script.py). 
