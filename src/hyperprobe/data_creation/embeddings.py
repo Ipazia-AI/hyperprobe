@@ -19,7 +19,7 @@ configs = {
 }
 
 
-def ingest_embeddings(docs:list[str], model_name:str) -> tuple[dict[str, torch.Tensor], tuple[int, int], pd.DataFrame, torch.Tensor]:
+def ingest_embeddings(docs:list[str], model_name:str, k_clusters:int = 5) -> tuple[dict[str, torch.Tensor], tuple[int, int], pd.DataFrame, torch.Tensor]:
     """
     Ingest the embeddings from the LLM.
     """
@@ -79,7 +79,7 @@ def ingest_embeddings(docs:list[str], model_name:str) -> tuple[dict[str, torch.T
         layer_correlations.append(torch.corrcoef(hs).detach().cpu().bfloat16())
         
         # Cluster the hidden states by applying k-means
-        cluster_assignments, centroids = emb_utils.kmeans_cuda(hs, K = 5)
+        cluster_assignments, centroids = emb_utils.kmeans_cuda(hs, K = k_clusters)
         
         # Save the cluster assignments
         cluster_assignments = list(zip(range(median_layer, model.config.num_hidden_layers + 1), cluster_assignments))

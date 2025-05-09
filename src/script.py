@@ -20,13 +20,14 @@ if __name__ == "__main__":
     codebook = hyperprobe.create_codebook(concepts = all_concepts, vsa_dimension=4096)
     print(f"\nCodebook created with {len(codebook)} concepts and {len(codebook.columns)} dimensions.\n")
 
-    # [2] Get the LLM embeddings: Extract embeddings for the input documents using a pre-trained LLM
-    model_name = 'meta-llama/Llama-4-Scout-17B-16E'
+    # [2] Get the LLM embeddings: Extract embeddings for the input documents using a pre-trained LLM and cluster them using k-means
+    model_name = 'openai-community/gpt2-medium' #'meta-llama/Llama-4-Scout-17B-16E'
 
     # Use multiprocessing to execute the function in a sandbox, releasing the GPUs afterwards
     docs = [item['doc'] for item in inputs]
+    k_clusters = 5
     with mp.get_context("spawn").Pool(1) as pool:
-        llm_embeddings, *_ = pool.apply(hyperprobe.ingest_embeddings, args=(docs, model_name))
+        llm_embeddings, *_ = pool.apply(hyperprobe.ingest_embeddings, args=(docs, model_name, k_clusters))
     
     # [2a] Apply sum pooling to the LLM embeddings: Sum pooling reduces the embeddings to a single vector per document
     llm_embeddings = {doc: embedding.sum(dim=0) for doc, embedding in llm_embeddings.items()}
@@ -45,7 +46,7 @@ if __name__ == "__main__":
         'app': {'folder': 'outputs', 'run_name': model_name.split('/')[-1].replace('-', '_') + "_run1"}
     }
     
-    # [SHOWCASE ONLY] Dummy input duplication to demonstrate training behavior
+    # [SHOWCASE ONLY] Dummy input duplication to demonstrate training
     inputs = inputs * 5
     
     # Prepare the input dataset

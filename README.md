@@ -52,11 +52,12 @@ codebook = hyperprobe.create_codebook(
     concepts = ['Denmark', 'Mexico', 'krone', 'peso'], 
     vsa_dimension = 4096)
 ```
-### 2) Get the neural embeddings from an autoregressive language model, and cluster them
+### 2) Get the embeddings from an autoregressive language model, and apply k-means
 ``` python
 llm_embeddings, *_ = hyperprobe.ingest_embeddings(
     docs = ['Denmark : krone = Mexico : peso'], 
-    model_name = 'meta-llama/Llama-4-Scout-17B-16E')
+    model_name = 'meta-llama/Llama-4-Scout-17B-16E',
+    k_clusters = 5)
 ```
 
 2a) Apply sum pooling on the embeddings
@@ -96,7 +97,7 @@ doc = 'Big is to small as introvert is to extravert'
 extracted_concepts = hyperprobe.probe_doc(doc, codebook, llm, trained_encoder)
 ``` 
 
-## Code to reproduce the results from the paper
+## Pipeline to reproduce the results from the paper
 ### (A) Preprocessing *F*: From textual inputs to compressed LLM embeddings
 1. Create the VSA codebook: [``src/hyperprobe/data_creation/create_codebook.py``](src/hyperprobe/data_creation/create_codebook.py)
 2. Store the LLM embeddings: [``src/hyperprobe/data_creation/embeddings.py``](src/hyperprobe/data_creation/embeddings.py)
