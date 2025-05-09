@@ -17,7 +17,7 @@ Our work advances information decoding in LLM vector space, unlocking the potent
 - [``data``](data): Corpus of factual and linguistic analogies;
 - [``src/hyperprobe``](src/hyperprobe) Implementation of *hyperdimensional probe*;
 - [``src/script.py``](src/script.py) Script for showcasing the framework;
-- [``outputs/olmo2_sample.json``](outputs/olmo2_sample.json) Findings from a sample of extracted concepts using [AllenAI's OLMo2-32B](https://huggingface.co/allenai/OLMo-2-0325-32B)
+- [``outputs/olmo2_sample.json``](outputs/olmo2_sample.json) Findings from a sample of extracted concepts using [AllenAI's OLMo2-32B](https://huggingface.co/allenai/OLMo-2-0325-32B).
 
 ## Data
 ### Corpus of factual and linguistic analogies
@@ -39,7 +39,9 @@ pip install -e .
 This should automatically install dependencies from [``pyproject.toml``](pyproject.toml). If that fails, you can manually install them using ```pip install -r requirements.txt```.
 
 ## Execute via high-level APIs 
-The framework can be run via standalone APIs, as detailed further in [``src/script.py``](src/script.py).
+The framework can be run via standalone APIs, as detailed further in [``src/script.py``](src/script.py). 
+
+It is designed to work with autoregressive language models hosted on the Hugging Face platform: [huggingface.co/models](https://huggingface.co/models?pipeline_tag=text-generation&library=transformers&sort=downloads)
 
 ``` python
 import hyperprobe
@@ -51,19 +53,19 @@ codebook = hyperprobe.create_codebook(
     concepts = ['Denmark', 'Mexico', 'krone', 'peso'], 
     vsa_dimension = 4096)
 ```
-### 2) Get the embeddings from a autoregressive language model
+### 2) Get the embeddings from an autoregressive language model
 ``` python
 llm_embeddings, *_ = hyperprobe.ingest_embeddings(
     docs = ['Denmark : krone = Mexico : peso'], 
     model_name = 'meta-llama/Llama-4-Scout-17B-16E')
 ```
 
-2a) Apply sum pooling to the LLM embeddings
+2a) Apply sum pooling on the LLM embeddings
 ``` python
 llm_embeddings = {doc: embedding.sum(dim=0) for doc, embedding in llm_embeddings.items()}
 ```
 
-### 3) Create the VSA encodings for the input sentences
+### 3) Create the VSA encodings for the input documents
 ``` python
 vsa_encodings = hyperprobe.create_vsa_encodings(
     item = {'doc': ' Denmark : krone = Mexico : peso', 'concepts': [('Denmark','krone'), ('Mexico', 'peso')]}, 
@@ -72,7 +74,7 @@ vsa_encodings = hyperprobe.create_vsa_encodings(
 
 ### 4) Train the neural VSA encoder
 ```python
-# Load the documents into a data loader
+# Load the documents into a dataloader
 dataset = hyperprobe.inputDataset(train_set)
 loader = hyperprobe.llm2VSA_dataloader(dataset, batch_size = 32, val_size = 0.1, test_size = 0.1)
 
@@ -120,14 +122,13 @@ NOTE: The folder [``../probing/utils/logitLens``](src/hyperprobe/probing/utils/l
 ### Training performance
 ![training](images/training.png)
 
-### Probing performance
+### Experimental findings
 ![experimental_figures](images/experimental_figures.png)
 ![experimental_table](images/experimental_table.png)
 ![extracted_concepts](images/extracted_concepts.png)
 
-
 ## Computational resources
-We recommend to have a GPU to run this pipeline (see [CUDA](https://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html)).
+We recommend to have a GPU (see [CUDA](https://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html)) to run this pipeline, especially for LLM inference (i.e., get the embeddings) and training the neural VSA encoder.
 
 #### From Appendix H
 The computational workload of this work is split into two parts: LLM inference (exogenous) and the training and probing stages of our method (endogenous).
