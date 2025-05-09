@@ -79,7 +79,7 @@ loader = hyperprobe.llm2VSA_dataloader(dataset, batch_size = 32, val_size = 0.1,
 # Train the model
 best_model_path, test_metrics = hyperprobe.train_hyperprobe(loader, configs=configs)
 ``` 
-<img src="images/concept.png" width="40%" height="40%">
+<img src="images/concept.png" width="50%" height="50%">
 
 ### 5) Probe the VSA encodings via unbinding operation
 ``` python
@@ -112,15 +112,16 @@ NOTE: The folder [``../probing/utils/logitLens``](src/hyperprobe/probing/utils/l
 1. Extract experimental insights by analysing the findings from the inference stage: [``src/hyperprobe/statistics/metrics.py``](src/hyperprobe/statistics/metrics.py)
 2. Aggregate and compare results from different experiments (i.e., LLMs): [``src/hyperprobe/statistics/comparison.py``](src/hyperprobe/statistics/comparison.py)
 
-## Results
-<img src="images/architecture.png" width="50%" height="50%">
+## Architecture of the neural VSA encoder
 
+
+## Results
 ### Training perfomance
-<img src="images/training.png" width="50%" height="50%">
+![training](images/training.png)
 
 ### Probing performance
-<img src="images/experimental_figures.png" width="60%" height="60%">
-<img src="images/experimental_table.png" width="40%" height="40%">
+![experimental_figures](images/experimental_figures.png)
+![experimental_table](images/experimental_table.png)
 
 ## Computational resources
 We recommend to have a GPU to run this pipeline (see [CUDA](https://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html)).
