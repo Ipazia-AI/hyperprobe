@@ -25,7 +25,7 @@ The folder [``data``](data) includes our syntethic corpora: the [``training``](d
 - [``features.json``](data/features.json) includes all the contextually-relevant concepts using to populate our VSA codebook.
 - [``pairs.json``](data/pairs.json) stores all the key-value pairs.
 
-**Build the corpora from scratch**: [``src/hyperprobe/data_creation/create_texts.py``](src/hyperprobe/data_creation/create_texts.py)
+**To build the corpora from scratch**: [``src/hyperprobe/data_creation/create_texts.py``](src/hyperprobe/data_creation/create_texts.py)
 1. [Google Analogy Test Set](https://aclweb.org/aclwiki/Google_analogy_test_set_(State_of_the_art))
 2. [The Bigger Analogy Test Set (BATS)](https://vecto.space/projects/BATS)
 
