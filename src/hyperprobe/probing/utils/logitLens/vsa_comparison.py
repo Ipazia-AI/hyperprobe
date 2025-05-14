@@ -2,6 +2,8 @@ import json
 from os import path
 import pandas as pd
 
+from hyperprobe.statistics.utils import create_macro_areas
+
 def load_vsa_stats(path_file: str) -> pd.DataFrame:    
     """
     Load the VSA stats from a JSON file.
@@ -30,17 +32,32 @@ def load_vsa_stats(path_file: str) -> pd.DataFrame:
 
 if __name__ == "__main__":
     
-    model_name = "llama4"
+    model_name = "olmo2"
 
     # Import the logit stats
-    logit_stats = pd.read_json(path.join('outputs', f'lens_{model_name}', 'extracted_concepts.json'))
+    logit_folder = path.join('original_outputs', 'lens', model_name)
+    logit_stats = pd.read_json(path.join(logit_folder, 'extracted_concepts.json'))
     logit_stats['prompt'] = logit_stats['prompt'].str.strip()
     
     # Import the VSA stats  
-    vsa_stats = load_vsa_stats(path_file = path.join('outputs', 'probing', f'{model_name}_13apr_verbose.json'))
+    vsa_stats = load_vsa_stats(path_file = path.join('original_outputs', 'probing', f'{model_name}_12apr_verbose.json'))
     
     # ANALYSIS 1: Empty representation for LOGIT
     empty_logit = logit_stats[logit_stats['extracted_concepts'].apply(len) == 0]
     vsa_stats_corresponding = vsa_stats[vsa_stats['doc'].str.lower().isin(empty_logit['prompt'].str.lower())]
     vsa_extracted_concepts = vsa_stats_corresponding['extracted_factors'].value_counts(normalize=True).round(3)
-    print(f"VSA-based extaction corresponding to empty logit ({len(empty_logit)}):\n", vsa_extracted_concepts)    
+    print(f"VSA-based extaction corresponding to empty logit ({len(empty_logit)}):")
+    
+    # Group by domain and print the counts
+    area_mapping = create_macro_areas(vsa_stats_corresponding['domain'].unique())
+    vsa_stats_corresponding['area'] = vsa_stats_corresponding['domain'].map(area_mapping)
+    vsa_extracted_concepts_byDomain = vsa_stats_corresponding.groupby('area')['extracted_factors'].value_counts(normalize=True).round(3)
+
+    # Save the subset of instances
+    with pd.ExcelWriter(path.join(logit_folder, 'empty_logit_vsa_stats.xlsx')) as writer:
+        vsa_stats_corresponding.to_excel(writer, sheet_name='Overall', index = False)
+        vsa_extracted_concepts_byDomain.to_excel(writer, sheet_name='Group by domain')
+        
+        
+        #for domain, group in vsa_stats_corresponding.groupby('domain'):
+        #    group.to_excel(writer, sheet_name=domain, index=False)
