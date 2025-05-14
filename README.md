@@ -1,14 +1,14 @@
 ![Logo](images/header.png)
 This repository is the official implementation of *"Hyperdimensional Probe: Decoding LLM Representations via Vector Symbolic Architectures"*.
+This work presents *Hyperdimensional Probe*, a novel approach for interpreting neural representations through information decoding using VSAs, providing deeper insights and overcoming some limitations of traditional probing methods such as DLA
 
 ## Overview
 Despite their capabilities, Large Language Models (LLMs) remain opaque, with limited understanding of their internal representations.
 Current interpretability methods, such as supervised probes, Direct Logit Attribution (DLA), and Sparse Autoencoders (SAEs), offer limited insight into these representations due to constraints such as model vocabulary or vague feature names. 
-This work introduces *Hyperdimensional Probe*, mapping LLM residual streams into interpretable concepts using Vector Symbolic Architectures (VSAs). 
+This work introduces *Hyperdimensional Probe*, mapping LLM residual stream into interpretable concepts using Vector Symbolic Architectures (VSAs). 
 This shallow neural VSA encoder combines the strengths of conventional probes and SAEs while overcoming their key limitations. 
-We validate our methodology on an analogical reasoning setting to enhance failure-case explanations. Specifically, we explore the model’s internal state for next-token prediction on a corpus of factual and linguistic analogies.
-Our experiments demonstrate more effective information decoding than DLA, while mitigating variability from tokenization and prompt design, which often impact token-based probing methods.
-Our work advances information decoding in LLM vector space, unlocking the potential to extract multimodal latent features.
+We validate our methodology in an analogical reasoning setting to enhance the explanations of model's erroneous answers. Specifically, we explore the internal state of the model for its next-token prediction on a corpus of factual and linguistic analogies.
+Our experiments demonstrate more effective information decoding than DLA, while mitigating variability from prompt design and tokenization, which often impact token-based probing methods. Our work advances information decoding in LLM vector space, enabling the extraction of more informative, interpretable, and structured features from neural representations.
 
 ![Framework](images/framework.png)
 -----
