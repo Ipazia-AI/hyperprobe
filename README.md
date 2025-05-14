@@ -65,6 +65,8 @@ llm_embeddings, *_ = hyperprobe.ingest_embeddings(
 llm_embeddings = {doc: embedding.sum(dim=0) for doc, embedding in llm_embeddings.items()}
 ```
 
+<img src="images/algorithm.png" width="50%" height="50%">
+
 ### 3) Create the VSA encodings for the input documents
 ``` python
 vsa_encodings = hyperprobe.create_vsa_encodings(
@@ -124,7 +126,7 @@ NOTE: The folder [``../probing/utils/logitLens``](src/hyperprobe/probing/utils/l
 
 ### Experimental findings
 ![experimental_figures](images/experimental_figures.png)
-![experimental_table](images/experimental_table.png) 
+-------
 ![extracted_concepts](images/extracted_concepts.png)
 
 ## Computational resources
