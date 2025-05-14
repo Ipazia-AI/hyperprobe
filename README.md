@@ -124,7 +124,7 @@ NOTE: The folder [``../probing/utils/logitLens``](src/hyperprobe/probing/utils/l
 
 ### Experimental findings
 ![experimental_figures](images/experimental_figures.png)
-![experimental_table](images/experimental_table.png)
+![experimental_table](images/experimental_table.png) 
 ![extracted_concepts](images/extracted_concepts.png)
 
 ## Computational resources
