@@ -29,6 +29,8 @@ The folder [``data``](data) includes our syntethic corpora: the [``training``](d
 1. [Google Analogy Test Set](https://aclweb.org/aclwiki/Google_analogy_test_set_(State_of_the_art))
 2. [The Bigger Analogy Test Set (BATS)](https://vecto.space/projects/BATS)
 
+![Framework](images/corpus.png)
+
 ## Requirements
 Download the repository, and install the python package locally via the package manager: 
 
@@ -74,6 +76,8 @@ vsa_encodings = hyperprobe.create_vsa_encodings(
     codebook = codebook) 
 ```
 
+<img src="images/vsa_encodings.png" width="50%" height="50%">
+
 ### 4) Train the neural VSA encoder
 ```python
 # Load the documents into a dataloader
@@ -115,7 +119,6 @@ NOTE: The folder [``../probing/utils/logitLens``](src/hyperprobe/probing/utils/l
 ### (D) Evaluation: Exploratory analysis and descriptive statistics
 1. Extract experimental insights by analysing the findings from the inference stage: [``src/hyperprobe/statistics/metrics.py``](src/hyperprobe/statistics/metrics.py)
 2. Aggregate and compare results from different experiments (i.e., LLMs): [``src/hyperprobe/statistics/comparison.py``](src/hyperprobe/statistics/comparison.py)
-
 ## Architecture of the neural VSA encoder
 
 ![architecture](images/architecture.png)
