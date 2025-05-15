@@ -1,6 +1,6 @@
 ![Logo](images/header.png)
 This repository is the official implementation of *"Hyperdimensional Probe: Decoding LLM Representations via Vector Symbolic Architectures"*.
-This work presents *Hyperdimensional Probe*, a novel approach for interpreting neural representations through information decoding using VSAs, providing deeper insights and overcoming some limitations of traditional probing methods such as DLA.
+This work presents *Hyperdimensional Probe*, a novel approach for interpreting neural representations through information decoding on LLMs using VSAs, providing deeper insights and overcoming some limitations of traditional probing methods such as DLA.
 
 ## Overview
 Despite their capabilities, Large Language Models (LLMs) remain opaque, with limited understanding of their internal representations.
