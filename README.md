@@ -49,7 +49,7 @@ It is designed to work with any autoregressive language models hosted on the Hug
 import hyperprobe
 ```
 
-### 1) Create the VSA codebook with a user-defined set of concepts
+### 1) Create the VSA codebook with a set of contextual-relevant concepts
 ``` python
 codebook = hyperprobe.create_codebook(
     concepts = ['Denmark', 'Mexico', 'krone', 'peso', 'introvert', 'extravert', 'big','small'], 
