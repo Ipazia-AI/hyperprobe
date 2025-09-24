@@ -56,7 +56,7 @@ def augment_items(df):
 def download_process_squad():
     
     # Download and load SQuAD 2.0
-    dataset, info = tfds.load("squad/v2.0", with_info=True)
+    dataset, info = tfds.load("squad/v1.1", with_info=True)
 
     # Concatenate the train/validation datasets
     df = pd.concat([
@@ -64,10 +64,7 @@ def download_process_squad():
         tfds.as_dataframe(dataset["validation"]).assign(set='validation')
     ])
     
-    #df = df.sample(10, random_state=101)  # DEBUG
-    
-    # Data cleaning: Remove entries with no answers
-    df = df[df['is_impossible'] == False]
+    # Datawrangling: keep only relevant columns and decode bytes to strings
     df = pd.DataFrame({
         'title': df['title'].apply(lambda text: text.decode('utf-8') if isinstance(text, bytes) else text),
         'set': df['set'],
