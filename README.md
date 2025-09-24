@@ -1,15 +1,16 @@
 ![Logo](images/header.png)
 This repository is the official implementation of *"Hyperdimensional Probe: Decoding LLM Representations via Vector Symbolic Architectures"*.
-This work presents *Hyperdimensional Probe*, a novel approach for interpreting neural representations through information decoding on LLMs using VSAs, providing deeper insights and overcoming some limitations of traditional probing methods such as DLA.
+This work combines symbolic representations and neural probing to introduce Hyperdimensional Probe, a new paradigm for decoding LLM vector space into human-interpretable features, consistently extracting meaningful concepts across models and inputs
 
 ## Overview
-Despite their capabilities, Large Language Models (LLMs) remain opaque, with limited understanding of their internal representations.
-Current interpretability methods, such as supervised probes, Direct Logit Attribution (DLA), and Sparse Autoencoders (SAEs), offer limited insight into these representations due to constraints such as model vocabulary or vague feature names. 
-This work introduces *Hyperdimensional Probe*, mapping LLM residual stream into interpretable concepts using Vector Symbolic Architectures (VSAs). 
-This shallow neural VSA encoder combines the strengths of conventional probes and SAEs while overcoming their key limitations. 
-We validate our methodology in an analogical reasoning setting to enhance the explanations of model's erroneous answers. Specifically, we explore the internal state of language models for their next-token predictions on a corpus of factual and linguistic analogies.
-Our experiments demonstrate more effective information decoding than DLA, while mitigating variability from tokenization and prompt design, which greatly influence token-based probing methods.
-Our work advances information decoding in LLM vector space, enabling the extraction of more informative, interpretable, and structured features from neural representations.
+Despite their capabilities, Large Language Models (LLMs) remain opaque with limited understanding of their internal representations.
+Current interpretability methods, such as direct logit attribution (DLA) and sparse autoencoders (SAE), provide restricted insight due to limitations such as the model's output vocabulary or unclear feature names.
+This work introduces *Hyperdimensional Probe*, a novel paradigm for decoding information from the LLM vector space. It combines ideas from symbolic representations and neural probing to project model's residual stream into interpretable concepts via Vector Symbolic Architectures (VSAs).
+This probe combines the strengths of SAEs and conventional probes while overcoming their key limitations.
+We validate our decoding paradigm with controlled input–completion tasks, probing the model’s final state before next-token prediction on inputs spanning syntactic pattern recognition, key–value associations, and abstract inference. 
+We further test it in a question-answering setting, examining the state of the model both before and after text generation.
+Our experiments show that our probe reliably extracts meaningful concepts across varied LLMs, embedding sizes, and input domains, also helping identify LLM failures.
+Our work advances information decoding in LLM vector space, enabling extracting more informative, interpretable, and structured features from neural representations.
 
 ![Framework](images/framework.png)
 -----
@@ -106,6 +107,9 @@ extracted_concepts = hyperprobe.probe_doc(doc, codebook, llm, trained_encoder)
 
 ![probing](images/probing.png)
 
+## Question-answering task 
+![qa_task](images/qa_rep.png)
+
 ## Pipeline to reproduce the results from the paper
 ### (A) Preprocessing *F*: From textual inputs to compressed LLM embeddings
 1. Create the VSA codebook: [``src/hyperprobe/data_creation/create_codebook.py``](src/hyperprobe/data_creation/create_codebook.py)
@@ -138,7 +142,7 @@ NOTE: The folder [``../probing/utils/logitLens``](src/hyperprobe/probing/utils/l
 ## Computational resources
 We recommend to have a GPU (see [CUDA](https://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html)) to run this pipeline, especially for LLM inference (i.e., get the embeddings) and training the neural VSA encoder.
 
-#### From Appendix H
+#### Computational workload
 The computational workload of this work is split into two parts: LLM inference (exogenous) and the training and probing stages of our method (endogenous).
 
 The exogenous factor, running the Large Language Models, was the most computationally demanding task. 
