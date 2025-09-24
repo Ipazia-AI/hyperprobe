@@ -1,3 +1,4 @@
+import json
 from os import path, makedirs
 import numpy as np
 import torchhd
@@ -46,9 +47,22 @@ if __name__ == '__main__':
     items = list(data.keys())
     #llm_vocabulary = codebook_utils.vocabulary_based_features()
     
+    with open(path.join('data', 'squad', 'squad_dataset.json'), 'r') as file:
+        squad_df = json.load(file)
+    qa_items = set()
+    for item in squad_df: 
+        for f in item['question_features']:
+            qa_items.add(f)
+        for features in item['answer_features']:
+            for f in features:
+                qa_items.add(f)
+    items = list(set(items).union(qa_items))
+    
     # Load the function
-    vsa_encodings = create_codebook(items, vsa_dimension = 4096)    
-
+    vsa_encodings = create_codebook(items, vsa_dimension = 4096)
+    
+    print(vsa_encodings)
+    
     # Create the output folder
     output_folder = path.join('outputs', 'codebooks')
     makedirs(output_folder, exist_ok = True)
@@ -58,5 +72,4 @@ if __name__ == '__main__':
     
     # Compute cosine similarity
     stats = codebook_utils.check_distribution(torch.from_numpy(vsa_encodings.values), output_folder = output_folder)
-    
     print('\nCODEBOOK:', len(vsa_encodings), 'items -->', stats, '\n')

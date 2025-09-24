@@ -1,22 +1,25 @@
-from os import path
 from collections import defaultdict
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from os import path
+from transformers import AutoTokenizer, AutoModelForCausalLM, StoppingCriteriaList, StoppingCriteria
 import itertools
-import json
 import re
 import numpy as np
 import pandas as pd
 import torch
+from word2number import w2n
+from difflib import get_close_matches
+from sentence_transformers import SentenceTransformer, util
 
 # LOCAL IMPORTS
 from hyperprobe.encoder.utils.encoder import VSAEncoder
 from hyperprobe.data_creation.utils.emb_utils import kmeans_cuda
+from hyperprobe.probing.utils import evaluateSQuAD
 
 def load_llm(model_name: str, dtype: torch.dtype = torch.bfloat16, device = None):
 
     # Load the model and tokenizer
     tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype = dtype, device_map = 'auto')
+    model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype = dtype, device_map = 'auto' if device is None else {'': device})
 
     # Set the token id for padding
     model.pad_token_id = tokenizer.eos_token_id
@@ -30,10 +33,10 @@ def load_llm(model_name: str, dtype: torch.dtype = torch.bfloat16, device = None
     print(f"\nLoaded the LLM ({model_name}, {dtype}, {model.device} --> {torch.cuda.get_device_name(model.device)})\n")
     return tokenizer, model
 
-def load_vsaTranslator(model_name, device):
+def load_vsaEncoder(model_name, device):
     
     # Set the base path
-    root_path = path.join('outputs', 'adapter', 'models')
+    root_path = path.join('outputs', 'hyperprobe', 'models')
 
     # Load the model
     model = VSAEncoder.load_from_checkpoint(path.join(root_path, model_name), map_location = device)
@@ -67,8 +70,12 @@ def generate_vsa(doc, llm, translator):
     token_probs = torch.nn.functional.softmax(outputs.logits, dim=-1).squeeze()[-1]
     
     # Select the relevant tokens
-    #tokens = np.array([t.strip('Ġ') for t in tokenizer.convert_ids_to_tokens(inputs.input_ids.squeeze())])
-    token_positions = [-1]
+    question = doc.strip()[-1] == '?'
+    token_positions = [-2] if question else [-1]
+    
+    # Check the selected token
+    selected_token = tokenizer.decode(inputs.input_ids[0][token_positions[0]])
+    assert not selected_token.endswith('?') and not selected_token.endswith('.'), f"ERROR: The selected token is invalid! '{selected_token}'"
     
     # Get the embeddings of the last token for the second half of the hidden layers
     embeddings = torch.stack(outputs.hidden_states).squeeze()
@@ -94,6 +101,73 @@ def generate_vsa(doc, llm, translator):
         
     return vsa, token_probs
 
+class StopOnPeriod(StoppingCriteria):
+    def __init__(self, tokenizer):
+        self.tokenizer = tokenizer
+        newline_id = tokenizer.encode("\n", add_special_tokens=False)[0]
+        period_id = tokenizer.encode(".\n", add_special_tokens=False)[0]
+        self.stop_ids = {newline_id, period_id}
+
+    def __call__(self, input_ids, scores, **kwargs):
+        return input_ids[0, -1].item() in self.stop_ids
+
+def generate_vsa_QA(doc, llm, translator):
+    
+    # Get the model and tokenizer
+    tokenizer, model = llm
+
+    # Tokenize the input
+    inputs = tokenizer(doc, return_tensors="pt").to(model.device)
+    
+    # Generate the LLM embeddings
+    with torch.no_grad():
+        outputs = model.generate(
+            **inputs, 
+            max_new_tokens=20,
+            output_hidden_states=True, 
+            output_logits=True, 
+            return_dict_in_generate = True,
+            do_sample=False,
+            temperature=None, 
+            top_p = None,
+            pad_token_id=tokenizer.eos_token_id,
+            eos_token_id=tokenizer.eos_token_id,
+            stopping_criteria = StoppingCriteriaList([StopOnPeriod(tokenizer)]))       
+    generated_text = tokenizer.decode(outputs.sequences[0][len(inputs.input_ids[0]):], skip_special_tokens=True).strip().rstrip('.')
+
+    # Get the embeddings of the last token for the second half of the hidden layers
+    sequence_vsa = []
+    for sequence_pos in [0, -1]:
+        embeddings = torch.stack(outputs.hidden_states[sequence_pos]).squeeze()
+        
+        # First hidden state
+        if embeddings.dim() == 3:
+            hs = embeddings[16:, -1].squeeze()
+        # Last hidden state
+        elif embeddings.dim() == 2:
+            hs = embeddings[16:].squeeze()
+            
+        # Extract the relevant embeddings
+        _, centroids = kmeans_cuda(hs, K = 5)
+        
+        # Flatten the centroids
+        hs = centroids.sum(dim = 0).unsqueeze(0)
+        
+        assert hs.size(1) == translator.input_dim, f"ERROR: The size of the embeddings ({hs.size(0)}) is not equal to the input dimension of the VSA translator ({translator.input_dim})"
+        
+        # Convert the embeddings to float and move to the translator's device
+        hs = hs.float().to(translator.device)
+        
+        # Generate the VSA encoding from the embeddings
+        with torch.no_grad():
+            sequence_vsa.append(torch.sign(translator(hs)))
+            
+    # Unpack the sequence VSA    
+    vsa_first, vsa_last = sequence_vsa
+        
+    return vsa_first, vsa_last, generated_text
+
+
 def unbind(vsa, items):
     out = vsa.clone()
     for item in items:
@@ -114,6 +188,26 @@ def create_queries(items, item_encodings):
                     'names': [items[i] for i in combo],
                     'operations': 'vsa ⊙ (' + ' ⊙ '.join([items[i] for i in combo]) + ')',
                     'type': 'context' if len(combo) == 3 else 'example' if combo == (0, 1) else '&'.join([legend[i] for i in combo])
+                })
+                
+    # Reverse the query order (from the most specific to the most general)
+    queries = queries[::-1]      
+            
+    return queries
+
+def create_QA_queries(items, item_encodings):
+    queries = []
+    for r in range(len(items)):
+        for combo in itertools.combinations(range(len(items)), r):
+            
+            if len(combo) == 0:
+                queries.append({'items': [], 'names':[], 'operations': 'vsa', 'type': 'original'})
+            else:
+                queries.append({
+                    'items': [item_encodings[i] for i in combo],
+                    'names': [items[i] for i in combo],
+                    'operations': 'vsa ⊙ (' + ' ⊙ '.join([items[i] for i in combo]) + ')',
+                    'type': 'context'
                 })
                 
     # Reverse the query order (from the most specific to the most general)
@@ -427,6 +521,203 @@ def probe_doc(doc, codebook, llm, vsa_encoder, pairs = None, solver = None, verb
         'target_vsa_cosine_sim': round(best_sim[target].item(), 2) if target in best_sim.index else 0,
         'vsa_sim': {label: round(best_sim, 2) for label, best_sim in best_sim[best_sim >= 0.1].iloc[:5].items()},
         'precisions': dict(zip(['precision@1', 'precision@3', 'precision@5'], [precision_1, precision_3, precision_5]))
+    }
+    
+    return results
+
+def jaccard_similarity(list1, list2):
+    set1, set2 = set(list1), set(list2)
+    intersection = len(set1.intersection(set2))
+    union = len(set1.union(set2))
+    jaccard_similarity = intersection / union if union != 0 else 0
+    return round(jaccard_similarity, 4)
+
+def fuzzy_jaccard_similarity(list1, list2):
+    set1, set2 = set(list1), set(list2)
+    intersection = 0
+    for item1 in set1:
+        for item2 in set2:
+            if (item1 in item2 or item2 in item1 or item1 == item2 or 
+                (len(get_close_matches(item1, [item2], n=1, cutoff=0.8)) > 0 and 
+                 len(get_close_matches(item2, [item1], n=1, cutoff=0.8)) > 0)):
+                intersection += 1
+                break  # Stop after first match for efficiency
+    
+    union = len(set1) + len(set2) - intersection
+    jaccard_similarity = intersection / union if union != 0 else 0
+    return round(jaccard_similarity, 4)
+
+_embedding_model = SentenceTransformer('all-mpnet-base-v2')
+
+def semantic_similarity(list1, list2):
+    if len(list1) == 0 or len(list2) == 0:
+        return 0
+    
+    global _embedding_model
+    
+    embeddings_1 = _embedding_model.encode(list1, convert_to_tensor=True)
+    embeddings_2 = _embedding_model.encode(list2, convert_to_tensor=True)
+    similarities = []
+    for item1 in set(list1):
+        similarities.append(torch.max(util.cos_sim(embeddings_1[list1.index(item1)], embeddings_2)).item())
+    avg_sim = np.mean(similarities).round(4).item() if similarities else 0
+    return avg_sim   
+
+def probe_QA_doc(item, codebook, llm, vsa_encoder, solver = None, verbose = True):
+    
+    # Extract the doc, features, and answer
+    doc = item.get('doc')
+    target_answers = np.unique(item.get('answers')).tolist()
+    question_features = item.get('question_features')
+    answer_features = [f for item in item.get('answer_features') for f in item]
+    answer_features_backup =  [word.strip() for item in item.get('answer_features') for f in item for word in f.split('_')]
+    
+    # Get the VSA encoding for the doc
+    vsa_doc, vsa_last, generated_text = generate_vsa_QA(doc, llm, vsa_encoder)
+    
+    # Check if the generated text is a number and the answers are strings
+    output_is_number = generated_text.isdigit()
+    answer_is_string = all([not ans.isdigit() for ans in target_answers])
+    if output_is_number and answer_is_string:
+        for idk, ans in enumerate(target_answers):
+            try:
+                target_answers[idk] = str(w2n.word_to_num(ans))
+            except:
+                pass
+    
+    # Evaluate the generated text with SQuAD metrics
+    answer_evals = {target_text : evaluateSQuAD.compute_f1(target_text, generated_text) for target_text in target_answers}
+    answer_evals = {k: v for k, v in sorted(answer_evals.items(), key=lambda item: item[1], reverse=True)}
+    exact_match = {target_text : evaluateSQuAD.compute_exact(target_text, generated_text) for target_text in target_answers}
+    mentioned_in_answer = any([ans.lower() in generated_text.lower() for ans in target_answers])
+    llm_output_eval = {'f1': round(max(answer_evals.values()), 4), 'em': max(exact_match.values()), 'mentioned_in_answer': mentioned_in_answer,
+                       'generated_text': generated_text,'raw_f1': answer_evals, 'raw_em': exact_match}
+
+    # Create the different queries
+    queries = [{'items': [], 'names':[], 'operations': 'vsa', 'type': 'original'}] #create_QA_queries(items, item_encodings)
+    
+    # Compare the unbinding queries with the target
+    best_sim = None
+    for query in queries:
+        
+        # Unbind the document
+        unbound_doc = unbind(vsa_doc, query['items'])
+
+        # Compare the unbinding with the target
+        sim = pd.Series(
+            data = torch.cosine_similarity(
+                x1 = unbound_doc, 
+                x2 = torch.from_numpy(codebook.values).to(vsa_doc.device)).cpu(),
+            index = codebook.index)
+
+        if verbose:
+            print(f'QUERY [{query["operations"]}] -->', 
+                  '| '.join([f'{item.upper() if sim > 0.1 else item} ({round(sim, 2)})'for item, sim in sim.sort_values(ascending = False).head(5).items()]))
+            
+        artefact_presence = any([sim[candiate.lower()].item() == sim.max() for candiate in query['names']])
+        
+        # skip initialization if best_sim is None and there is artefact noise
+        if best_sim is None and not artefact_presence:
+            best_sim = sim.sort_values(ascending=False)
+                     
+        # Evaluate candidate update conditions using descriptive variables
+        if best_sim is not None and sim.max() > best_sim.max() and not artefact_presence:
+            best_sim = sim.sort_values(ascending=False)
+            
+    # Evaluate the VSA encoding for the token after the generation
+    vsa_last_sim = pd.Series(
+            data = torch.cosine_similarity(
+                x1 = vsa_last, 
+                x2 = torch.from_numpy(codebook.values).to(vsa_doc.device)).cpu(),
+            index = codebook.index).sort_values(ascending=False)
+    
+    # Find the meaning of the best matching item
+    threshold = 0.1
+    extracted_factors = best_sim[best_sim >= threshold].index.tolist() # if best_sim is not None else []
+    extracted_factors_after = vsa_last_sim[vsa_last_sim >= threshold].index.tolist()
+
+    # Compute the jaccard similarity between the extracted factors and the answer features
+    jaccard_scores = {
+        'extracted_before_question': jaccard_similarity(extracted_factors, question_features),
+        'extracted_before_answer': jaccard_similarity(extracted_factors, answer_features),
+        'extracted_after_question': jaccard_similarity(extracted_factors_after, question_features),
+        'extracted_after_answer': jaccard_similarity(extracted_factors_after, answer_features),
+        'before_after_overlap': jaccard_similarity(extracted_factors, extracted_factors_after),
+        'question_answer_overlap': jaccard_similarity(question_features, answer_features)
+    }
+    fuzzy_jaccard_scores = {
+        'extracted_before_question': fuzzy_jaccard_similarity(extracted_factors, question_features),
+        'extracted_before_answer': fuzzy_jaccard_similarity(extracted_factors, answer_features),
+        'extracted_after_question': fuzzy_jaccard_similarity(extracted_factors_after, question_features),
+        'extracted_after_answer': fuzzy_jaccard_similarity(extracted_factors_after, answer_features),
+        'before_after_overlap': fuzzy_jaccard_similarity(extracted_factors, extracted_factors_after),
+        'question_answer_overlap': fuzzy_jaccard_similarity(question_features, answer_features),
+    }
+    semantic_similarity_scores = {
+        'extracted_before_question': semantic_similarity(extracted_factors, question_features),
+        'extracted_before_answer': semantic_similarity(extracted_factors, answer_features),
+        'extracted_after_question': semantic_similarity(extracted_factors_after, question_features),
+        'extracted_after_answer': semantic_similarity(extracted_factors_after, answer_features),
+        
+        'question_answer_overlap': semantic_similarity(question_features, answer_features),
+        'before_after_overlap': semantic_similarity(extracted_factors, extracted_factors_after)
+    }
+    
+    # Split the extracted factors into question, answer, and other
+    split_extracted_factors = defaultdict(list)
+    for f in extracted_factors:
+        if f in question_features:
+            split_extracted_factors['question'].append(f)
+        elif f in answer_features or f in answer_features_backup:
+            split_extracted_factors['answer'].append(f)
+        else: 
+            split_extracted_factors['other'].append(f)
+    split_extracted_factors_after = defaultdict(list)
+    for f in extracted_factors_after:
+        if f in question_features:
+            split_extracted_factors_after['question'].append(f)
+        elif f in answer_features or f in answer_features_backup:
+            split_extracted_factors_after['answer'].append(f)
+        else: 
+            split_extracted_factors_after['other'].append(f)
+            
+    # Overlaps
+    split_extracted_factors_overlap = defaultdict(list)
+    for key in ['question', 'answer', 'other']:
+        split_extracted_factors_overlap[key] = jaccard_similarity(split_extracted_factors[key] , split_extracted_factors_after[key])
+
+    if verbose:
+        print( '-' * 50, 
+              '\nDOC: "...' + doc[-70:].replace("\n", "[NEW LINE]"), 
+              f'\nGENERATED TEXT: "{generated_text}"', 
+              f'\nTARGET ANSWERS: "{target_answers}"', 
+              f"\nLLM EVAL: {llm_output_eval}",
+              f"\nFEATURES: QUESTION: {' | '.join(question_features)} || ANSWER: {' | '.join(answer_features)}",
+              f"\nJACCARD SIMILARITIES: {jaccard_scores}",
+              f"\nFUZZY JACCARD SIMILARITIES: {fuzzy_jaccard_scores}",
+              f'\nEXTRACTED FACTORS: {split_extracted_factors}',)
+        print('-' * 50)
+        print('-' * 9, "Codebook's cosine similarities", '-' * 9)
+        print('-' * 50)
+        print(best_sim.round(2))
+        print('-' * 50)
+
+    # Save the results
+    results = {
+        'doc': doc, 
+        'target': target_answers,
+        'llm_output_eval': llm_output_eval,
+        'question_features': '|'.join(question_features),
+        'answer_features': '|'.join(answer_features),
+        'split_extracted_factors': {k: '|'.join(v) for k, v in split_extracted_factors.items()},
+        'split_extracted_factors_after': {k: '|'.join(v) for k, v in split_extracted_factors_after.items()},
+        'before_after_jaccard': split_extracted_factors_overlap,
+        'answer_factors': int(len(split_extracted_factors['answer']) > 0),
+        'jaccard_scores': jaccard_scores,
+        'fuzzy_jaccard_scores': fuzzy_jaccard_scores,
+        'semantic_similarity_scores': semantic_similarity_scores,
+        'vsa_sim_before': {label: round(best_sim, 2) for label, best_sim in best_sim[best_sim >= threshold].items()},
+        'vsa_sim_after': {label: round(best_sim, 2) for label, best_sim in vsa_last_sim[vsa_last_sim >= threshold].items()},
     }
     
     return results

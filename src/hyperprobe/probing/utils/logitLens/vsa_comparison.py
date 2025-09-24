@@ -32,7 +32,7 @@ def load_vsa_stats(path_file: str) -> pd.DataFrame:
 
 if __name__ == "__main__":
     
-    model_name = "olmo2"
+    model_name = "llama4"
 
     # Import the logit stats
     logit_folder = path.join('original_outputs', 'lens', model_name)
@@ -40,7 +40,7 @@ if __name__ == "__main__":
     logit_stats['prompt'] = logit_stats['prompt'].str.strip()
     
     # Import the VSA stats  
-    vsa_stats = load_vsa_stats(path_file = path.join('original_outputs', 'probing', f'{model_name}_12apr_verbose.json'))
+    vsa_stats = load_vsa_stats(path_file = path.join('original_outputs', 'probing', f'{model_name}_13apr_verbose.json'))
     
     # ANALYSIS 1: Empty representation for LOGIT
     empty_logit = logit_stats[logit_stats['extracted_concepts'].apply(len) == 0]
@@ -52,6 +52,30 @@ if __name__ == "__main__":
     area_mapping = create_macro_areas(vsa_stats_corresponding['domain'].unique())
     vsa_stats_corresponding['area'] = vsa_stats_corresponding['domain'].map(area_mapping)
     vsa_extracted_concepts_byDomain = vsa_stats_corresponding.groupby('area')['extracted_factors'].value_counts(normalize=True).round(3)
+    
+    # Analysis 2: Empty representation for VSA
+    empty_vsa_stats = vsa_stats[vsa_stats['precision@1'] == 0]
+    logit_corresponding = logit_stats[logit_stats['prompt'].str.lower().isin(empty_vsa_stats['doc'].str.lower())]
+
+    logit_extracted_concepts = logit_corresponding['extracted_concepts'].apply('|'.join).value_counts(normalize=True).round(3)
+    
+    # Save the results
+    logit_extracted_concepts = {model_name: logit_extracted_concepts.to_dict()}
+    
+    # Save the results to a JSON file
+    json_file = path.join('empty_vsa_logit_stats.json')
+    if path.exists(json_file):
+        with open(json_file, 'r') as f:
+            stats = json.load(f)
+        logit_extracted_concepts = stats | logit_extracted_concepts
+    with open(json_file, 'w') as f:
+        json.dump(logit_extracted_concepts, f, indent=4)   
+    
+    df = pd.DataFrame(logit_extracted_concepts)
+    
+    print(df)
+    df.to_latex(path.join('empty_vsa_logit_stats.tex'), index = False, escape = False)
+    
 
     # Save the subset of instances
     with pd.ExcelWriter(path.join(logit_folder, 'empty_logit_vsa_stats.xlsx')) as writer:

@@ -9,7 +9,7 @@ from os import path, makedirs
 from torchmetrics.functional import pairwise_cosine_similarity
 from matplotlib.ticker import PercentFormatter
 
-def create_vsa_encodings(item:dict, codebook:pd.DataFrame, codebook_set:set = None, verbose:bool=True) -> torch.Tensor:
+def create_vsa_encodings(item:dict, codebook:pd.DataFrame, codebook_set:set = None, verbose:bool=False) -> torch.Tensor:
     """Create the VSA encodings for the input sentences.
 
     Args:

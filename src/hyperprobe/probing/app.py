@@ -31,7 +31,7 @@ if __name__ == '__main__':
     # Load the VSA translator
     #modelName = ("10apr", "llama3_merged_bindSuperAll_equal2_val_sim=88%" + '.ckpt')
     modelName = ("10apr", "pythia_merged_bindSuperAll_equal2_val_sim=85%" + '.ckpt')
-    vsaTranslator = utils.load_vsaTranslator(model_name = path.join(*modelName), device=device)
+    vsaTranslator = utils.load_vsaEncoder(model_name = path.join(*modelName), device=device)
         
     # Load the codebook
     codebook = pd.read_parquet(path.join('outputs', 'codebooks', 'features.parquet'))

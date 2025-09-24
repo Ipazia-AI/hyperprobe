@@ -1,5 +1,5 @@
 from os import path, listdir, sched_getaffinity
-from collections import defaultdict
+from collections import Counter, defaultdict
 from torch.utils.data import Dataset, Subset, DataLoader, random_split
 from lightning import LightningDataModule
 import numpy as np
@@ -10,6 +10,7 @@ import pickle
 import zlib
 
 from sklearn.model_selection import train_test_split
+import torchhd
 
 # LOCAL IMPORTS
 from hyperprobe.encoder.utils.vsa_utils import create_vsa_encodings 
@@ -22,7 +23,6 @@ def load_jsonFile(file_path):
 
 def load_embeddings(root_folder: str) -> list[dict]:
     
-    print('\n[INFO] Loading embeddings from:', root_folder)
     
     # Load compressed file
     with open(path.join(root_folder, 'embeddings.pkl.zlib'), mode = "rb") as file:
@@ -37,6 +37,8 @@ def load_embeddings(root_folder: str) -> list[dict]:
         embeddings = [{'doc': doc, 'embeddings': emb, 'features': concepts[doc] if doc in concepts else []} for doc, emb in data.items()]
     else:
         embeddings = [{'doc': doc, 'embeddings': emb} for doc, emb in data.items()]
+        
+    print(f'\n[INFO] Loaded embeddings ({len(embeddings)}) from:', root_folder)
     
     return embeddings    
 
@@ -298,11 +300,15 @@ def add_info_inputs(inputs, codebook):
     splitted_docs = {setName: [doc.lower() for doc in docs] for setName, docs in splitted_docs.items()}
     
     # Load the VSA encodings
-    vsa_encodings_path = path.join('outputs', 'adapter', '_vsa.pickle')
+    vsa_encodings_path = path.join('outputs', 'hyperprobe', '_vsa.pickle')
     vsa_encodings = None
     if path.exists(vsa_encodings_path):
         with open(vsa_encodings_path, 'rb') as file:
             vsa_encodings = pickle.load(file)
+            
+    #print("vsa_encodings:", vsa_encodings)
+    
+    # "Bangkok : Thailand = Oslo : Norway"
     
     out = []
     for item in inputs: 
@@ -322,20 +328,82 @@ def add_info_inputs(inputs, codebook):
         
         # Attach the VSA encoding
         if vsa_encodings is not None:
-            item['vsa'] = vsa_encodings.get(item['doc'])
+            item['vsa'] = vsa_encodings.get(item.get('doc'))
         else:
-            item['vsa'] = create_vsa_encodings(item, codebook, codebook_set)
+            item['vsa'] = create_vsa_encodings(item, codebook, codebook_set, verbose = False)
         
         # Add the item to the output list     
         if item['concepts'] is not None and item['split'] is not None and item['vsa'] is not None:
             out.append(item)
         else:
-            print('\n[WARNING] The item was not added to the output list:', item['doc'])
+            print('\n[WARNING] The item (item["doc"]) was not added to the output list.\n', 'CONCEPTS:', item.get('concepts'), 'SPLIT:', item.get('split'), 'VSA:', 'YES' if item.get('vsa') is not None else 'NO')
     
     # Save the VSA encodings
     if vsa_encodings is None:
         computed_vsa = {item['doc']: item['vsa'] for item in out}
-        with open(vsa_encodings_path, 'wb') as file:
-            pickle.dump(computed_vsa, file, protocol=pickle.HIGHEST_PROTOCOL)
+        #with open(vsa_encodings_path, 'wb') as file:
+        #    pickle.dump(computed_vsa, file, protocol=pickle.HIGHEST_PROTOCOL)
 
     return out
+
+def add_info_QAinputs(inputs, codebook):
+    
+    # Save the codebook items
+    codebook_set = set(codebook.index)
+    
+    # Load the VSA encodings
+    vsa_encodings_path = path.join('outputs', 'hyperprobe', '_vsaQA.pickle')
+    vsa_encodings = None
+    if path.exists(vsa_encodings_path):
+        with open(vsa_encodings_path, 'rb') as file:
+            vsa_encodings = pickle.load(file)
+    
+    # Load the features        
+    with open(path.join('data', 'squad', 'squad_training.json'), 'r') as file:
+        qa_items = json.load(file)
+    qa_items = {item['doc']: [f.lower() for f in item['features']] for item in qa_items}
+    
+    # Generate the random splits
+    random_splits = np.random.default_rng(seed = 101).choice(['train','val','test'], size=len(inputs), p=[.70, .15, .15])
+
+    out = []
+    for idk, item in enumerate(inputs): 
+        
+        # Attach dataset splits
+        item['split'] = random_splits[idk]
+        
+        # Attach the features
+        item['concepts'] = qa_items.get(item['doc'].strip())
+            
+        # Process the embeddings
+        if item['embeddings'].ndim > 1:
+            item['embeddings'] = item['embeddings'].sum(dim=0)
+        
+        # Attach the VSA encoding
+        if vsa_encodings is not None:
+            item['vsa'] = vsa_encodings.get(item['doc'])
+        else:
+            item['vsa'] = create_vsa_encodings_QA(item, codebook, codebook_set)
+            
+        # Add the item to the output list     
+        if item.get('concepts') is not None and item.get('split') is not None and item.get('vsa') is not None:
+            out.append(item)
+        else:
+            print(f"\n[WARNING] The item ({item['doc']}) was not added to the output list:", 'CONCEPTS:', item.get('concepts'), 'SPLIT:', item.get('split'), 'VSA:', item.get('vsa'))
+            
+    # Save the VSA encodings
+    #if vsa_encodings is None:
+        #computed_vsa = {item['doc']: item['vsa'] for item in out}
+        #with open(vsa_encodings_path, 'wb') as file:
+            #pickle.dump(computed_vsa, file, protocol=pickle.HIGHEST_PROTOCOL)
+
+    return out
+
+def create_vsa_encodings_QA(item, codebook, codebook_set):
+    if not item['concepts']:
+        return None
+    
+    features = codebook.loc[list(item['concepts'])].values
+    encoding = torchhd.multiset(torchhd.MAPTensor(features)).normalize()
+
+    return encoding.as_subclass(torch.Tensor).to(torch.int8)

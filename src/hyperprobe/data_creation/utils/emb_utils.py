@@ -1,5 +1,5 @@
 from collections import Counter
-from os import makedirs, path
+from os import makedirs, path, getenv
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from matplotlib import pyplot as plt
 from matplotlib.ticker import MultipleLocator, PercentFormatter
@@ -9,10 +9,13 @@ import pandas as pd
 import seaborn as sns
 
 def load_llm(model_name: str, dtype: torch.dtype = torch.bfloat16, device:torch.device = None) -> tuple[AutoTokenizer, AutoModelForCausalLM]:
+    
+    # Load the Hugging Face token from the environment variable
+    hf_token = getenv("HUGGINGFACEHUB_TOKEN")
 
     # Load the model and tokenizer
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype = dtype, device_map = 'auto')
+    tokenizer = AutoTokenizer.from_pretrained(model_name, token = hf_token)
+    model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype = dtype, token = hf_token, device_map = {'': device} if device else 'auto')
 
     # Set the model to evaluation mode
     model.eval()
@@ -40,18 +43,20 @@ class InputDataset(torch.utils.data.Dataset):
         return self.docs[idx]
 
 def kmeans_cuda(X, K, max_iters = 1000):
-    N, D = X.shape  # N is number of rows, D is number of columns (features)
-    
+
     # Convert to float if bfloat16
     original_dtype = X.dtype
     if original_dtype == torch.bfloat16:
         X = X.float()
+        
+    # Get the number of rows
+    n_rows = X.shape[0]
     
     # Initialize centroids randomly from the data
     generator = torch.Generator(device = X.device).manual_seed(101)
-    centroids = X[torch.randperm(N, generator=generator, device=X.device)[:K]]
+    centroids = X[torch.randperm(n_rows, generator=generator, device=X.device)[:K]]
 
-    for i in range(max_iters):
+    for _ in range(max_iters):
         
         # Step 1: Compute pairwise distances between each row in X and the centroids
         distances = torch.cdist(X, centroids)
@@ -217,3 +222,56 @@ def plot_silhouette_scores(scores, output_folder):
     
     fig.savefig(path.join(output_folder, 'silhouette_scores.pdf'))
     plt.close()
+    
+    
+def save_eigenvalues(eig_values, output_folder, starting_layer_label = 0):
+    """
+    Plot the eigenvalues of the Gram matrix.
+    """
+    
+    # Create the output folder
+    makedirs(output_folder, exist_ok=True)
+    
+    # Herfindahl-hirschman index (HHI)
+    lambda_i = eig_values.mean(axis = 0) / np.sum(eig_values.mean(axis = 0))
+    HHI = 1/sum(lambda_i**2)
+    print('HHI:', round(HHI, 3))
+    
+    # Save the HHI to a JSON file
+    pd.Series({'HHI': HHI}).to_json(path.join(output_folder, 'hhi.json'), index = False)
+    
+    #columns = pd.MultiIndex.from_tuples([
+    #    ("Eigenvalue", "Mean (normalized)"),  
+    #    ("Eigenvalue", "Mean"), 
+    #    ("Eigenvalue", "Std")
+    #])
+    
+    # Convert the eigenvalues to a DataFrame
+    df = pd.DataFrame({
+        'Eigenvalue (normalized mean)': eig_values.mean(axis = 0) / eig_values.mean(axis = 0).sum(),
+        'Eigenvalue (mean)': eig_values.mean(axis = 0).round(2),
+        'Eigenvalue (std)': eig_values.std(axis = 0).round(2)
+    })
+    print(df)
+    
+    # Save the DataFrame
+    df.round(2).to_latex(path.join(output_folder, 'eigenvalues.tex'), index = True, escape = False)
+
+    # Plot the eigenvalues with its standard deviation
+    fig = plt.figure(figsize=(10, 5))
+    ax = sns.barplot(data=df, x=df.index, y='Eigenvalue (mean)',  color='firebrick', capsize=0.1, err_kws={'color': 'gray'}, edgecolor='black', linewidth=1.5, zorder=10) 
+    ax.set_xlabel("Component ", color ='firebrick', size = 12)
+    ax.set_ylabel("Eigenvalue", color ='firebrick', size = 12)
+    fig.tight_layout()
+    fig.savefig(path.join(output_folder, 'eigenvalues.pdf'))
+    plt.close()
+    
+    fig = plt.figure(figsize=(10, 5))
+    ax = sns.barplot(data=df, x=df.index, y='Eigenvalue (normalized mean)',  color='firebrick', capsize=0.1, err_kws={'color': 'gray'}, edgecolor='black', linewidth=1.5, zorder=10) 
+    ax.set_xlabel("Component ", color ='firebrick', size = 12)
+    ax.set_ylabel("Normalized eigenvalue", color ='firebrick', size = 12)
+    fig.tight_layout()
+    fig.savefig(path.join(output_folder, 'norm_eigenvalues.pdf'))
+    plt.close()
+        
+    

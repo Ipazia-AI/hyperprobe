@@ -46,13 +46,13 @@ def train_hyperprobe(loader:LightningDataModule, configs:dict = None, device:tor
     
     # TRAINING: Define the model and the trainer
     trainer = Trainer(
-        devices = [device.index if device and device.index else torch.cuda.device_count() - 1],
+        devices = [device.index if device else torch.cuda.device_count() - 1],
         precision = 'bf16-mixed', 
         logger = logger,
         max_epochs = configs['epochs'], 
         deterministic = True,
         callbacks = [
-            EarlyStopping(monitor = "val_loss", patience = 100, mode = 'min', verbose = False),
+            EarlyStopping(monitor = "val_loss", patience = 200, mode = 'min', verbose = False),
             ModelCheckpoint(
                 monitor = "val_sim",
                 mode = 'max', 

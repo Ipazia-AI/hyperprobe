@@ -94,7 +94,6 @@ def vocabulary_based_features():
     tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.1-8B")
     
     # Load the wordnet --> ERROR: sqlite3.OperationalError --> python -m wn download oewn:2023
-
     en = Wordnet('oewn:2023')  
     
     # Control the vocabulary
