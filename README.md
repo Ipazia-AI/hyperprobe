@@ -157,7 +157,6 @@ We performed this training on a single GPU, though it could easily be handled wi
 The probing stage is then composed of simple vector multiplications (unbinding), after loading in memory the heavy LLM and our lightweight trained neural VSA encoder (from 800 MB of the 55M version to 1 GB of the biggest one). 
 Furthermore, future research could explore VSA encodings with reduced dimensionality (e.g., $D = 512$), resulting in an even more lightweight encoder.
 
-
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
@@ -165,9 +164,15 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 If you use this package or its code in your research, please cite the following work:
 
 ```bibtex
+@misc{bronzini2025hyperdimensional,
+    title={Hyperdimensional Probe: Decoding LLM Representations via Vector Symbolic Architectures},
+    author={Marco Bronzini and Carlo Nicolini and Bruno Lepri and Jacopo Staiano and Andrea Passerini},
+    year={2025},
+    eprint={2509.25045},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}
 ```
 
 ## License
-This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0).
-
-![CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
+![CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png) This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0).
