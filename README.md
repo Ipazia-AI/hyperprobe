@@ -3,8 +3,10 @@ This repository is the official implementation of "[*Hyperdimensional Probe: Dec
 This work combines symbolic representations and neural probing to introduce Hyperdimensional Probe, a new paradigm for decoding LLM vector space into human-interpretable features, consistently extracting meaningful concepts across models and inputs.
 
 [![Static Badge](https://img.shields.io/badge/DOI-10.48550%2FarXiv.2509.25045-orange)](https://doi.org/10.48550/arXiv.2509.25045)
+
 [![Dataset on Hugging Face](https://img.shields.io/badge/Dataset-hyperprobe--dataset--analogy-blue?logo=HuggingFace)](https://huggingface.co/datasets/saturnMars/hyperprobe-dataset-analogy)
 [![Dataset on Hugging Face](https://img.shields.io/badge/Dataset-hyperprobe--dataset--squad-blue?logo=HuggingFace)](https://huggingface.co/datasets/saturnMars/hyperprobe-dataset-squad)
+
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## Overview
