@@ -44,7 +44,7 @@ To build the corpora from scratch: [``src/hyperprobe/data_creation/create_texts.
 1. [Google Analogy Test Set](https://aclweb.org/aclwiki/Google_analogy_test_set_(State_of_the_art))
 2. [The Bigger Analogy Test Set (BATS)](https://vecto.space/projects/BATS)
 
-It can be loaded direclty via from the Hugging Face Hub using the [``datasets``](https://pypi.org/project/datasets/) library: [saturnMars/hyperprobe-dataset-analogy](https://huggingface.co/datasets/saturnMars/hyperprobe-dataset-analogy)
+It can also be loaded from the Hugging Face Hub using the [``datasets``](https://pypi.org/project/datasets/) library: [saturnMars/hyperprobe-dataset-analogy](https://huggingface.co/datasets/saturnMars/hyperprobe-dataset-analogy)
 ```python 
 from datasets import load_dataset
 analogy_dataset = load_dataset("saturnMars/hyperprobe-dataset-analogy")
@@ -56,7 +56,7 @@ The textual datasets used to test our VSA-based deocoding approch (Section 5.3) 
 1. Train data: 693K training inputs consiting of questions with progressively considered lexical features;
 2. Test data: 10K randomly sampled questions, each accompanied by the context before it.
 
-It can be loaded direclty via from the Hugging Face Hub using the [``datasets``](https://pypi.org/project/datasets/) library: [saturnMars/hyperprobe-dataset-squad](https://huggingface.co/datasets/saturnMars/hyperprobe-dataset-squad)
+It can be loaded from the Hugging Face Hub using the [``datasets``](https://pypi.org/project/datasets/) library: [saturnMars/hyperprobe-dataset-squad](https://huggingface.co/datasets/saturnMars/hyperprobe-dataset-squad)
 ```python 
 from datasets import load_dataset
 squad_dataset = load_dataset("saturnMars/hyperprobe-dataset-squad")
