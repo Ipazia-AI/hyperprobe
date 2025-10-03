@@ -25,16 +25,37 @@ Our work advances information decoding in LLM vector space, enabling extracting 
 - [``outputs``](outputs) Overview of experimental metrics for all language models, and sample of extracted concepts using [AllenAI's OLMo2-32B](https://huggingface.co/allenai/OLMo-2-0325-32B).
 
 ## Data
-### Corpus of factual and linguistic analogies
+1. Corpus of factual and linguistic analogies (input-completition tasks)
+2. SQuAD-based corpus (question-answering tasks)
+   
+### (A) Corpus of factual and linguistic analogies
 The folder [``data``](data) includes our syntethic corpora: the [``training``](data/splitted_data.json) and [``experimental``](data/verbose_examples.json) data.
 - [``features.json``](data/features.json) includes all the contextually-relevant concepts using to populate our VSA codebook.
 - [``pairs.json``](data/pairs.json) stores all the key-value pairs.
 
-**To build the corpora from scratch**: [``src/hyperprobe/data_creation/create_texts.py``](src/hyperprobe/data_creation/create_texts.py)
+![Framework](images/corpus.png)
+
+To build the corpora from scratch: [``src/hyperprobe/data_creation/create_texts.py``](src/hyperprobe/data_creation/create_texts.py)
 1. [Google Analogy Test Set](https://aclweb.org/aclwiki/Google_analogy_test_set_(State_of_the_art))
 2. [The Bigger Analogy Test Set (BATS)](https://vecto.space/projects/BATS)
 
-![Framework](images/corpus.png)
+It can be loaded direclty via from the Hugging Face Hub using the [``datasets``](https://pypi.org/project/datasets/) library: [saturnMars/hyperprobe-dataset-analogy](https://huggingface.co/datasets/saturnMars/hyperprobe-dataset-analogy)
+```python 
+from datasets import load_dataset
+analogy_dataset = load_dataset("saturnMars/hyperprobe-dataset-analogy")
+```
+
+
+### SQuAD-based corpus (question-answering tasks):
+The textual datasets used to test our VSA-based deocoding approch (Section 5.3) with Stanford Question Answering Dataset (SQuAD):
+1. Train data: 693K training inputs consiting of questions with progressively considered lexical features;
+2. Test data: 10K randomly sampled questions, each accompanied by the context before it.
+
+It can be loaded direclty via from the Hugging Face Hub using the [``datasets``](https://pypi.org/project/datasets/) library: [saturnMars/hyperprobe-dataset-squad](https://huggingface.co/datasets/saturnMars/hyperprobe-dataset-squad)
+```python 
+from datasets import load_dataset
+squad_dataset = load_dataset("saturnMars/hyperprobe-dataset-squad")
+```
 
 ## Requirements
 Download the repository, and install the python package locally via the package manager: 
