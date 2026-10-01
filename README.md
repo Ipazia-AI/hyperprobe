@@ -1,5 +1,6 @@
 ![Logo](images/header.png)
-This repository is the official implementation of "[*Hyperdimensional Probe: Decoding LLM Representations via Vector Symbolic Architectures*](https://arxiv.org/abs/2509.25045)".
+This repository is the official implementation of "[*Hyperdimensional Probe: Decoding LLM Representations via Vector Symbolic Architectures*](https://openreview.net/pdf?id=WxM7lIoGBb)".
+
 This work combines symbolic representations and neural probing to introduce Hyperdimensional Probe, a new paradigm for decoding LLM vector space into human-interpretable features, consistently extracting meaningful concepts across models and inputs.
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/) 
@@ -190,13 +191,14 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 If you use this package or its code in your research, please cite the following work:
 
 ```bibtex
-@misc{bronzini2025hyperdimensional,
-    title={Hyperdimensional Probe: Decoding LLM Representations via Vector Symbolic Architectures},
-    author={Marco Bronzini and Carlo Nicolini and Bruno Lepri and Jacopo Staiano and Andrea Passerini},
-    year={2025},
-    eprint={2509.25045},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
+@article{bronzini2026hyperdimensional,
+   title={Hyperdimensional Probe: Decoding {LLM} Representations via Vector Symbolic Architectures},
+   author={Marco Bronzini and Carlo Nicolini and Bruno Lepri and Jacopo Staiano and Andrea Passerini},
+   journal={Transactions on Machine Learning Research},
+   issn={2835-8856},
+   year={2026},
+   url={https://openreview.net/forum?id=WxM7lIoGBb},
+   note={J2C Certification}
 }
 ```
 
