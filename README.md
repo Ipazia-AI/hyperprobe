@@ -1,5 +1,5 @@
 ![Logo](images/header.png)
-This repository is the official implementation of "[*Hyperdimensional Probe: Decoding LLM Representations via Vector Symbolic Architectures*](https://openreview.net/pdf?id=WxM7lIoGBb)".
+This repository is the official implementation of "[*Hyperdimensional Probe: Decoding LLM Representations via Vector Symbolic Architectures*](https://openreview.net/pdf?id=WxM7lIoGBb)", published in Transactions on Machine Learning Research (TMLR).
 
 This work combines symbolic representations and neural probing to introduce Hyperdimensional Probe, a new paradigm for decoding LLM vector space into human-interpretable features, consistently extracting meaningful concepts across models and inputs.
 
